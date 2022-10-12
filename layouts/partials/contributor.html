@@ -1,0 +1,15 @@
+{{ $author := index .Site.Data.authors (.Params.author | default "default") }}
+{{- if $author -}}
+<h2>Contributor(s)</h2>
+<div>
+{{- if $author.website -}}<a href="{{ $author.website }}">{{- end -}}
+    {{ $author.name }}
+{{- if $author.website -}}</a>{{- end -}}
+</div>
+
+{{- if $author.description }}
+<div>{{ $author.description }}</div>
+{{- end -}}
+
+
+{{- end -}}

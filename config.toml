@@ -1,0 +1,76 @@
+baseURL = 'https://based.cooking/'
+languageCode = 'en-us'
+title = 'Terrible'
+theme = 'lugo'
+sectionPagesMenu = "main"
+enableEmoji = true
+defaultContentLanguage = 'en'
+  [languages.en]
+    languageName = 'English'
+    title = 'My blog'
+    weight = 1
+    [languages.en.params]
+      linkedin = 'https://linkedin.com/en/whoever'
+  [languages.da]
+    languageName = 'Danish'
+    title = 'mine blog'
+    weight = 2
+    [languages.da.params]
+      linkedin = 'https://linkedin.com/da/whoever'
+      [languages.da.params.navigation]
+      help = 'hælp'
+
+
+
+[params]
+  favicon = "/favicon.svg"
+  stylesheet = "/style.css"
+  indexarticles = 50
+  taglist = true
+  showrss = true
+
+
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = true
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  lang='lang'
+
+
+
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'ABOUT'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/about/'
+  weight = -110
+[[menu.main]]
+  name = 'getting started'
+  post = "<span class='alert'>New!</span>"
+  pre = "<i class='fa fa-road'></i>"
+  url =  'https://www.terrible.dk'
+  weight = -100
+
