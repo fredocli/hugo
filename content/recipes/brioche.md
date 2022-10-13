@@ -6,6 +6,7 @@ Lang: danish
 Description: speciality from france
 author: fred 
 linktitle: Menu Templates
+author: fred 
 ---
 
 

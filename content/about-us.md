@@ -1,16 +1,15 @@
 ---
 title: "ABOUT US"
-date: 2022-05-31T10:05:03+05:30
+date: 2022-05-31
 draft: false
 weight: 3
 image: "aboutus.jpg"
 Genre: recettes
-Lang: danish
+Lang: English
 translationKey: about
-hero: "03"
+hero: "01"
 herotitle: "Ceci est un test"
 herosubtitle: "Ceci est un subtitle"
-author: fred 
 menu:
   main :
     name: "ABOUT US"
@@ -20,11 +19,11 @@ menu:
 
 
 ---
-{{< figure src="aboutus.jpg" link="maison" >}}
+{{< figure src="/pix/about.jpg"  >}}
 {{< languages >}}
 
 {{< columns >}} 
-![FREDERIC TERRIBLE](https://www.terrible.dk/wp-content/uploads/frederic_terrible2-324x324.jpg)
+![FREDERIC TERRIBLE](/pix/ft.jpg)
 <--->
 
 ### FREDERIC TERRIBLE

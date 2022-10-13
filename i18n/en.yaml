@@ -1,0 +1,5 @@
+
+translations: 
+  other: translations
+wordCount:
+  other: This article has {{ .WordCount }} words.

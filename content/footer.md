@@ -23,8 +23,8 @@ SWIFT: JYBADKKK
 
 TODO
 
-[About]({{< ref  path="about.md"   lang="en" >}} "HANDELSBETINGELSER")  
-[About]({{< ref  path="about.md"   lang="da" >}} "HANDELSBETINGELSER")
+[About]({{< ref  path="about-us.md"   lang="en" >}} "HANDELSBETINGELSER")  
+[About]({{< ref  path="/"   lang="da" >}} "HANDELSBETINGELSER")
 
 [![FØDEVARESTYRELSENS RAPPORTER](https://www.terrible.dk/wp-content/uploads/smiley-elite-1-e1514474830701.png)](http://www.findsmiley.dk/533114)
 {style="float:left"}

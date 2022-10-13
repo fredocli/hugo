@@ -62,13 +62,7 @@ defaultContentLanguage = 'en'
 
 [menu]
 [[menu.main]]
-  identifier = 'about'
-  name = 'ABOUT'
-  pre = "<i class='fa fa-heart'></i>"
-  url = '/about/'
-  weight = -110
-[[menu.main]]
-  name = 'getting started'
+  name = 'Terrible'
   post = "<span class='alert'>New!</span>"
   pre = "<i class='fa fa-road'></i>"
   url =  'https://www.terrible.dk'

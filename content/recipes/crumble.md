@@ -5,6 +5,10 @@ tags: ['danish', 'wienerbrød']
 Lang: danish
 Description: speciality from england
 author: fred 
+hero: "03"
+herotitle: "Ceci est un test"
+herosubtitle: "Ceci est un subtitle"
+author: fred 
 ---
 
 ![crumble](/pix/crumble.jpg)

@@ -5,7 +5,11 @@ Genre: recettes
 Lang: danish
 Description: speciality from sweden
 tags: ['brioche', 'swedish']
-author: fred   
+author: fred
+hero: "04"
+herotitle: "Ceci est un test"
+herosubtitle: "Ceci est un subtitle"
+author: fred 
 ---
 
 ![Kanelsnurrer](/pix/kanelsnurrer.jpg)

@@ -1,0 +1,5 @@
+
+translations: 
+  other: oversætelse
+wordCount:
+  other: Denne artikel har {{ .WordCount }} ord.

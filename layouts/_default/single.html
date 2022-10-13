@@ -1,21 +1,16 @@
 
+ 
 {{define "header"}}
-{{ if .Param "hero" }}
-
-<style>
-    .hero{ background-image: url(../pix/{{.Params.hero }}.jpg);}
-    </style>
-      
-{{ end }}    
 {{ end }}
 {{ define "title" }}
 {{ .Title }}
 {{ end }}
 {{ define "main" }}
-
 {{ if .Param "hero" }}
-hero = {{ .Params.Hero }}
-<div class="hero">
+
+{{ partial "breadcrumb" . }}
+      
+<div class="hero" style="background-image: url(/pix/{{ .Params.hero }}.jpg);">
     <div class="hero-container">
       <h1>{{ .Params.Herotitle }}</h1>
       <p style="text-align: center;">{{ .Params.herosubtitle }}</p>
