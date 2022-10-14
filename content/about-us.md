@@ -15,19 +15,11 @@ menu:
     name: "ABOUT US"
     parent: "autre"
     weight: 500
-
-
-
 ---
-{{< figure src="/pix/about.jpg"  >}}
-{{< languages >}}
-
-{{< columns >}} 
+{{< columns danger >}} 
 ![FREDERIC TERRIBLE](/pix/ft.jpg)
 <--->
-
 ### FREDERIC TERRIBLE
-
 
 Born in France he began his pastry journey with an apprenticeship in his hometown at the age of 16.  
 He has gained knowledge and experience from Danish top restaurants, such as Falsled Kro, Nimb and Jan Hurtigkarl & Co.  

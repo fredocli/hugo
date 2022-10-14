@@ -17,8 +17,8 @@ menu:
 ---
 {{< languages >}}
 
-{{< columns >}} 
-![FREDERIC TERRIBLE](https://www.terrible.dk/wp-content/uploads/frederic_terrible2-324x324.jpg)
+{{< columns danger >}} 
+![FREDERIC TERRIBLE](/pix/ft.jpg)
 <--->
 
 ### FREDERIC TERRIBLE

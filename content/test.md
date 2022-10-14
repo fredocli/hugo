@@ -20,7 +20,8 @@ menu:
 ### lang
 {{< lang >}}
 
-
+{{< figure src="/pix/about.jpg"  >}}
+{{< languages >}}
 
 #### lang of this file
 

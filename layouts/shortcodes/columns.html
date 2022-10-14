@@ -1,6 +1,10 @@
 <div class="md-columns">
+
+
+
+    {{ $class:=.Get 0 }}
     {{ range split .Inner "<--->" }}
-    {{ printf "<div class=\"markdown-inner\">" | htmlUnescape | safeHTML }}
+    {{ printf "<div class=\" %s markdown-inner \">" $class  | htmlUnescape | safeHTML }}
     {{ . | $.Page.RenderString }}
     {{ printf "</div>" | htmlUnescape | safeHTML }}
     {{ end }}
