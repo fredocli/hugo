@@ -387,8 +387,10 @@ button#clear-search:hover {
 	}
   
 	.warning {
-	  border-left-color: rgba(var(--md-hint-warning-color), 1);
-	  background-color: rgba(var(--md-hint-warning-color), 0.25);
+	
+	  border-left-color: var(--md-hint-warning-color);
+	  background-color: var(--md-hint-warning-color);
+	
 	}
   
 	.danger {

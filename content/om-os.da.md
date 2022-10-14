@@ -17,7 +17,7 @@ menu:
 ---
 {{< languages >}}
 
-{{< columns danger >}} 
+{{< columns warning >}} 
 ![FREDERIC TERRIBLE](/pix/ft.jpg)
 <--->
 
