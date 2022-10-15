@@ -6,15 +6,21 @@ sectionPagesMenu = "main"
 enableEmoji = true
 defaultContentLanguage = 'en'
   [languages.en]
+    baseURL = 'https://example.en'
     languageName = 'English'
-    title = 'My blog'
+    title = 'terrible'
     weight = 1
+    [languages.en.permalinks]
+      recipes = '/recipes/:slugorfilename/'
     [languages.en.params]
       linkedin = 'https://linkedin.com/en/whoever'
   [languages.da]
+   baseURL = 'https://example.da'
     languageName = 'Danish'
-    title = 'mine blog'
+    title = 'terrible'
     weight = 2
+    [languages.da.permalinks]
+      recipes = '/opskrifter/:slugorfilename/'
     [languages.da.params]
       linkedin = 'https://linkedin.com/da/whoever'
       [languages.da.params.navigation]
@@ -67,4 +73,17 @@ defaultContentLanguage = 'en'
   pre = "<i class='fa fa-road'></i>"
   url =  'https://www.terrible.dk'
   weight = -100
+[[menu.main]]
+  name= "contact"
+  parent= ""
+  weight= 100
+  url =  '/contact/'
+[[menu.main]]
+  name= "about"
+  parent= ""
+  weight= 200
+  url =  '/about/'  
+
+
+
 

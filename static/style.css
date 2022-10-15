@@ -476,7 +476,7 @@ button#clear-search:hover {
 
 	.hero {
 		background-color: #55acee;
-		background-image: url(./pix/22.jpg);
+		background-image: url(./images/22.jpg);
 		background-size: cover;
 		background-position: center;
 		background-blend-mode: normal;
@@ -850,3 +850,30 @@ button#clear-search:hover {
 #tag_danish:before {
 	content: "🇩🇰";
 }
+
+
+
+/*lang */
+#lang_da:before {
+	content: "🇩🇰";
+}
+#lang_en:before {
+	content: "🇬🇧";
+}
+
+
+/*images*/
+/* mardown image no class  */
+/* img {display: block;} */
+img[title=banner]{float: none; margin: auto;}
+img[title^="none"]{float:none; margin-bottom:1em;}
+img[title^="left"]{float:left; margin-bottom:1em; padding-right: 0.2em;}
+img[title^="center"]{float:none; margin:auto;}
+img[title$="h25"]{height:25em;}
+img[title$="h15"]{height:15em;}
+img[title$="h10"]{height:10em;}
+img[title$="h8"]{height:8em;}
+img[title$="h6"]{height:6em;}
+img[title$="h4"]{height:4em;}
+img[title$="h2"]{height:2em;}
+img[title$="h1"]{height:1em;}

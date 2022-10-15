@@ -2,9 +2,10 @@
 title: "recipes"
 description: 'All my recipes'
 layout: single
+slug: "ops"
 ---
 
-## What do you want to cook?
+
 
 <div class="search js-only">
   <input type="text" id="search" placeholder="Search ALL Recipes...">
@@ -23,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const recipes = document.querySelectorAll("#artlist li");
   const search = document.getElementById("search");
-  const oldheading = document.getElementById("newest-recipes");
+  //const oldheading = document.getElementById("recipes");
   const clearSearch = document.getElementById("clear-search");
   const artlist = document.getElementById("artlist");
 
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const hasFilter = searchText.length > 0;
 
     artlist.classList.toggle("list-searched", hasFilter);
-    oldheading.classList.toggle("hidden", hasFilter);
+    //oldheading.classList.toggle("hidden", hasFilter);
 
     // for each recipe hide all but matched
     recipes.forEach(recipe => {
@@ -54,17 +55,16 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     artlist.classList.remove("list-searched");
-    oldheading.classList.remove("hidden");
+   // oldheading.classList.remove("hidden");
   })
 })
 // @license-end
 </script>
 
-## Newest Recipes :smile:
 
 
 {{< artlist >}}
 
-## Or Browse by Category...
+## TAGS
 
 {{< tagcloud >}}

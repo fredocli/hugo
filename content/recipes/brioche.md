@@ -17,7 +17,7 @@ author: fred
 🍳 Cook time: 30 minutes  
 🍽️  Servings: 4  
 
-![crumble](/pix/brioche.jpg)
+![crumble](/images/brioche.jpg)
 
 
 ### Ingredients

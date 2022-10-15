@@ -1,28 +1,18 @@
 ---
-title: "OM OS"
+title: "om"
+slug: "om terrible"
 date: 2021-03-11
-draft: false
-hero: "03"
-weight: 3
-image: "aboutus.jpg"
-Genre: recettes
 Lang: danish
 translationKey: about
-author: fred 
-menu:
-  main :
-    name: "OM OS"
-    parent: "autre"
-    weight: 500
+hero: "01"
+herotitle: "Fredo 💗"
+herosubtitle: "Ceci est un subtitle"
+
 ---
-{{< languages >}}
-
 {{< columns warning >}} 
-![FREDERIC TERRIBLE](/pix/ft.jpg)
+![FREDERIC TERRIBLE](/images/ft.jpg)
 <--->
-
 ### FREDERIC TERRIBLE
-
 
 Frédéric Terrible er født i Frankrig og kom i lære i sin fødeby, da han var 16 år.
 Det er netop fra de franske rødder, at han har sin stolthed for sit håndværk og sin passion for kager.
@@ -33,7 +23,6 @@ Terrible mestrer de svære teknikker indenfor kager og chokolade, og giver gerne
 I 2013 startede han fransk konditorskole i Frederiksberg. Ambitionen er at lære alle kage elskere at lave de franske klassikere.
 Undervisningen foregår på dansk, engelsk og fransk, og man får en grundig instruktion, så man kan lykkes med sine masterpieces.
 <--->
-
 {{< /columns >}} 
 
 

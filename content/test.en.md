@@ -16,11 +16,17 @@ menu:
     weight: 500
 ---
 
+### emoji
+ :smile:
+ 
+ ### DATE
+ a mettre dans une template
+  <p class="date">{{ .Date | time.Format ":date_full"  }}</p>
 
 ### lang
 {{< lang >}}
 
-{{< figure src="/pix/about.jpg"  >}}
+{{< figure src="/images/about.jpg"  >}}
 {{< languages >}}
 
 #### lang of this file
@@ -71,5 +77,12 @@ stringit, frustra Saturnius uteroque inter!
 {{< /tab >}}
 {{< /tabs >}}
 
+
+# RSS
+{{$showrss:=false }}
+	<a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
+	{{- if .Param "showrss" }}
+	<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+	{{ end }}
 
 

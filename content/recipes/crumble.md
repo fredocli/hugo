@@ -11,7 +11,7 @@ herosubtitle: "Ceci est un subtitle"
 author: fred 
 ---
 
-![crumble](/pix/crumble.jpg)
+![crumble](/images/crumble.jpg)
 
 - 🍳 Cook time: 30 minutes
 - 🍽️  Servings: 4

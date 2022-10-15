@@ -12,7 +12,7 @@ herosubtitle: "Ceci est un subtitle"
 author: fred 
 ---
 
-![Kanelsnurrer](/pix/kanelsnurrer.jpg)
+![Kanelsnurrer](/images/kanelsnurrer.jpg)
 
 ### INGREDIENSER
 
@@ -51,16 +51,16 @@ Mens dejen hæver, blandes ingredienserne til fyldet til en ensartet blanding.
 Drys mel på bordet og rul dejen ud til et rektangel af 20 x 60 cm.
 Smør remonce i et tyndt lag på 2/3 af dejen.
 
-![](/home/fred/.repo/traductions/recettes/images/brioche_snur1.png "none-h10")
+![](/images/brioche_snur1.png "none-h10")
 
 
 Fold højre side af rektanglet til venstre for at dække remoncen.
 
-![](/home/fred/.repo/traductions/recettes/images/brioche_snur3.png "none-h10")
+![](/images/brioche_snur3.png "none-h10")
 
 Fold derefter venstre side af rektanglet mod højre for at dække remonce.
 
-![](/home/fred/.repo/traductions/recettes/images/brioche_snur4.png "none-h10")
+![](/images/brioche_snur4.png "none-h10")
 
 Du har nu tre lag.
 Rul dejen ud til et rektangel af 20 x 40 cm og skær den i 20 strimler af 40 cm.

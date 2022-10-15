@@ -1,18 +1,12 @@
 ---
-title: "contact me"
+title: "contact "
 date: 2022-05-31
-draft: false
-weight: 4
 translationKey: contact
 Lang: english
-hero: "02"
+hero: "01"
 herotitle: "this is a title"
 herosubtitle: "this is a subtitle"
-menu:
-  main :
-    name: "KONTAKT MIG"
-    parent: "autre"
-    weight: 500
+
 ---
 
 

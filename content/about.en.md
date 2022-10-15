@@ -1,23 +1,15 @@
 ---
-title: "ABOUT US"
+title: "about"
 date: 2022-05-31
-draft: false
-weight: 3
-image: "aboutus.jpg"
-Genre: recettes
-Lang: English
+lang: English
 translationKey: about
 hero: "01"
-herotitle: "Ceci est un test"
+herotitle: "Fredo 💗"
 herosubtitle: "Ceci est un subtitle"
-menu:
-  main :
-    name: "ABOUT US"
-    parent: "autre"
-    weight: 500
+
 ---
 {{< columns danger >}} 
-![FREDERIC TERRIBLE](/pix/ft.jpg)
+![FREDERIC TERRIBLE](/images/ft.jpg)
 <--->
 ### FREDERIC TERRIBLE
 
