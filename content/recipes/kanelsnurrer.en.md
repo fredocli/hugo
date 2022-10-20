@@ -1,17 +1,17 @@
 ---
-Title: Kanelsnurrer
-date: 2021-03-11
+Description: speciality from sweden
 Genre: recettes
 Lang: danish
-Description: speciality from sweden
-tags: ['brioche', 'swedish']
+Title: cinnamon swirls
+slug: cinnamon swirls
 author: fred
-author: fred 
+date: "2021-03-11"
+tags:
+- brioche
+- swedish
 ---
 
 ![Kanelsnurrer](/images/kanelsnurrer.jpg)
-
-# CINNAMON SWIRLS
 
 ## INGREDIENTS
 

@@ -1,8 +1,8 @@
 ---
-title: "List of classes"
-description: 'just blabla'
-layout: single
+description: just blabla
 lang: danish
+layout: single
+title: List of classes
 ---
 
 {{< cours >}}

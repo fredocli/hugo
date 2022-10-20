@@ -1,12 +1,13 @@
 ---
-title: "brioche"
-date: 2021-03-11
-tags: ['french', 'wienerbrød']
-Lang: danish
 Description: speciality from france
-author: fred 
+Lang: danish
+author: fred
+date: "2021-03-11"
 linktitle: Menu Templates
-author: fred 
+tags:
+- french
+- wienerbrød
+title: brioche
 ---
 
 

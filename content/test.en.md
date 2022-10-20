@@ -1,19 +1,21 @@
 ---
-Title: test page
-Genre: recettes
-date: 2021-03-11
-Lang: danish
 Description: speciality from sweden
-tags: ['brioche', 'swedish']
-author: fred 
+Genre: recettes
+Lang: danish
+Title: test page
+author: fred
+date: "2021-03-11"
 hero: "03"
-herotitle: "Ceci est un test"
-herosubtitle: "Ceci est un subtitle"
+herosubtitle: Ceci est un subtitle
+herotitle: Ceci est un test
 menu:
-  main :
-    name: "test"
-    parent: "autre"
+  main:
+    name: test
+    parent: autre
     weight: 500
+tags:
+- brioche
+- swedish
 ---
 
 ### emoji

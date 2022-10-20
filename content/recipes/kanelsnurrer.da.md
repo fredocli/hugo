@@ -1,22 +1,21 @@
 ---
-Title: Kanelsnurrer
-date: 2021-03-11
+Description: speciality from sweden
 Genre: recettes
 Lang: danish
-Description: speciality from sweden
-tags: ['brioche', 'swedish']
+Title: Kanelsnurrer
 author: fred
+date: "2021-03-11"
 hero: "04"
-herotitle: "Ceci est un test"
-herosubtitle: "Ceci est un subtitle"
-author: fred 
+herosubtitle: Ceci est un subtitle
+herotitle: Ceci est un test
+tags:
+- brioche
+- swedish
 ---
 
 ![Kanelsnurrer](/images/kanelsnurrer.jpg)
 
 ### INGREDIENSER
-
-
 
 #### Til dejen
 

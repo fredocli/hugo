@@ -1,12 +1,11 @@
 ---
-title: "contact "
-date: 2022-05-31
-translationKey: contact
 Lang: english
+date: "2022-05-31"
 hero: "01"
-herotitle: "this is a title"
-herosubtitle: "this is a subtitle"
-
+herosubtitle: this is a subtitle
+herotitle: this is a title
+title: 'contact '
+translationKey: contact
 ---
 
 

@@ -3,23 +3,10 @@
 {{define "header"}}
 {{ end }}   
 {{ define "main" }}
-      <h1>{{.Title}}</h1>
-  
-      {{ with .Params.subtitle }}
-      <span class="subtitle">{{.}}</span>
-      {{ end }}
+      <h1>{{ i18n .Title|upper}}</h1>
     </header>
     {{ partial "breadcrumb" . }}
-    
-  
-    
-
       {{.Content}}
-
-      {{ range first 10 .Site.RegularPages }}
-          {{ .Render "summary"}}
-      {{ end }}
-
-{{ end }}
+  {{ end }}
 
 

@@ -1,12 +1,12 @@
 ---
-title: "kontakt"
-slug: "kontakt"
-date: 2022-05-31
-translationKey: contact
 Lang: danish
+date: "2022-05-31"
 hero: "01"
-herotitle: "Ceci est un test"
-herosubtitle: "Ceci est un subtitle"
+herosubtitle: Ceci est un subtitle
+herotitle: Ceci est un test
+slug: kontakt
+title: kontakt
+translationKey: contact
 ---
 
 

@@ -1,7 +1,7 @@
 ---
-title: "List of ingredients"
-description: 'just blabla'
+description: just blabla
 layout: single
+title: List of ingredients
 ---
 
 

@@ -5,22 +5,24 @@ theme = 'lugo'
 sectionPagesMenu = "main"
 enableEmoji = true
 defaultContentLanguage = 'en'
+enableMissingTranslationPlaceholders= true
   [languages.en]
-    baseURL = 'https://example.en'
+   # baseURL = 'https://example.en'
     languageName = 'English'
     title = 'terrible'
-    weight = 1
+    weight = 0
     [languages.en.permalinks]
       recipes = '/recipes/:slugorfilename/'
     [languages.en.params]
       linkedin = 'https://linkedin.com/en/whoever'
   [languages.da]
-   baseURL = 'https://example.da'
+   #baseURL = 'https://example.da'
     languageName = 'Danish'
     title = 'terrible'
-    weight = 2
+    weight = 1
     [languages.da.permalinks]
       recipes = '/opskrifter/:slugorfilename/'
+      #recipes = '/opskrifter/'
     [languages.da.params]
       linkedin = 'https://linkedin.com/da/whoever'
       [languages.da.params.navigation]

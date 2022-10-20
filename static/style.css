@@ -227,8 +227,8 @@ hr {
 
 input#search {
 	all: unset;
-	background: #222;
-	color: #fff;
+	background: var(--header-bcolor);
+	color: #222;
 	padding: 0.7rem 1rem;
 	border-radius: 5px;
 	width: 100%;

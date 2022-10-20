@@ -1,13 +1,12 @@
 ---
-title: "om"
-slug: "om terrible"
-date: 2021-03-11
 Lang: danish
-translationKey: about
+date: "2021-03-11"
 hero: "01"
-herotitle: "Fredo 💗"
-herosubtitle: "Ceci est un subtitle"
-
+herosubtitle: Ceci est un subtitle
+herotitle: "Fredo \U0001F497"
+slug: om terrible
+title: om
+translationKey: about
 ---
 {{< columns warning >}} 
 ![FREDERIC TERRIBLE](/images/ft.jpg)

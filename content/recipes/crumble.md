@@ -1,14 +1,15 @@
 ---
-title: "crumble"
-date: 2021-03-11
-tags: ['danish', 'wienerbrød']
-Lang: danish
 Description: speciality from england
-author: fred 
+Lang: danish
+author: fred
+date: "2021-03-11"
 hero: "03"
-herotitle: "Ceci est un test"
-herosubtitle: "Ceci est un subtitle"
-author: fred 
+herosubtitle: Ceci est un subtitle
+herotitle: Ceci est un test
+tags:
+- danish
+- wienerbrød
+title: crumble
 ---
 
 ![crumble](/images/crumble.jpg)

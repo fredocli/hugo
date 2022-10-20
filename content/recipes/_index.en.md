@@ -1,11 +1,9 @@
 ---
-title: "recipes"
-description: 'All my recipes'
+description: All my recipes
 layout: single
-slug: "ops"
+title: recipes
+slug: re
 ---
-
-
 
 <div class="search js-only">
   <input type="text" id="search" placeholder="Search ALL Recipes...">
@@ -41,7 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
     recipes.forEach(recipe => {
       const searchString = `${recipe.textContent} ${recipe.dataset.tags}`.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, "");
       const isMatch = searchTerms.every(term => searchString.includes(term));
-
       recipe.hidden = !isMatch;
       recipe.classList.toggle("matched-recipe", hasFilter && isMatch);
     })
