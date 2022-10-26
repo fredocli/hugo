@@ -1,0 +1,17 @@
+{
+    "[markdown]": {
+        "editor.fontSize": 14,
+        "editor.lineHeight": 0,
+        "editor.wordWrap": "",// #wordWrapColumn
+        "editor.wordWrapColumn": 80,
+        "editor.lineNumbers": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.minimap.enabled": false
+    },
+    "frontMatter.content.autoUpdateDate": false,
+    "frontMatter.content.fmHighlight": false
+}

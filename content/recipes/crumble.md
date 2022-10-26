@@ -1,19 +1,21 @@
 ---
-Description: speciality from england
-Lang: danish
+description: speciality from england
+lang: danish
 author: fred
-date: "2021-03-11"
+date: 2021-03-11
 hero: "03"
 herosubtitle: Ceci est un subtitle
 herotitle: Ceci est un test
 tags:
-- danish
-- wienerbrød
+  - danish
+  - wienerbrød
 title: crumble
+lastmod: 2022-10-21T22:11:17.039Z
 ---
 
 ![crumble](/images/crumble.jpg)
-
+[www.te.dk](www.terrible.dk)
+![](/images/02.jpg)
 - 🍳 Cook time: 30 minutes
 - 🍽️  Servings: 4
 

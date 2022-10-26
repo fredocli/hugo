@@ -38,7 +38,9 @@ enableMissingTranslationPlaceholders= true
   showrss = true
 
 
+ 
   [markup]
+  #defaultMarkdownHandler = "pandoc"
   [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true
@@ -89,3 +91,15 @@ enableMissingTranslationPlaceholders= true
 
 
 
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$', '^nvim$', 'pandoc']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']

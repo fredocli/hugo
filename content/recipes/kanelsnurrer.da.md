@@ -1,19 +1,23 @@
 ---
-Description: speciality from sweden
-Genre: recettes
-Lang: danish
-Title: Kanelsnurrer
+description: speciality from sweden
+genre: recettes
+lang: danish
+title: Kanelsnurrer
 author: fred
-date: "2021-03-11"
+date: 2021-03-11
 hero: "04"
 herosubtitle: Ceci est un subtitle
 herotitle: Ceci est un test
 tags:
-- brioche
-- swedish
+  - brioche
+  - swedish
+  - test
+type: default
+lastmod: 2022-10-25T11:03:03.731Z
+markup: pandoc
 ---
 
-![Kanelsnurrer](/images/kanelsnurrer.jpg)
+![Kanelsnurrer](./images/kanelsnurrer.jpg)
 
 ### INGREDIENSER
 
@@ -34,9 +38,8 @@ tags:
 - 165 g blødt usaltet smør
 - 165 g sukker
 - 2 tsk. stødt kanel
->
-- 1 æg til pensling
-- Haglsukker til pynt
++ 1 æg til pensling
++ Haglsukker til pynt
 
 ### FREMGANGSMÅDE
 
@@ -50,20 +53,18 @@ Mens dejen hæver, blandes ingredienserne til fyldet til en ensartet blanding.
 Drys mel på bordet og rul dejen ud til et rektangel af 20 x 60 cm.
 Smør remonce i et tyndt lag på 2/3 af dejen.
 
-![](/images/brioche_snur1.png "none-h10")
-
 
 Fold højre side af rektanglet til venstre for at dække remoncen.
 
-![](/images/brioche_snur3.png "none-h10")
+![](./svg/fro1.svg "none-h10")
 
 Fold derefter venstre side af rektanglet mod højre for at dække remonce.
 
-![](/images/brioche_snur4.png "none-h10")
+![](./svg/fro2.svg "none-h10")
 
 Du har nu tre lag.
 Rul dejen ud til et rektangel af 20 x 40 cm og skær den i 20 strimler af 40 cm.
-
+![](./svg/fro3.svg "none-h10")
 Sno hver strimmel ved at dreje enderne i modsatte retninger 6-7 gange.
 Sno dejen to gange omkring din pegefinger og langefinger.
 Fold enden af dejen over de to folder og læg den mellem din pegefinger og langefinger.

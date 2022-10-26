@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80.167313mm"
+   height="148.26772mm"
+   viewBox="0 0 284.05741 525.35803"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="wi-all.svg"
+   inkscape:export-filename="/home/fred/Dropbox/svg/entremet/wienerbrød/2.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient56905"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#923c3c;stop-opacity:1;"
+         offset="0"
+         id="stop56903" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3598-3-3"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       lpeversion="0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.125"
+     inkscape:cx="2429.4412"
+     inkscape:cy="7952.729"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1880"
+     inkscape:window-height="1016"
+     inkscape:window-x="40"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:lockguides="true"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-nodes="true"
+     objecttolerance="10000"
+     guidetolerance="10000"
+     inkscape:pagecheckerboard="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5214"
+       units="mm"
+       spacingx="17.716535"
+       spacingy="17.716535"
+       originx="0"
+       originy="0"
+       empspacing="10"
+       dotted="false" />
+    <sodipodi:guide
+       position="4400.8516,360.91373"
+       orientation="1,0"
+       id="guide61746"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="4560.3004,431.77987"
+       orientation="0,1"
+       id="guide61750"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="3515.8827,1049.9747"
+       orientation="0,1"
+       id="guide4470"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="-1826.6213,1657.4896"
+       orientation="1,0"
+       id="guide5403"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="-5788.3546,-908.91513"
+       orientation="1,0"
+       id="guide8722"
+       inkscape:locked="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="layer1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2450.5235,-1196.2442)">
+    <g
+       style="fill:#aad400"
+       id="the4"
+       transform="matrix(0.27207007,0,0,0.90397765,1702.5577,1057.4716)"
+       inkscape:export-filename="/home/fred/Dropbox/svg/entremet/wienerbrød/g3646.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:label="the4">
+      <path
+         sodipodi:nodetypes="ccccccsc"
+         inkscape:connector-curvature="0"
+         id="path3633-36"
+         d="m 2765.6666,598.12671 248.0315,-442.9134 726.378,-6e-5 -177.1654,407.48039 177.1653,-407.48033 c 12.6067,-2.57677 25.4393,-5.43946 17.7166,17.71654 0,0 -167.9719,448.75757 -159.4488,425.19686 13.2059,-36.50545 -58.8622,-56.48197 -70.8662,-35.43307"
+         style="fill:#c87117;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3635-0"
+         d="m 3598.3438,562.69364 159.4488,-389.7638 35.4331,53.14961 -200.7052,437.09024 z"
+         style="fill:#ece782;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3637-62"
+         d="m 3580.6272,668.99285 194.8819,-460.62993 17.7166,17.71653 c -70.8663,159.44936 -193.9814,473.08152 -212.3161,451.34817 z"
+         style="fill:#c87117;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/fred/Dropbox/svg/entremet/wienerbrød/g3631.png"
+         transform="translate(460.62996,-938.97641)"
+         id="g3631-6">
+        <path
+           style="fill:#ece782;fill-opacity:1;stroke:none;stroke-width:13.0724;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 2358.1862,1519.3866 c 236.2915,-47.2583 797.2442,-35.4331 797.2442,-35.4331 11.8745,42.8037 -16.7363,96.2574 -39.6681,136.9679 -260.8704,11.6974 -500.656,38.0202 -757.5761,4.7644 0,0 -88.5826,-88.5827 0,-106.2992 z"
+           id="rect3618-1"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="scccs" />
+        <path
+           style="fill:none;stroke:#c87117;stroke-width:35.4331;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 2446.7689,1572.5362 c 230.315,-11.811 460.6316,-23.6222 578.741,-8.8588 118.1093,14.7633 124.0146,56.1005 -20.6754,77.0267 -144.6899,20.9262 -439.9536,21.4375 -587.5924,-8.0907 -147.6388,-29.5281 -147.6387,-89.0944 -2.0708,-121.6123 145.5679,-32.5179 436.7026,-37.9881 727.8363,-43.4583"
+           id="path3596-6-8"
+           inkscape:connector-curvature="0"
+           inkscape:path-effect="#path-effect3598-3-3"
+           inkscape:original-d="m 2446.7689,1572.5362 c 0,0 460.6316,-23.623 690.9449,-35.4331 5.9064,41.3375 11.8117,82.6747 17.7165,124.0158 -295.2857,0.5104 -590.5494,1.0218 -885.8272,1.534 0,-59.5676 0,-119.1339 5e-4,-178.6994 291.1356,-5.4712 582.2703,-10.9414 873.404,-16.4107"
+           sodipodi:nodetypes="cccccc" />
+      </g>
+    </g>
+  </g>
+</svg>

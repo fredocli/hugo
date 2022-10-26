@@ -1,12 +1,16 @@
 ---
-Lang: danish
-date: "2021-03-11"
+lang: danish
+date: 2021-03-11
 hero: "01"
 herosubtitle: Ceci est un subtitle
-herotitle: "Fredo \U0001F497"
+herotitle: Fredo 💗
 slug: om terrible
 title: om
 translationKey: about
+preview: /images/about.jpg
+lastmod: 2022-10-22T19:34:29.150Z
+tags:
+  - admin
 ---
 {{< columns warning >}} 
 ![FREDERIC TERRIBLE](/images/ft.jpg)

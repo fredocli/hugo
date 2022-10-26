@@ -1,0 +1,25 @@
+{{define "header"}}
+{{ end }}
+{{ define "title" }}
+{{ upper .Title }}
+{{ end }}
+{{ define "main" }}
+{{ if .Param "hero" }}
+
+{{ partial "breadcrumb" . }}
+      
+<div class="hero" style="background-image: url(/images/{{ .Params.hero }}.jpg);">
+    <div class="hero-container">
+      <h1>{{ .Params.Herotitle }}</h1>
+      <p style="text-align: center;">{{ .Params.herosubtitle }}</p>
+    </div>
+  </div>
+  <main id="main">
+    <div>
+     <h1 id="title">HOMY</h1>
+    </div>
+  </main>
+
+{{ end }}
+{{ .Content }}
+{{ end }}

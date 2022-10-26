@@ -137,6 +137,8 @@ article {
 	text-align: left;
 	padding: 1em;
 	background-color:var(--article-bcolor);
+	overflow-wrap: normal;
+	
 }
 
 nav,
@@ -204,22 +206,22 @@ hr {
 	display: none !important;
 }
 
-#artlist {
+#articleList {
 	font-size: large;
 }
 
-#artlist li {
+#articleList li {
 	padding: .25em;
 }
 
 @media (min-width: 55em) {
-	#artlist {
+	#articleList {
 		column-count: 2;
 	}
 }
 
 @media (min-width: 100em) {
-	#artlist {
+	#articleList {
 		column-count: 3;
 	}
 }
@@ -493,7 +495,57 @@ button#clear-search:hover {
 		padding-right: 1rem;
 	}
 
+	/*TABLE*/
+	table {
+		margin-bottom: 24px;
+		border-spacing: 0;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		font-family: "Courier New";
+		padding: 0;
+	}
+	table th {
+		padding: 3px 10px;
+		background-color:lightgrey;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid black;
+	}
+	table td {
+		padding: 3px 10px;
+		border-top: none;
+		border-left: none;
+		border-bottom: none;
+		border-right: none;
+	}
+	table tr {
+		border-top: 1px solid #cccccc;
+		background-color: white;
+		margin: 0;
+		padding: 0; }
+	
+	table tr:nth-child(2n) { background-color: #f8f8f8; }
+	
+	table tr th {
+		  font-weight: bold;
+		  border: 1px solid #cccccc;
+		  text-align: left;
+		  margin: 0;
+		  padding: 6px 13px; }
+	
+	table tr td {
+		  border: 1px solid #cccccc;
+		  text-align: left;
+		  margin: 0;
+		  padding: 2px 6px; 
+		 vertical-align: top; 
+	  }
+	
+	table tr th :first-child, table tr td :first-child { margin-top: 0; }
+	table tr th :last-child, table tr td :last-child { margin-bottom: 0; }
 
+/* icon */
 
 #tag_alcohol:before {
 	content: "🍸";
@@ -867,7 +919,7 @@ button#clear-search:hover {
 /* img {display: block;} */
 img[title=banner]{float: none; margin: auto;}
 img[title^="none"]{float:none; margin-bottom:1em;}
-img[title^="left"]{float:left; margin-bottom:1em; padding-right: 0.2em;}
+img[title^="left"]{float:left; margin-bottom:1em; padding-right: 2em;}
 img[title^="center"]{float:none; margin:auto;}
 img[title$="h25"]{height:25em;}
 img[title$="h15"]{height:15em;}

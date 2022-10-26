@@ -2,12 +2,14 @@
 Description: speciality from france
 Lang: danish
 author: fred
-date: "2021-03-11"
+date: 2021-03-11
 linktitle: Menu Templates
 tags:
-- french
-- wienerbrød
+  - french
+  - wienerbrød
 title: brioche
+slug: brioche
+lastmod: 2022-10-22T06:09:49.350Z
 ---
 
 

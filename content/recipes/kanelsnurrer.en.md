@@ -1,15 +1,29 @@
 ---
-Description: speciality from sweden
-Genre: recettes
-Lang: danish
-Title: cinnamon swirls
+description: speciality from sweden
+genre: recettes
+lang: danish
+title: cinnamon swirls
 slug: cinnamon swirls
 author: fred
-date: "2021-03-11"
+date: 2022-10-21T21:39:49.194Z
 tags:
-- brioche
-- swedish
+  - brioche
+  - swedish
+draft: false
+lastmod: 2022-10-22T19:12:44.905Z
+type: default
 ---
+
+--front-matter="process"
+yq --front-matter="process" about.da.md
+
+```bash
+yq --null-input '.hostname = env(HOSTNAME)'
+```
+
+ sed -n '1,/---/p' about.da.md| sed '1d;$d'|yq .Lang
+ eval $( yq eval -N -op --front-matter="extract"  about.da.md |sed -e 's/=[^:\/\/]/="/g;s/$/"/g;s/ *=/=/g')
+
 
 ![Kanelsnurrer](/images/kanelsnurrer.jpg)
 
