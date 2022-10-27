@@ -4,14 +4,14 @@ genre: recettes
 lang: danish
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 
 # TONKA GANACHE
 
 Til cirka 40 stk. macaroner
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_tonka.jpg "left-h25")
+![](/images/macaron_tonka.jpg "left-h25")
 
 ## INGREDIENSER
 

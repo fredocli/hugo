@@ -4,14 +4,14 @@ genre: recettes
 lang: english
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 
 # CHOCOLATE MACARONS
 
 For about 40 pcs. macarons
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_chocolat.jpg "left-h25")
+![](/images/macaron_chocolat.jpg "left-h25")
 
 ## INGREDIENTS
 

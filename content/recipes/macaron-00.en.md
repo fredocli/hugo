@@ -4,7 +4,7 @@ genre: recettes
 lang: english
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 # MACARON GERBET
 

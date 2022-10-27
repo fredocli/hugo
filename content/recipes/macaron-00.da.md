@@ -4,7 +4,7 @@ genre: recettes
 lang: danish
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 # MACARON GERBET
 

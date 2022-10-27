@@ -40,7 +40,7 @@ enableMissingTranslationPlaceholders= true
 
  
   [markup]
-  #defaultMarkdownHandler = "pandoc"
+  #defaultMarkdownHandler = "pandocc"
   [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true
@@ -94,7 +94,7 @@ enableMissingTranslationPlaceholders= true
 [security]
   enableInlineShortcodes = false
   [security.exec]
-    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$', '^nvim$', 'pandoc']
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandocc$', '^nvim$', 'pandocc']
     osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
 
   [security.funcs]

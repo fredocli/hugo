@@ -4,14 +4,14 @@ genre: recettes
 lang: english
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 
 # PASSION FRUIT GANACHE
 
 For about 40 pcs. macarons
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_passion.jpg "left-h25")
+![](/images/macaron_passion.jpg "left-h25")
 
 ## INGREDIENTS
 
@@ -35,7 +35,7 @@ Cover the ganache with a piece of plastic film and put it in the refrigerator.
 
 For about 40 pcs. macarons
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_reglisse.jpg "left-h25")
+![](/images/macaron_reglisse.jpg "left-h25")
 
 ## INGREDIENTS
 

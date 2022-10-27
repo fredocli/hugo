@@ -4,14 +4,14 @@ genre: recettes
 lang: danish
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 
 # CITRONGRÆS KOKOS GANACHE
 
 Til cirka 40 stk. macaroner.
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_citronelle.jpg "left-h25")
+![](/images/macaron_citronelle.jpg "left-h25")
 
 ## INGREDIENSER
 

@@ -4,14 +4,14 @@ genre: recettes
 lang: english
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 
 # RASPBERRY GANACHE
 
 For about 40 pcs. macarons.
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_hindbaer.jpg "left-h25")
+![](/images/macaron_hindbaer.jpg "left-h25")
 
 ## INGREDIENTS
 

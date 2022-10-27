@@ -4,14 +4,14 @@ genre: recettes
 lang: english
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 
 # LEMONGRASS AND COCONUT MILK GANACHE
 
 For about 40 pcs. macarons.
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_citronelle.jpg "left-h25")
+![](/images/macaron_citronelle.jpg "left-h25")
 
 ## INGREDIENTS
 

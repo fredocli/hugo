@@ -4,14 +4,14 @@ genre: recettes
 lang: english
 tags:
   - macaron ganache
-markup: pandoc
+markup: pandocc
 ---
 
 # LEMON GANACHE
 
 For about 40 pcs. macarons.
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_citron.jpg "left-h25")
+![](/images/macaron_citron.jpg "left-h25")
 
 ## INGREDIENTS
 

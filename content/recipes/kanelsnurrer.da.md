@@ -14,7 +14,7 @@ tags:
   - test
 type: default
 lastmod: 2022-10-25T11:03:03.731Z
-markup: pandoc
+markup: pandocc
 ---
 
 ![Kanelsnurrer](./images/kanelsnurrer.jpg)
