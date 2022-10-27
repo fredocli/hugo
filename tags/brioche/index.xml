@@ -186,20 +186,20 @@ Example text that &lt;em>may&lt;/em> contain &lt;strong>markdown&lt;/strong> &lt
 &lt;/blockquote>
 &lt;h3 id="tabs">TABS&lt;/h3>
 &lt;div class="md-tabs">
-&lt;input type="radio" class="hidden" name="tabs-74" id="tabs-74-0" checked="checked" />
-&lt;label for="tabs-74-0" class="md-tabs-label">INFOS&lt;/label>
+&lt;input type="radio" class="hidden" name="tabs-386" id="tabs-386-0" checked="checked" />
+&lt;label for="tabs-386-0" class="md-tabs-label">INFOS&lt;/label>
 &lt;div class="md-tabs-content markdown-inner">&lt;h2 id="infos">INFOS&lt;/h2>
 &lt;p>This is tab &lt;strong>INFOS&lt;/strong> content.&lt;/p>
 &lt;p>😄&lt;/p>
 &lt;/div>
-&lt;input type="radio" class="hidden" name="tabs-74" id="tabs-74-1" />
-&lt;label for="tabs-74-1" class="md-tabs-label">MORE&lt;/label>
+&lt;input type="radio" class="hidden" name="tabs-386" id="tabs-386-1" />
+&lt;label for="tabs-386-1" class="md-tabs-label">MORE&lt;/label>
 &lt;div class="md-tabs-content markdown-inner">&lt;h2 id="more">MORE&lt;/h2>
 &lt;p>This is tab &lt;strong>MORE&lt;/strong> content.&lt;/p>
 &lt;p>&lt;img src="https://live.nemligstatic.com/scommerce/images/850x478_Kanelsnurrer-98003776.jpg?i=%7B4EBD7721-C82F-41A9-B498-263F0EFA9895%7D&amp;amp;v=gHW17WGg%27&amp;amp;w=1105&amp;amp;h=621&amp;amp;mode=crop%27" alt="Kanelsnurrer" />&lt;/p>
 &lt;/div>
-&lt;input type="radio" class="hidden" name="tabs-74" id="tabs-74-2" />
-&lt;label for="tabs-74-2" class="md-tabs-label">LOCATION&lt;/label>
+&lt;input type="radio" class="hidden" name="tabs-386" id="tabs-386-2" />
+&lt;label for="tabs-386-2" class="md-tabs-label">LOCATION&lt;/label>
 &lt;div class="md-tabs-content markdown-inner">&lt;h2 id="location">LOCATION&lt;/h2>
 &lt;p>This is tab &lt;strong>Windows&lt;/strong> content.&lt;/p>
 &lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
