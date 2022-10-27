@@ -25,8 +25,7 @@ tags:
 ```bash
 
 csplit --suppress-matched -f "macaron-" -b "%02d.da.md" macaron_da.md '/-----/' '{*}'
-
-csplit --suppress-matched -f "macaron-" -b "%02d.en.md" macaron_da.en.md '/-----/' '{*}'
+csplit --suppress-matched -f "macaron-" -b "%02d.en.md" macaron_da_en.md '/-----/' '{*}'
 ```
 
 ### remove front matter from a mardown file
@@ -43,8 +42,8 @@ sed -i '1{/^---$/!q;};1,/^---$/d'  macaron-00.en.md
 
 ```bash
 
-find -name "*.da.md" -exec bash -c ' cat "{}"| cat da.yml - |tee "{}" ' \;
-find -name "*.en.md" -exec bash -c ' cat "{}"| cat en.yml - |tee "{}" ' \;
+find -name "macaron*.da.md" -exec bash -c ' cat "{}"| cat da.yml - |tee "{}" ' \;
+find -name "macaron*.en.md" -exec bash -c ' cat "{}"| cat en.yml - |tee "{}" ' \;
 
 ```
 
