@@ -1,0 +1,931 @@
+/*
+Karoline
+#000000 Black
+#3B3B3E Dark grey
+#4D4D4D Charcoal grey
+#6A7D73 Grey
+#8CA7BA Bluey grey
+#B2B2B2 Silver
+#B6605F Dirty pink
+#B7C768 Light olive
+#C7A868 Tan
+#DDA99A Pinkish tan
+#F8F9E7 Off white
+#FFFFFF White
+
+TERRIBLE II
+#1C1C1C Almostblack
+#333333 Darkgrey
+#3E3E41 grey
+#413D0E Darkolive
+#668000 Olivegreen
+#958125 Hazel
+#9F9A64 Darkkhaki
+#AEA844 Shitgreen
+#DDC160 Sandy
+#EAE9DD Lightgrey
+#E5D7B7 Pale
+#F8F9E7 Offwhite
+
+*/
+
+
+:root {
+    --bg-color: #413D0E ; /*Darkolive*/
+	--header-bcolor: #AEA844; /* Shitgreen*/
+	--footer-bcolor: #E5D7B7; /* Pale*/
+	--article-bcolor:#EAE9DD ; /* Lightgrey*/  
+	--text-color-dark: #1C1C1C;  /* Almostblack */
+    --text-color-dark-1: #333333; /*Darkgrey*/
+    --text-color-dark-2: #3E3E41; /* grey */
+
+    --link-color: #668000;  /* Olivegreen */
+    --link-visited-color: #668000;  /* Olivegreen */
+    --link-hover-color:  #413D0E ; /*Darkolive*/
+
+	--failure-color: #B6605F ;  /*Dirty pink*/
+	--success-color: #8CA7BA; /*Bluey grey*/
+
+    --md-hint-info-color: #8CA7BA; /*Bluey grey*/
+    --md-hint-warning-color:#C7A868  ;  /*Tan*/
+    --md-hint-danger-color: #B6605F ;  /*Dirty pink*/
+    --md-hint-normal: #B2B2B2;/* Silver */ 
+
+    --md-bg-color-light: #f8f9fa;
+    --md-bg-color-dark: #e9ecef;
+
+ 
+    --twitter-blue: #55acee;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Roboto', "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    --font-family-monospace: 'Roboto Mono', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --mobile-breakpoint: 800px
+}
+
+body {
+	background:var(--bg-color);
+	color: var(--text-color);
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 16px;
+	margin-bottom: 500px;
+	scrollbar-color: gray #151515;
+	font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+	width: .66vw;
+	background-color: #151515;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: gray;
+	border-radius: 5px;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+#tagcloud {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+#tagcloud li {
+	display: inline-block;
+}
+
+#tagcloud a {
+	margin: .1em .25em;
+}
+
+a:visited {
+	color: var(--link-visited-color);
+}
+
+a:hover {
+	color: var(--link-hover-color);
+	text-decoration: underline;
+}
+
+h1 {
+	color: var(--bg-color);
+	text-align: center;
+	margin-top:0;
+}
+
+h2 {
+	color: var(--text-color-dark-1);
+	text-align: center;
+	margin-top:0;
+}
+
+h3 {
+	color: var(--bg-color);
+	text-align: start;
+	margin-top:0;
+}
+
+h4 {
+	color: var(--text-color-light);
+	text-align: start;
+
+}
+article {
+	text-align: left;
+	padding: 1em;
+	background-color:var(--article-bcolor);
+	overflow-wrap: normal;
+	
+}
+
+nav,
+footer {
+	text-align: left;
+	padding: 1em;
+	background-color: var(--footer-bcolor);
+}
+
+img {
+	max-width: 90%;
+	max-height: 400px;
+	margin: auto;
+	display: block;
+	margin: 0;
+}
+
+code {
+	overflow-wrap: break-word;
+	color: lime;
+}
+
+hr {
+	display: none;
+}
+
+.taglist {
+	text-align: center;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+
+
+@media (pointer: coarse) {
+	li>a {
+		display: inline-block;
+		padding: 0.2em 0;
+	}
+}
+
+@media print {
+	a[href] {
+		text-decoration: none;
+		color: black;
+	}
+
+	footer,
+	.taglist {
+		display: none;
+	}
+
+	body {
+		margin: 0;
+	}
+
+
+}
+
+.older-article {
+	display: none;
+}
+
+.hidden {
+	display: none !important;
+}
+
+#articleList {
+	font-size: large;
+}
+
+#articleList li {
+	padding: .25em;
+}
+
+@media (min-width: 55em) {
+	#articleList {
+		column-count: 2;
+	}
+}
+
+@media (min-width: 100em) {
+	#articleList {
+		column-count: 3;
+	}
+}
+
+
+input#search {
+	all: unset;
+	background: var(--header-bcolor);
+	color: #222;
+	padding: 0.7rem 1rem;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.search {
+	width: 400px;
+	max-width: 85vw;
+	position: relative;
+	margin: 0.5rem auto 1.2rem;
+	display: flex;
+}
+
+button#clear-search {
+	all: unset;
+	position: absolute;
+	right: 4px;
+	top: 5px;
+	height: 30px;
+	width: 30px;
+	color: #888;
+	cursor: pointer;
+	transition: color 180ms ease-in-out;
+}
+
+button#clear-search:hover {
+	color: #eee;
+}
+
+
+.matched-recipe {
+	font-size: x-large;
+	display: list-item !important;
+}
+
+.list-searched {
+	column-count: 1 !important;
+	list-style: decimal;
+	max-width: 600px;
+	margin: auto;
+}
+
+.cryptocontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.cryptoinfo {
+	max-width: 350px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cryptoinfo code {
+	font-size: small;
+	overflow-wrap: break-word;
+}
+
+.qr {
+	max-height: 150px;
+	;
+}
+
+.js-only {
+	display: none;
+}
+
+/*breadcrumb */
+.breadcrumb {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	padding: 0;
+	margin: 0;
+}
+
+
+.breadcrumb li {
+	display: inline;
+	white-space: nowrap;
+}
+
+.breadcrumb li+li:before {
+	content: ">";
+	padding: 0.3rem;
+}
+
+
+
+
+/* columns */
+.md-columns {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -1rem;
+	margin-right: -1rem;
+}
+
+.md-columns div {
+	flex: 1 1;
+	margin: 1rem 0;
+	min-width: 100px;
+	max-width: 100%;
+	padding: 0.5rem 1rem;
+}
+
+.markdown-inner {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* tabs */
+.md-tabs {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 1px solid white;
+	border-radius: 1em;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.md-tabs-label {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	border-bottom: 1px transparent;
+	cursor: pointer;
+	background-color: grey;
+}
+
+.md-tabs-content {
+	order: 999;
+	width: 100%;
+	border-top: 1px solid var(--md-bg-color-light);
+	padding: 1rem;
+	display: none;
+}
+
+.md-tabs input[type="radio"]:checked+label {
+	border-bottom: 1px solid var(--link-color);
+}
+
+.md-tabs input[type="radio"]:checked+label+.md-tabs-content {
+	display: block;
+}
+
+
+/* hint */
+
+.info {
+	  border-left-color: rgba(var(--md-hint-info-color), 1);
+	  background-color: rgba(var(--md-hint-info-color), 0.25);
+	}
+  
+	.warning {
+	
+	  border-left-color: var(--md-hint-warning-color);
+	  background-color: var(--md-hint-warning-color);
+	
+	}
+  
+	.danger {
+	  border-left-color: rgba(var(--md-hint-danger-color), 1);
+	  background-color: var(--md-hint-danger-color);
+	}
+  
+	.normal {
+	  border-left-color: rgba(var(--md-hint-normal), 1);
+	  background-color: rgba(var(--md-hint-normal), 0.05);
+	}
+
+
+	/*menu*/
+	header {
+		display: flex;
+		justify-content: flex-start;
+		background-color: var(--header-bcolor);
+	}
+	
+	.menu-btn { /* Burger icon */
+		width: 30px;
+		height: 30px;
+		position: relative;
+		z-index:2;
+		overflow: hidden;
+		padding: 1em;
+	}
+	
+	.menu-btn span {
+		width: 30px;
+		height: 2px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #222222;
+		transition: all 0.5s;
+	}
+	
+	.menu-btn span:nth-of-type(2) {
+		top: calc(50% - 5px);
+	}
+	.menu-btn span:nth-of-type(3) {
+		top: calc(50% + 5px);
+	}
+	
+	/* Changing the hamburger icon when the menu is open */
+	.menu-btn.active span:nth-of-type(1) {
+	  display: none;
+	}
+	.menu-btn.active span:nth-of-type(2) {
+	  top: 50%;
+	  transform: translate(-50%, 0%) rotate(45deg);  
+	}
+	.menu-btn.active span:nth-of-type(3) {
+	  top: 50%;
+	  transform: translate(-50%, 0%) rotate(-45deg); 
+	}
+	
+	/* Menu that will appear */
+	.menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 15%;
+		height: 100%;
+		padding: 15px;
+	  background: var(--header-bcolor);
+		transform: translateX(-100%);
+		transition: transform 0.5s; 
+	}
+	
+	.menu.active {
+		transform: translateX(0);
+	}
+	
+	.menu li {
+		list-style-type: none;
+	}
+
+	/* hero */
+
+	.hero {
+		background-color: #55acee;
+		background-image: url(./images/22.jpg);
+		background-size: cover;
+		background-position: center;
+		background-blend-mode: normal;
+		color: white;
+		padding-top: 100px;
+		padding-bottom: 100px;
+
+	}
+	.hero-container{
+		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	/*TABLE*/
+	table {
+		margin-bottom: 24px;
+		border-spacing: 0;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		font-family: "Courier New";
+		padding: 0;
+	}
+	table th {
+		padding: 3px 10px;
+		background-color:lightgrey;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid black;
+	}
+	table td {
+		padding: 3px 10px;
+		border-top: none;
+		border-left: none;
+		border-bottom: none;
+		border-right: none;
+	}
+	table tr {
+		border-top: 1px solid #cccccc;
+		background-color: white;
+		margin: 0;
+		padding: 0; }
+	
+	table tr:nth-child(2n) { background-color: #f8f8f8; }
+	
+	table tr th {
+		  font-weight: bold;
+		  border: 1px solid #cccccc;
+		  text-align: left;
+		  margin: 0;
+		  padding: 6px 13px; }
+	
+	table tr td {
+		  border: 1px solid #cccccc;
+		  text-align: left;
+		  margin: 0;
+		  padding: 2px 6px; 
+		 vertical-align: top; 
+	  }
+	
+	table tr th :first-child, table tr td :first-child { margin-top: 0; }
+	table tr th :last-child, table tr td :last-child { margin-bottom: 0; }
+
+/* icon */
+
+#tag_alcohol:before {
+	content: "🍸";
+}
+
+#tag_american:before {
+	content: "🇺🇸";
+}
+
+#tag_argentinian:before {
+	content: "🇦🇷";
+}
+
+#tag_asian:before {
+	content: "🥢";
+}
+
+#tag_australian:before {
+	content: "🇦🇺";
+}
+
+#tag_austrian:before {
+	content: "🇦🇹";
+}
+
+#tag_bacon:before {
+	content: "🥓";
+}
+
+#tag_beans:before {
+	content: "🫘";
+}
+
+#tag_beef:before {
+	content: "🐄";
+}
+
+#tag_belgian:before {
+	content: "🇧🇪";
+}
+
+#tag_brazilian:before {
+	content: "🇧🇷";
+}
+
+#tag_bread:before {
+	content: "🍞";
+}
+
+#tag_breakfast:before {
+	content: "🌅";
+}
+
+#tag_broccoli:before {
+	content: "🥦";
+}
+
+#tag_cake:before {
+	content: "🍰";
+}
+
+#tag_cheese:before {
+	content: "🧀";
+}
+
+#tag_chicken:before {
+	content: "🐔";
+}
+
+#tag_chinese:before {
+	content: "🐉";
+}
+
+#tag_chocolate:before {
+	content: "🍫";
+}
+
+#tag_cookies:before {
+	content: "🍪";
+}
+
+#tag_corn:before {
+	content: "🌽";
+}
+
+#tag_curry:before {
+	content: "🍛";
+}
+
+#tag_dessert:before {
+	content: "🍮";
+}
+
+#tag_dominican:before {
+	content: "🇩🇴";
+}
+
+#tag_drink:before {
+	content: "🍹";
+}
+
+#tag_duck:before {
+	content: "🦆";
+}
+
+#tag_dumpling:before {
+	content: "🥟";
+}
+
+#tag_dutch:before {
+	content: "🇳🇱";
+}
+
+#tag_easter:before {
+	content: "✝️";
+}
+
+#tag_eggs:before {
+	content: "🥚";
+}
+
+#tag_english:before {
+	content: "🏴󠁧󠁢󠁥󠁮󠁧󠁿";
+}
+
+#tag_fasting:before {
+	content: "☦️";
+}
+
+#tag_filipino:before {
+	content: "🇵🇭";
+}
+
+#tag_fish:before {
+	content: "🐟";
+}
+
+#tag_french:before {
+	content: "🇫🇷";
+}
+
+#tag_fruit:before {
+	content: "🍇";
+}
+
+#tag_german:before {
+	content: "🇩🇪";
+}
+
+#tag_greek:before {
+	content: "🇬🇷";
+}
+
+#tag_indian:before {
+	content: "🇮🇳";
+}
+
+#tag_irish:before {
+	content: "🇮🇪";
+}
+
+#tag_israeli:before {
+	content: "🇮🇱";
+}
+
+#tag_italian:before {
+	content: "🇮🇹";
+}
+
+#tag_japanese:before {
+	content: "🇯🇵";
+}
+
+#tag_lebanese:before {
+	content: "🇱🇧";
+}
+
+#tag_lemons:before {
+	content: "🍋";
+}
+
+#tag_liquour:before {
+	content: "🥃";
+}
+
+#tag_lunch:before {
+	content: "🍱";
+}
+
+#tag_mediterranean:before {
+	content: "🫒";
+}
+
+#tag_mexican:before {
+	content: "🇲🇽";
+}
+
+#tag_milk:before {
+	content: "🥛";
+}
+
+#tag_mushrooms:before {
+	content: "🍄";
+}
+
+#tag_pancake:before {
+	content: "🥞";
+}
+
+#tag_pasta:before {
+	content: "🍝";
+}
+
+#tag_pastry:before {
+	content: "🧁";
+}
+
+#tag_peruvian:before {
+	content: "🇵🇪";
+}
+
+#tag_pie:before {
+	content: "🥧";
+}
+
+#tag_pizza:before {
+	content: "🍕";
+}
+
+#tag_polish:before {
+	content: "🇵🇱";
+}
+
+#tag_pork:before {
+	content: "🐖";
+}
+
+#tag_portuguese:before {
+	content: "🇵🇹";
+}
+
+#tag_potato:before {
+	content: "🥔";
+}
+
+#tag_quebec:before {
+	content: "⚜️";
+}
+
+#tag_quick:before {
+	content: "🏃";
+}
+
+#tag_raw:before {
+	content: "🍖";
+}
+
+#tag_rice:before {
+	content: "🍚";
+}
+
+#tag_russian:before {
+	content: "🇷🇺";
+}
+
+#tag_salad:before {
+	content: "🥗";
+}
+
+#tag_sandwich:before {
+	content: "🥪";
+}
+
+#tag_seafood:before {
+	content: "🦐";
+}
+
+#tag_soup:before {
+	content: "🍜";
+}
+
+#tag_sourdough:before {
+	content: "🥖";
+}
+
+#tag_southwest:before {
+	content: "🤠";
+}
+
+#tag_spanish:before {
+	content: "🇪🇸";
+}
+
+#tag_spice:before {
+	content: "🧂";
+}
+
+#tag_spicy:before {
+	content: "🌶️";
+}
+
+#tag_spread:before {
+	content: "🧈";
+}
+
+#tag_steak:before {
+	content: "🥩";
+}
+
+#tag_stew:before {
+	content: "🍲";
+}
+
+#tag_swedish:before {
+	content: "🇸🇪";
+}
+
+#tag_sweet:before {
+	content: "🍯";
+}
+
+#tag_swiss:before {
+	content: "🇨🇭";
+}
+
+#tag_thai:before {
+	content: "🇹🇭";
+}
+
+#tag_tomato:before {
+	content: "🍅";
+}
+
+#tag_turkey:before {
+	content: "🦃";
+}
+
+#tag_turkish:before {
+	content: "🇹🇷";
+}
+
+#tag_ukrainian:before {
+	content: "🇺🇦";
+}
+
+#tag_vietnamese:before {
+	content: "🇻🇳";
+}
+
+#tag_wine:before {
+	content: "🍷";
+}
+
+#tag_danish:before {
+	content: "🇩🇰";
+}
+
+
+
+/*lang */
+#lang_da:before {
+	content: "🇩🇰";
+}
+#lang_en:before {
+	content: "🇬🇧";
+}
+
+
+/*images*/
+/* mardown image no class  */
+/* img {display: block;} */
+img[title=banner]{float: none; margin: auto;}
+img[title^="none"]{float:none; margin-bottom:1em;}
+img[title^="left"]{float:left; margin-bottom:1em; padding-right: 2em;}
+img[title^="center"]{float:none; margin:auto;}
+img[title$="h25"]{height:25em;}
+img[title$="h15"]{height:15em;}
+img[title$="h10"]{height:10em;}
+img[title$="h8"]{height:8em;}
+img[title$="h6"]{height:6em;}
+img[title$="h4"]{height:4em;}
+img[title$="h2"]{height:2em;}
+img[title$="h1"]{height:1em;}
