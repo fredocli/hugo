@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: tonka ganache
 genre: recettes
 lang: english
 tags:

@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: salt karamel
 genre: recettes
 lang: danish
 tags:

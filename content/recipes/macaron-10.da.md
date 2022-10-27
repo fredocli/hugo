@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: lime ganache
 genre: recettes
 lang: danish
 tags:

@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: citron ganache
 genre: recettes
 lang: danish
 tags:

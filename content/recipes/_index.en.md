@@ -1,7 +1,6 @@
 ---
-title: recipes
+title: ""
 #slug: rec
-
 ---
 
 <div class="search js-only">

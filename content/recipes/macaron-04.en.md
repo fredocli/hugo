@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: caramel-orange ganache
 genre: recettes
 lang: english
 tags:

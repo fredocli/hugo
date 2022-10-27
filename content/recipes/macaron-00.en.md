@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: macaron gerbet
 genre: recettes
 lang: english
 tags:

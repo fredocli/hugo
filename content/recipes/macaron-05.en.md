@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: chocolate ganache
 genre: recettes
 lang: english
 tags:

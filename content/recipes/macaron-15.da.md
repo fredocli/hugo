@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: hindbær ganache
 genre: recettes
 lang: danish
 tags:

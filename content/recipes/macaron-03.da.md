@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: kanel ganache
 genre: recettes
 lang: danish
 tags:

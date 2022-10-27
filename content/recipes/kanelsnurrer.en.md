@@ -2,7 +2,7 @@
 description: speciality from sweden
 genre: recettes
 lang: danish
-title: cinnamon swirls
+title: ""
 slug: cinnamon swirls
 author: fred
 date: 2022-10-21T21:39:49.194Z

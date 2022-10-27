@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: coffee ganache
 genre: recettes
 lang: english
 tags:

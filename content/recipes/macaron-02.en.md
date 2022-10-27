@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: hazelnut macarons
 genre: recettes
 lang: english
 tags:

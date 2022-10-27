@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: hasselnød praliné 60%
 genre: recettes
 lang: danish
 tags:

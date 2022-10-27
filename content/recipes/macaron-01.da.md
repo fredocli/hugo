@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: chokolade macaroner
 genre: recettes
 lang: danish
 tags:

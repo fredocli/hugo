@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: abrikos ganache
 genre: recettes
 lang: danish
 tags:

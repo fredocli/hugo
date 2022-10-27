@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: vanilje ganache
 genre: recettes
 lang: danish
 tags:

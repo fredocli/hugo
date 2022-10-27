@@ -1,8 +1,7 @@
 ---
-title: opskrifter
+title: ""
 slug: opskrifter
 headless: false
-
 ---
 
 <div class="search js-only">

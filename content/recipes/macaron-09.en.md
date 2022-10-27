@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: vanilla ganache
 genre: recettes
 lang: english
 tags:

@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: lemon ganache
 genre: recettes
 lang: english
 tags:

@@ -2,7 +2,7 @@
 description: speciality from sweden
 genre: recettes
 lang: danish
-title: Kanelsnurrer
+title: ""
 author: fred
 date: 2021-03-11
 hero: "04"

@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: raspberry ganache
 genre: recettes
 lang: english
 tags:

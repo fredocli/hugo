@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: chokolade ganache
 genre: recettes
 lang: danish
 tags:

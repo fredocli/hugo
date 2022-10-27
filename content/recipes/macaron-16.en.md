@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: hazelnut praliné 60%
 genre: recettes
 lang: english
 tags:

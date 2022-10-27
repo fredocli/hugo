@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: passionsfrugt ganache
 genre: recettes
 lang: danish
 tags:

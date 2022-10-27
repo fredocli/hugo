@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: cinnamon ganache
 genre: recettes
 lang: english
 tags:

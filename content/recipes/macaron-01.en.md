@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: chocolate macarons
 genre: recettes
 lang: english
 tags:

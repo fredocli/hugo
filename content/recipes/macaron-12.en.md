@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: sea buckthorn ganache
 genre: recettes
 lang: english
 tags:

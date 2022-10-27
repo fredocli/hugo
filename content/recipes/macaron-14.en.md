@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: lemongrass and coconut milk ganache
 genre: recettes
 lang: english
 tags:

@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: hasselnødde macaroner
 genre: recettes
 lang: danish
 tags:

@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: citrongræs kokos ganache
 genre: recettes
 lang: danish
 tags:

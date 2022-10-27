@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: passion fruit ganache
 genre: recettes
 lang: english
 tags:

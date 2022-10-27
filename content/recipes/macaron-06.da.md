@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: mokka ganache
 genre: recettes
 lang: danish
 tags:

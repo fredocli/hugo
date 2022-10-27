@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: karamel-appelsin ganache
 genre: recettes
 lang: danish
 tags:

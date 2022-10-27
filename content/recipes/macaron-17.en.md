@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: apricot ganache
 genre: recettes
 lang: english
 tags:

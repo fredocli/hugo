@@ -1,5 +1,5 @@
 ---
-title: opskrifter - macaron
+title: havtorn ganache
 genre: recettes
 lang: danish
 tags:
