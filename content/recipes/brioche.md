@@ -34,7 +34,7 @@ lastmod: 2022-10-22T06:09:49.350Z
 
 1. Fry bacon cubes in pot (this pot will be used for everything so choose an appropriately large one).
 2. Cut onions into half-rings and let them sweat in the same pot. Add some butter if your bacon was not fatty enough.
-3. Peel potatoes and cut them into ~1 cm/half inch cubes.
+3. Peel potatoes and cut them into 1 cm/half inch cubes.
 4. When the onions have become sufficiently cooked, add potatoes.
 5. Top everything with milk and let the potatoes cook for about 10 minutes.
 7. Add macaroni and the remaining milk to cover everything. Most of the milk will be absorbed by the macaroni.
