@@ -1,4 +1,4 @@
-baseURL = 'https://based.cooking/'
+baseURL = 'https://hugo.terrible.dk/'
 languageCode = 'en-us'
 title = 'Terrible'
 theme = 'lugo'
