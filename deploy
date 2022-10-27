@@ -1,0 +1,10 @@
+#!/bin/sh
+USER=terrible.dk
+HOST=ssh.terrible.dk
+DIR=/customers/7/2/2/terrible.dk/httpd.www/hugo/   # the directory where your web site files should go
+
+# --dry-run
+hugo && sshpass -p $(pass ssh.terrible.dk) rsync -aviz   --progress --delete  public/  ${USER}@${HOST}:${DIR}
+
+
+exit 0
