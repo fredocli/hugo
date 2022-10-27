@@ -1,1 +1,0 @@
-/home/fred/.repo/traductions/recettes/source/macaron_da.md
