@@ -3,15 +3,16 @@ title: salt caramel
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # SALT CARAMEL
 
 For about 40 pcs. macarons.
 
-![](/images/macaron_karamel.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_karamel.jpg "left-h25")
 
 ## INGREDIENTS
 

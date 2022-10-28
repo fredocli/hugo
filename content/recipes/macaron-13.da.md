@@ -3,15 +3,16 @@ title: citron ganache
 genre: recettes
 lang: danish
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # CITRON GANACHE
 
 Til cirka 40 stk. macaroner.
 
-![](/images/macaron_citron.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_citron.jpg "left-h25")
 
 ## INGREDIENSER
 

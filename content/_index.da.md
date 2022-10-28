@@ -1,8 +1,7 @@
 ---
-Title: hjem
+title: Terrible 
 hero: "01"
-herosubtitle: det er en underteskt
-herotitle: "Fredo \U0001F497"
+herosubtitle: 
+herotitle: 
 ---
 
-# test home da

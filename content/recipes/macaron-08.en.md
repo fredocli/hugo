@@ -3,15 +3,16 @@ title: tonka ganache
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # TONKA GANACHE
 
 For about 40 pcs. macarons
 
-![](/images/macaron_tonka.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_tonka.jpg "left-h25")
 
 ## INGREDIENTS
 

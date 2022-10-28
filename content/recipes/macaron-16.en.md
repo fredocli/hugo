@@ -3,8 +3,9 @@ title: hazelnut praliné 60%
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # HAZELNUT PRALINÉ 60%

@@ -3,15 +3,16 @@ title: karamel-appelsin ganache
 genre: recettes
 lang: danish
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # KARAMEL-APPELSIN GANACHE
 
 Til cirka 40 stk. macaroner
 
-![](/images/macaron_orange.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_orange.jpg "left-h25")
 
 ## INGREDIENSER
 

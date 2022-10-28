@@ -3,15 +3,16 @@ title: coffee ganache
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # COFFEE GANACHE
 
 For about 40 pcs. macarons
 
-![](/images/macaron_mokka.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_mokka.jpg "left-h25")
 
 ## INGREDIENTS
 

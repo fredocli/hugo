@@ -1,5 +1,5 @@
 ---
-lastmod: 2022-10-25T19:50:35.471Z
+draft: true
 ---
 
 ### extract front matter
@@ -23,9 +23,9 @@ tags:
 
 ### split markdown file "macaron_da.md"
 ```bash
-
-csplit --suppress-matched -f "macaron-" -b "%02d.da.md" macaron_da.md '/-----/' '{*}'
-csplit --suppress-matched -f "macaron-" -b "%02d.en.md" macaron_da_en.md '/-----/' '{*}'
+cd /home/fred/hugo/conten/recipes
+csplit --suppress-matched -f "macaron-" -b "%02d.da.md" /home/fred/.repo/traductions/recettes/source/macaron_da.md '/-----/' '{*}'
+csplit --suppress-matched -f "macaron-" -b "%02d.en.md" /home/fred/.repo/traductions/recettes/target/macaron_da_en.md '/-----/' '{*}'
 ```
 
 ### remove front matter from a mardown file
@@ -52,3 +52,15 @@ frontmatter da
 frontmatter en
 
 ```
+
+
+# AUTRE
+--front-matter="process"
+yq --front-matter="process" about.da.md
+
+```bash
+yq --null-input '.hostname = env(HOSTNAME)'
+```
+
+ sed -n '1,/---/p' about.da.md| sed '1d;$d'|yq .Lang
+ eval $( yq eval -N -op --front-matter="extract"  about.da.md |sed -e 's/=[^:\/\/]/="/g;s/$/"/g;s/ *=/=/g')

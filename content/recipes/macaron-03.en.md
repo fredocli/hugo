@@ -3,15 +3,16 @@ title: cinnamon ganache
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # CINNAMON GANACHE
 
 For about 40 pcs. macarons
 
-![](/images/macaron_kanel.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_kanel.jpg "left-h25")
 
 ## INGREDIENTS
 

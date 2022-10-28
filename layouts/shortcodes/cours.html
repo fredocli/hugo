@@ -1,8 +1,6 @@
 <table>
     <thead>
       <tr>
-	  <th>index</th>
-      <th>id</th>
       <th>name</th>
       <th>date</th>
 	  <th>langue</th>
@@ -16,11 +14,9 @@
     {{ range  $i, $r := getCSV $sep $url }}
     {{ if ge $i 1 }}
       <tr>
-        <td>{{  $i }}</td>
-        <td>{{ index $r 0 }}</td>
         <td>{{ index $r 1 }}</td>
         <td>{{ index $r 2 }}</td>
-		<td>{{ index $r 3 }}</td>
+		    <td>{{ index $r 3 }}</td>
       </tr>
     {{ end }}
     {{ end }}

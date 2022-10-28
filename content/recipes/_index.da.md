@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "opskrifter"
 slug: opskrifter
 headless: false
 ---

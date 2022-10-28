@@ -8,15 +8,13 @@ date: "2021-03-11"
 hero: "03"
 herosubtitle: Ceci est un subtitle
 herotitle: Ceci est un test
-menu:
-  main:
-    name: test
-    parent: autre
-    weight: 500
-tags:
-- brioche
-- swedish
+draft: true
 ---
+
+{{< ingredients >}}
+
+[About]({{< ref  path="/"   lang="en" >}} "HANDELSBETINGELSER")  
+[About]({{< ref  path="/"   lang="da" >}} "HANDELSBETINGELSER")
 
 ### emoji
  :smile:

@@ -1,5 +1,7 @@
 baseURL = 'https://hugo.terrible.dk/'
+staticDir =  ['static', '/home/fred/Pictures']
 languageCode = 'en-us'
+canonifyURLs = true
 title = 'Terrible'
 theme = 'lugo'
 sectionPagesMenu = "main"
@@ -10,7 +12,7 @@ enableMissingTranslationPlaceholders= true
    # baseURL = 'https://example.en'
     languageName = 'English'
     title = 'terrible'
-    weight = 0
+    weight = 1
     [languages.en.permalinks]
       recipes = '/recipes/:slugorfilename/'
     [languages.en.params]
@@ -19,7 +21,7 @@ enableMissingTranslationPlaceholders= true
    #baseURL = 'https://example.da'
     languageName = 'Danish'
     title = 'terrible'
-    weight = 1
+    weight = 0
     [languages.da.permalinks]
       recipes = '/opskrifter/:slugorfilename/'
       #recipes = '/opskrifter/'
@@ -40,7 +42,7 @@ enableMissingTranslationPlaceholders= true
 
  
   [markup]
-  #defaultMarkdownHandler = "pandocc"
+  #defaultMarkdownHandler = "pandoc"
   [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true
@@ -94,7 +96,7 @@ enableMissingTranslationPlaceholders= true
 [security]
   enableInlineShortcodes = false
   [security.exec]
-    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandocc$', '^nvim$', 'pandocc']
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$', '^nvim$', 'pandoc']
     osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
 
   [security.funcs]

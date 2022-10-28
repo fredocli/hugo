@@ -1,11 +1,9 @@
 ---
-date: "2022-05-31"
-hero: "01"
-herosubtitle: Ceci est un subtitle
-herotitle: "Fredo \U0001F497"
-lang: English
 title: about
-translationKey: about
+slug: about
+lang: english
+hero: "01"
+
 ---
 {{< columns danger >}} 
 ![FREDERIC TERRIBLE](/images/ft.jpg)

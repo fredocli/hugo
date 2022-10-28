@@ -1,12 +1,8 @@
 ---
-Lang: danish
-date: "2022-05-31"
-hero: "01"
-herosubtitle: Ceci est un subtitle
-herotitle: Ceci est un test
-slug: kontakt
 title: kontakt
-translationKey: contact
+slug: kontakt
+lang: danish
+hero: "01"
 ---
 
 

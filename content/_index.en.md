@@ -1,9 +1,6 @@
 ---
-Title: home
+Title: Terrible
 hero: "01"
-herosubtitle: This is a subtitle
-herotitle: "Fredo \U0001F497"
+herosubtitle: 
+herotitle: 
 ---
-
-# test home en
-voila!!!

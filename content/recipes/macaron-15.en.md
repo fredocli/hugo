@@ -3,15 +3,16 @@ title: raspberry ganache
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # RASPBERRY GANACHE
 
 For about 40 pcs. macarons.
 
-![](/images/macaron_hindbaer.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_hindbaer.jpg "left-h25")
 
 ## INGREDIENTS
 

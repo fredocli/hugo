@@ -3,15 +3,16 @@ title: passionsfrugt ganache
 genre: recettes
 lang: danish
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # PASSIONSFRUGT GANACHE
 
 Til cirka 40 stk. macaroner
 
-![](/images/macaron_passion.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_passion.jpg "left-h25")
 
 ## INGREDIENSER
 
@@ -34,7 +35,7 @@ Dæk ganachen til med et stykke husholdningsfilm og sæt den i køleskabet.
 
 Til cirka 40 stk. macaroner
 
-![](/images/macaron_reglisse.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_reglisse.jpg "left-h25")
 
 ## INGREDIENSER
 

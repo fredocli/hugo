@@ -3,15 +3,16 @@ title: vanilla ganache
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # VANILLA GANACHE
 
 For about 40 pcs. macarons.
 
-![](/images/macaron_vanille.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_vanille.jpg "left-h25")
 
 ## INGREDIENTS
 

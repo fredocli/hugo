@@ -3,15 +3,16 @@ title: lemongrass and coconut milk ganache
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # LEMONGRASS AND COCONUT MILK GANACHE
 
 For about 40 pcs. macarons.
 
-![](/images/macaron_citronelle.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_citronelle.jpg "left-h25")
 
 ## INGREDIENTS
 

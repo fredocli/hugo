@@ -3,15 +3,16 @@ title: vanilje ganache
 genre: recettes
 lang: danish
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # VANILJE GANACHE
 
 Til cirka 40 stk. macaroner.
 
-![](/images/macaron_vanille.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_vanille.jpg "left-h25")
 
 ## INGREDIENSER
 

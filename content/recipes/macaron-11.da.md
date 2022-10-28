@@ -3,15 +3,16 @@ title: salt karamel
 genre: recettes
 lang: danish
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # SALT KARAMEL
 
 Til cirka 40 stk. macaroner.
 
-![](/images/macaron_karamel.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_karamel.jpg "left-h25")
 
 ## INGREDIENSER
 

@@ -3,8 +3,9 @@ title: hasselnød praliné 60%
 genre: recettes
 lang: danish
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # HASSELNØD PRALINÉ 60%

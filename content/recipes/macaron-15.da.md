@@ -3,15 +3,16 @@ title: hindbær ganache
 genre: recettes
 lang: danish
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # HINDBÆR GANACHE
 
 Til cirka 40 stk. macaroner.
 
-![](/images/macaron_hindbaer.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_hindbaer.jpg "left-h25")
 
 ## INGREDIENSER
 

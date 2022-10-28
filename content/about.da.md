@@ -1,16 +1,10 @@
 ---
-lang: danish
-date: 2021-03-11
-hero: "01"
-herosubtitle: Ceci est un subtitle
-herotitle: Fredo 💗
-slug: om terrible
 title: om
-translationKey: about
-preview: /images/about.jpg
-lastmod: 2022-10-22T19:34:29.150Z
-tags:
-  - admin
+slug: om
+lang: danish
+hero: "01"
+
+
 ---
 {{< columns warning >}} 
 ![FREDERIC TERRIBLE](/images/ft.jpg)

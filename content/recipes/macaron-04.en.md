@@ -3,15 +3,16 @@ title: caramel-orange ganache
 genre: recettes
 lang: english
 tags:
-  - macaron ganache
-markup: pandocc
+  - macaron 
+  - ganache
+markup: pandoc
 ---
 
 # CARAMEL-ORANGE GANACHE
 
 For about 40 pcs. macarons
 
-![](/images/macaron_orange.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_orange.jpg "left-h25")
 
 ## INGREDIENTS
 
