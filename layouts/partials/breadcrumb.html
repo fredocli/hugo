@@ -9,13 +9,13 @@
       {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )}}
     {{ end }}
     <li{{ if eq .p1 .p2 }} class="active"{{ end }}>
-      <a href="{{ .p1.RelPermalink }}">{{ .p1.Title }}</a>
+      <a href="{{ .p1.RelPermalink }}">{{ .p1.Title|lower }}</a>
     </li>
   {{ end }}
 
   {{ if .IsTranslated }}
   {{ range .Translations }}
     <!-- <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a> -->
-    <a href="{{ .Permalink }}"><span id="lang_{{ .Lang }}"></span> </a> 
+    <a href="{{ .Permalink }}">Go to the <span id="lang_{{ .Lang }}"> version</span> </a> 
   {{ end }}
   {{ end }}

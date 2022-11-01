@@ -1,32 +1,33 @@
+
 ---
-title: sea buckthorn ganache
-genre: recettes
-lang: english
-tags:
-  - macaron 
-  - ganache
+title: salt caramel ganache
+Lang: english
+tags: 
+    - macaron
+    - ganache 
 markup: pandoc
 ---
 
-# SEA BUCKTHORN GANACHE
+# SALT CARAMEL
 
 For about 40 pcs. macarons.
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_argousier.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_karamel.jpg "left-h25")
 
 ## INGREDIENTS
 
 
-- 65 g whipping cream
-- 65 g sea buckthorn juice
-- 250 g white chocolate
-- 20 g unsalted butter
+- 300 g caster sugar
+- 150 g whipping cream
+- 150 g unsalted butter
+- 1/4 tsp. fine salt (2.5 g)
 
 ## PREPARATION
 
-Pour the whipping cream and sea buckthorn juice into a saucepan and bring to a boil.
-Pour the whipping cream and the sea buckthorn juice into the chocolate and stir gently with a rubber spatula.
-Add the butter when the ganache is between 40°C and 45°C.
-Stir in the ganache until the butter is melted.
+Boil the sugar without water until it is caramelized.
+Carefully pour the whipping cream into the sugar to stop the caramelization.
+Stir vigorously and continue to cook.
+When the temperature is 110°C, remove the saucepan from the stove.
+Salt and butter is added and mixed well with the caramel.
 Cover the ganache with a piece of plastic film and put it in the refrigerator.
 

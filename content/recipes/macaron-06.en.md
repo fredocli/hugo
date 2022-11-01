@@ -1,10 +1,10 @@
+
 ---
-title: coffee ganache
-genre: recettes
-lang: english
-tags:
-  - macaron 
-  - ganache
+title: mokka ganache
+Lang: english
+tags: 
+    - macaron
+    - ganache 
 markup: pandoc
 ---
 

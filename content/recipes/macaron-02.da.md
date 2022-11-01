@@ -1,10 +1,10 @@
+
 ---
-title: hasselnødde macaroner
-genre: recettes
+title: chokolade macaroner
+
 lang: danish
-tags:
-  - macaron 
-  - ganache
+tags: 
+    - macaron
 markup: pandoc
 ---
 

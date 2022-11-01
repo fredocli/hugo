@@ -1,8 +1,12 @@
 ---
-title: "opskrifter"
+title: opskrifter
 slug: opskrifter
-headless: false
+menu:
+  main:
+    post: book
+    weight: 100
 ---
+
 
 <div class="search js-only">
   <input type="text" id="search" placeholder="Search ALL Recipes...">

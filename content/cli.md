@@ -23,7 +23,7 @@ tags:
 
 ### split markdown file "macaron_da.md"
 ```bash
-cd /home/fred/hugo/conten/recipes
+cd /home/fred/hugo/content/recipes
 csplit --suppress-matched -f "macaron-" -b "%02d.da.md" /home/fred/.repo/traductions/recettes/source/macaron_da.md '/-----/' '{*}'
 csplit --suppress-matched -f "macaron-" -b "%02d.en.md" /home/fred/.repo/traductions/recettes/target/macaron_da_en.md '/-----/' '{*}'
 ```

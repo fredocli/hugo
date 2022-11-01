@@ -1,10 +1,10 @@
+
 ---
 title: kanel ganache
-genre: recettes
 lang: danish
-tags:
-  - macaron 
-  - ganache
+tags: 
+    - macaron
+    - ganache 
 markup: pandoc
 ---
 

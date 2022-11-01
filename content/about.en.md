@@ -3,6 +3,10 @@ title: about
 slug: about
 lang: english
 hero: "01"
+menu:
+  main:
+    post: user
+    weight: 300
 
 ---
 {{< columns danger >}} 

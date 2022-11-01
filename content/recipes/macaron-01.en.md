@@ -1,10 +1,10 @@
+
 ---
 title: chocolate macarons
-genre: recettes
-lang: english
-tags:
-  - macaron 
-  - ganache
+
+Lang: english
+tags: 
+    - macaron
 markup: pandoc
 ---
 

@@ -1,12 +1,11 @@
 ---
 title: macaron gerbet
-genre: recettes
-lang: english
-tags:
-  - macaron 
-  - ganache
+Lang: english
+tags: 
+    - macaron
 markup: pandoc
 ---
+
 # MACARON GERBET
 
 For about 40 pcs. macarons.

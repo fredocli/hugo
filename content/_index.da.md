@@ -1,5 +1,5 @@
 ---
-title: Terrible 
+title: terrible
 hero: "01"
 herosubtitle: 
 herotitle: 

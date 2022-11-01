@@ -1,10 +1,10 @@
+
 ---
-title: hazelnut macarons
-genre: recettes
-lang: english
-tags:
-  - macaron 
-  - ganache
+title: chocolate macarons
+
+Lang: english
+tags: 
+    - macaron
 markup: pandoc
 ---
 

@@ -1,31 +1,32 @@
+
 ---
-title: havtorn ganache
-genre: recettes
+title: salt karamel ganache
 lang: danish
-tags:
-  - macaron 
-  - ganache
+tags: 
+    - macaron
+    - ganache 
 markup: pandoc
 ---
 
-# HAVTORN GANACHE
+# SALT KARAMEL
 
 Til cirka 40 stk. macaroner.
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_argousier.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_karamel.jpg "left-h25")
 
 ## INGREDIENSER
 
-- 65 g piskefløde
-- 65 g havtornsaft
-- 250 g hvid chokolade
-- 20 g usaltet smør
+- 300 g sukker
+- 150 g piskefløde
+- 150 g usaltet smør
+- 1/4 tsk. fint salt (2,5 g)
 
 ## FREMGANGSMÅDE
 
-Hæld piskefløde og havtornsaft i en gryde og bring i kog.
-Hæld piskefløden og havtornsaft over chokoladen og rør forsigtigt med en dejskraber.
-Tilsæt smør når ganachen er mellem 40°C og 45°C.
-Rør i ganachen, indtil smørret er smeltet.
-Dæk ganachen til med et stykke husholdningsfilm og sæt den i køleskabet.
+Kog sukkeret uden vand indtil det er karamelagtigt.
+Hæld forsigtigt piskefløden over for at stoppe karamelliseringen.
+Rør grundigt og kog videre.
+Når temperaturen er 110°c tages gryden af blusset.
+Salt og smør tilsættes og blandes godt sammen med karamelmassen.
+Dæk karamellen til med et stykke husholdningsfilm og sæt den i køleskabet.
 

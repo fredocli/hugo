@@ -1,36 +1,34 @@
+
 ---
-title: citrongræs kokos ganache
-genre: recettes
+title: citron ganache
 lang: danish
-tags:
-  - macaron 
-  - ganache
+tags: 
+    - macaron
+    - ganache 
 markup: pandoc
 ---
 
-# CITRONGRÆS KOKOS GANACHE
+# CITRON GANACHE
 
 Til cirka 40 stk. macaroner.
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_citronelle.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_citron.jpg "left-h25")
 
 ## INGREDIENSER
 
-- 100 g kokosmælk 18% fedt
+- 65 g piskefløde
 - 250 g hvid chokolade
-- 2 stænger citrongræs, fintsnittet
-- 20 g citronsaft
-- 20 g frisk ingefær
+- 20 g usaltet smør
+- 65 g citronsaft
+- 1 revet citronskal
 
 ## FREMGANGSMÅDE
 
-Hæld kokosmælk, frisk revet ingefær og citronsaft i en gryde og bring den i kog.
-Når kokosmælken har kogt, tages gryden af blusset, og de fintsnittede stænger citrongræs tilsættes.
-Lad citrongræsset trække i cirka 10 minutter.
-Varm kokosmælken op igen til cirka 80°C.
-Sigt kokosmælken i en fin sigte og check at den vejer cirka 125 g.
+Hæld piskefløde, citronskal og citronsaft i en gryde og bring i kog.
+Sigt væsken i en fin sigte og check at væsken vejer cirka 120 g.
 Hæld eventuelt en smule vand i.
-Hæld kokosmælken over chokoladen og rør forsigtigt med en dejskraber.
-Rør i ganachen, indtil chokoladen er smeltet.
+Hæld væsken over chokoladen og rør forsigtigt med en dejskraber.
+Tilsæt smør når ganachen er mellem 40°C og 45°C.
+Rør i ganachen, indtil smørret er smeltet.
 Dæk ganachen til med et stykke husholdningsfilm og sæt den i køleskabet.
 

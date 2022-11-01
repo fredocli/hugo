@@ -3,6 +3,10 @@ title: om
 slug: om
 lang: danish
 hero: "01"
+menu:
+  main:
+    post: user
+    weight: 300
 
 
 ---

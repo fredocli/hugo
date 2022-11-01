@@ -1,10 +1,10 @@
+
 ---
 title: chokolade macaroner
-genre: recettes
+
 lang: danish
-tags:
-  - macaron 
-  - ganache
+tags: 
+    - macaron
 markup: pandoc
 ---
 

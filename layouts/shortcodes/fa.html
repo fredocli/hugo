@@ -1,0 +1,10 @@
+
+    {{- $fname:=print "static/fa/" ( .Get 0 ) ".svg" -}}
+    {{-  $fileExist:=os.FileExists $fname -}}
+    {{ if  $fileExist }}
+    {{- $path:="<path" -}}
+    {{- $fill:="<path fill=\"currentColor\"" -}}
+    <span class="inline-svg">{{ replace (readFile $fname) $path $fill | safeHTML }}</span>
+    {{ else }}
+        {{ print .| safeHTML }}
+    {{ end }}

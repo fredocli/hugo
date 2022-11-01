@@ -1,6 +1,10 @@
 ---
 title: "recipes"
 slug: recipes
+menu:
+  main:
+    post: book
+    weight: 100
 ---
 
 <div class="search js-only">
@@ -50,8 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 </script>
-
-
 
 {{< articleList >}}
 

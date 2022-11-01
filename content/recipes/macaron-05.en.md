@@ -1,10 +1,10 @@
+
 ---
 title: chocolate ganache
-genre: recettes
-lang: english
-tags:
-  - macaron 
-  - ganache
+Lang: english
+tags: 
+    - macaron
+    - ganache 
 markup: pandoc
 ---
 

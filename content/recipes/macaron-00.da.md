@@ -1,12 +1,11 @@
 ---
 title: macaron gerbet
-genre: recettes
 lang: danish
-tags:
-  - macaron 
-  - ganache
+tags: 
+    - macaron
 markup: pandoc
 ---
+
 # MACARON GERBET
 
 Til cirka 40 stk. macaroner.

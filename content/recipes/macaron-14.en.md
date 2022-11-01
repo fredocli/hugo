@@ -1,37 +1,35 @@
+
 ---
-title: lemongrass and coconut milk ganache
-genre: recettes
-lang: english
-tags:
-  - macaron 
-  - ganache
+title: lemon ganache
+Lang: english
+tags: 
+    - macaron
+    - ganache 
 markup: pandoc
 ---
 
-# LEMONGRASS AND COCONUT MILK GANACHE
+# LEMON GANACHE
 
 For about 40 pcs. macarons.
 
-![](/home/fred/.repo/traductions/recettes/images/macaron_citronelle.jpg "left-h25")
+![](/home/fred/.repo/traductions/recettes/images/macaron_citron.jpg "left-h25")
 
 ## INGREDIENTS
 
 
-- 100 g coconut milk 18% fat
+- 65 g whipping cream
 - 250 g white chocolate
-- 2 lemongrass stalks, finely chopped
-- 20 g lemon juice
-- 20 g fresh ginger
+- 20 g unsalted butter
+- 65 g lemon juice
+- 1 grated lemon zest
 
 ## PREPARATION
 
-Pour coconut milk, freshly grated ginger and lemon juice into a saucepan and bring to a boil.
-When the coconut milk has boiled, remove the saucepan from the stove and add the chopped lemon grass.
-Let the lemongrass infuse for about 10 minutes.
-Reheat the coconut milk to about 80°C.
-Sift the coconut milk with a fine sieve, and check that it weighs approximately 125 g.
+Pour whipping cream, lemon zest and lemon juice into a saucepan and bring to a boil.
+Sift the liquid with a fine sieve and check that the liquid weighs approximately 120 g.
 If necessary, add a bit water.
-Pour the coconut milk into the chocolate and stir gently with a rubber spatula.
-Stir in the ganache until the chocolate is melted.
+Pour the liquid into the chocolate and stir gently with a rubber spatula.
+Add the butter when the ganache is between 40°C and 45°C.
+Stir in the ganache until the butter is melted.
 Cover the ganache with a piece of plastic film and put it in the refrigerator.
 

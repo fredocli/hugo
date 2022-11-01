@@ -7,8 +7,6 @@
 {{ end }}
 {{ define "main" }}
 {{ if .Param "hero" }}
-
-{{ partial "breadcrumb" . }}
       
 <div class="hero" style="background-image: url(/images/{{ .Params.hero }}.jpg);">
     <div class="hero-container">
@@ -20,6 +18,7 @@
 
 {{ end }}
 {{ .Content }}
+{{ partial "tags.html" . }}
 {{ end }}
 
 

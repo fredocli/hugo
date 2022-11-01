@@ -20,5 +20,7 @@ SWIFT: JYBADKKK
 [![FØDEVARESTYRELSENS RAPPORTER](https://www.terrible.dk/wp-content/uploads/smiley-elite-1-e1514474830701.png)](http://www.findsmiley.dk/533114)
 {style="float:center"}
 
+[{{% fa facebook %}}](https://www.facebook.com/terrible.dk/) [{{% fa instagram %}}](https://www.instagram.com/terrible.dk/)
+
 
 {{< /columns >}}

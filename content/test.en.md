@@ -16,6 +16,18 @@ draft: true
 [About]({{< ref  path="/"   lang="en" >}} "HANDELSBETINGELSER")  
 [About]({{< ref  path="/"   lang="da" >}} "HANDELSBETINGELSER")
 
+<ul>
+{{- range.Pages }}
+	<li>
+		{{- if .Param "datesinlist" }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time> &ndash; {{ end -}}
+		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+		{{- if .Param "authorsinlist" }}
+		{{- range .Param "authors" }} by {{ . }}{{ end -}}
+		{{ end -}}
+		</li>
+{{- end }}
+</ul>
+
 ### emoji
  :smile:
  
