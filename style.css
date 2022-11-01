@@ -929,3 +929,12 @@ img[title$="h6"]{height:6em;}
 img[title$="h4"]{height:4em;}
 img[title$="h2"]{height:2em;}
 img[title$="h1"]{height:1em;}
+
+
+.inline-svg {
+	display: inline-block;
+	height: 1.15rem;
+	width: 1.15rem;
+	top: 0.15rem;
+	position: relative;
+  }
