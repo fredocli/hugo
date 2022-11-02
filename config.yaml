@@ -6,7 +6,7 @@ languageCode: en-us
 canonifyURLs: true
 title: Terrible
 #theme: lugo
-theme : ananke
+theme : rugo
 
 sectionPagesMenu: not-main #for avoid to index folders (cours ingredients etc..) 
 enableEmoji: true
@@ -33,17 +33,17 @@ languages:
         help: hælp
 params:
   favicon: /favicon.svg
-  facebook: 'https://www.facebook.com/terrible.dk/' # ananke
-  instagram: 'https://www.instagram.com/terrible.dk/' # ananke
-  site_logo: /images/logo.png # ananke
-  background_color_class: bg-black-10 # ananke
-  text_color: dark-gray # ananke
+  facebook: 'https://www.facebook.com/terrible.dk/' # rugo
+  instagram: 'https://www.instagram.com/terrible.dk/' # rugo
+  site_logo: /images/logo.png # rugo
+  background_color_class: bg-black-10 # rugo
+  text_color: dark-gray # rugo
   featured_image: /images/01.jpg
   indexarticles: 50
   taglist: true
   showrss: true
   stylesheet: /style.css  #lugo
-  custom_css : ["customa.css"] # ananke
+  custom_css : ["customa.css"] # rugo
 
 
 markup:

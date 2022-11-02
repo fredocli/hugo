@@ -1,0 +1,36 @@
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+{{ $featured_image_bg_color := partial "func/GetFeaturedImageBgColor.html" . }}
+{{ if $featured_image }}
+  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+  <header class="cover bg-center" style="background-image: url('{{ $featured_image }}');">
+    <div class="{{ .Site.Params.background_color_class | default "bg-black-30" }}  {{ $featured_image_bg_color }}">
+      {{ partial "site-navigation.html" .}}
+      <div class="tc-l pv2 pv4-l ph3 ph4-ns">
+        <h1 class="hh1">
+          {{ .Title | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+          <h2 class="hh2">
+            {{ . }}
+          </h2>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+{{ else }}
+  <header>
+    <div class="pb1-m pb3-l {{ .Site.Params.background_color_class | default "bg-black" }}">
+      {{ partial "site-navigation.html" . }}
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="hh1">
+          {{ .Title | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+          <h2 class="hh2">
+            {{ . }}
+          </h2>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+{{ end }}

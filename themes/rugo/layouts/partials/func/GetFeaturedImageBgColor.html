@@ -1,0 +1,23 @@
+{{/* 
+	GetFeaturedImageBgcolor
+
+	This partial gets the url for featured image for a given page.
+
+	If a featured_image was set in the page's front matter, then that will be used.
+
+	If not set, this will search page resources to find an image that contains the word
+	"cover", and if found, returns the path to that resource.
+
+	If no featured_image was set, and there's no "cover" image in page resources, then
+	this partial returns an empty string (which evaluates to false).
+
+	@return RelPermalink to featured image, or an empty string if not found.
+
+*/}}
+
+
+{{ $linkToCover := "" }}
+{{ with .Params.featured_image_bg_color }}
+  {{ $linkToCover = . }}
+{{ end }}  
+{{ return $linkToCover }}
