@@ -11,6 +11,8 @@ herotitle: Ceci est un test
 draft: true
 ---
 
+[{{% fa facebook %}}](https://www.facebook.com/terrible.dk/) [{{% fa instagram %}}](https://www.instagram.com/terrible.dk/)
+
 {{< ingredients >}}
 
 [About]({{< ref  path="/"   lang="en" >}} "HANDELSBETINGELSER")  

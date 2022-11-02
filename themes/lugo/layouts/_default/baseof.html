@@ -16,20 +16,37 @@
 </head>
 <body>
 
-{{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
-<main>
-<header>
-	<div class="menu-btn">
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
-	{{ block "header" . }}
 
-	{{ end }}
-</header>
+<header>
+
+	<div class="container">
+		<div class="logo_container">
+			<a href="/"><img src="/images/logo.png" alt="terrible" id="logo" data-height-percentage="100" data-actual-width="324" data-actual-height="440"></a>
+		</div>
+	
+		<div class="menu-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		{{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
+	
+	{{ partial "social" . }}
+		
+	</div>
+	
+	{{  partials "breadcrumb" . }}
+	
+	
+	
+		{{ block "header" . }}
+	
+		{{ end }}
+	</header>
+
+
 <article>
-	{{ partial "breadcrumb" . }}
+
 	<h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1>
 {{ block "main" . }}
 {{ .Content }}
@@ -37,7 +54,7 @@
 {{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
 {{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
 </article>
-</main>
+
 {{ block "footer" . }}
 <footer>
 

@@ -6,6 +6,8 @@ tags:
     - macaron
     - ganache 
 markup: pandoc
+featured_image: /bg/macaron2.jpg
+featured_image_bg_color: bg-white-0
 ---
 
 # CINNAMON GANACHE

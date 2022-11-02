@@ -3,6 +3,7 @@ title: om
 slug: om
 lang: danish
 hero: "01"
+featured_image: /images/b-croissant.jpg
 menu:
   main:
     post: user
@@ -23,7 +24,7 @@ Terrible mestrer de svære teknikker indenfor kager og chokolade, og giver gerne
 
 I 2013 startede han fransk konditorskole i Frederiksberg. Ambitionen er at lære alle kage elskere at lave de franske klassikere.
 Undervisningen foregår på dansk, engelsk og fransk, og man får en grundig instruktion, så man kan lykkes med sine masterpieces.
-<--->
+
 {{< /columns >}} 
 
 

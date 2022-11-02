@@ -65,68 +65,14 @@ TERRIBLE II
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-size: 20px;
+	font-size: 16px;
 }
 
-
-/* layouts */
-nav,
-footer {
-	text-align: left;
-	padding: 1em;
-	background-color: var(--footer-bcolor);
+li {
+	list-style-position: inside;
+	text-align: start½;
 }
 
-body {
-	background:var(--bg-color);
-	color: var(--text-color);
-	margin: auto;
-	scrollbar-color: gray #151515;
-	font-family: sans-serif;
-}
-
-header {
-	display: flex;
-	justify-content: flex-start;
-	background-color: var(--header-bcolor);
-	min-height: 150px;
-	flex-direction: column;
-	width: 95% ;
-	max-width: 95% ;
-	z-index: 99;
-	position: relative;
-	margin: auto;
-
-}
-
-article,main {
-	text-align: left;
-	padding: 1em;
-	background-color:var(--article-bcolor);
-	overflow-wrap: normal;
-	width: 95% ;
-	max-width: 95% ;
-	position: relative;
-	margin: auto;
-	
-}
-footer {
-width: 95% ;
-max-width: 95% ;
-position: relative;
-margin: auto;
-}
-
-
-::-webkit-scrollbar {
-	width: .66vw;
-	background-color: #151515;
-}
-
-::-webkit-scrollbar-thumb {
-	background-color: gray;
-	border-radius: 5px;
-}
 
 a {
 	color: var(--link-color);
@@ -159,19 +105,23 @@ a:hover {
 h1 {
 	color: var(--bg-color);
 	text-align: center;
-	margin-top:0;
+	margin-bottom:1rem;
+}
+main h1 {
+	display: none;
 }
 
 h2 {
 	color: var(--text-color-dark-1);
 	text-align: center;
-	margin-top:0;
+	margin-bottom:1rem;
+	
 }
 
 h3 {
 	color: var(--bg-color);
 	text-align: start;
-	margin-top:0;
+	margin-bottom:1rem;
 }
 
 h4 {
@@ -180,7 +130,10 @@ h4 {
 
 }
 
-
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
 
 
 img {
@@ -254,6 +207,7 @@ hr {
 
 #articleList li {
 	padding: .25em;
+	list-style: none;
 }
 
 @media (min-width: 55em) {
@@ -377,15 +331,10 @@ button#clear-search:hover {
 .md-columns div {
 	flex: 1 1;
 	margin: 1rem 0;
-	min-width: 100px;
-	max-width: 100%;
 	padding: 0.5rem 1rem;
 }
 
-.markdown-inner {
-	margin-top: 0;
-	margin-bottom: 0;
-}
+
 
 /* tabs */
 .md-tabs {
@@ -971,17 +920,17 @@ button#clear-search:hover {
 /* mardown image no class  */
 /* img {display: block;} */
 img[title=banner]{float: none; margin: auto;}
-img[title^="none"]{float:none; margin-bottom:1em;}
-img[title^="left"]{float:left; margin-bottom:1em; padding-right: 2em;}
+img[title^="none"]{float:none; margin-bottom:1rem;}
+img[title^="left"]{float:left; margin-bottom:1rem; padding-right: 2rem; margin-top: 0.5rem;}
 img[title^="center"]{float:none; margin:auto;}
-img[title$="h25"]{height:25em;}
-img[title$="h15"]{height:15em;}
-img[title$="h10"]{height:10em;}
-img[title$="h8"]{height:8em;}
-img[title$="h6"]{height:6em;}
-img[title$="h4"]{height:4em;}
-img[title$="h2"]{height:2em;}
-img[title$="h1"]{height:1em;}
+img[title$="h25"]{height:25rem;}
+img[title$="h15"]{height:15rem;}
+img[title$="h10"]{height:10rem;}
+img[title$="h8"]{height:8rem;}
+img[title$="h6"]{height:6rem;}
+img[title$="h4"]{height:4rem;}
+img[title$="h2"]{height:2rem;}
+img[title$="h1"]{height:1rem;}
 
 
 .inline-svg {

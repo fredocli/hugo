@@ -1,26 +1,26 @@
 ---
 {}
 ---
-{{< columns >}}
-### TERRIBLE  
-Grundtvigsvej 10A  
-DK-1864 Frederiksberg C  
+{{< columns "w-33 pa3 mr2" >}}
+### TERRIBLE
+GRUNDTVIGSVEJ 10A  
+DK-1864 FREDERIKSBERG C  
 
-Tel : +45 25 14 78 50  
-kontakt@terrible.dk 
+TEL : +45 25 14 78 50  
+kontakt@terrible.dk   
 
-cvr-nr.: DK-21456373
+CVR-NR.: DK-21456373
 
-Bank: Jyske Bank  
-Bankkonto: 5015-1236614  
+BANK: JYSKE BANK  
+BANKKONTO: 5015-1236614  
 IBAN: DK5650150001236614  
 SWIFT: JYBADKKK  
 <---> 
 <---> 
-[![FØDEVARESTYRELSENS RAPPORTER](https://www.terrible.dk/wp-content/uploads/smiley-elite-1-e1514474830701.png)](http://www.findsmiley.dk/533114)
-{style="float:center"}
+### SMILEYORDNING
+[![FØDEVARESTYRELSENS RAPPORTER](/images/smiley.png "left")](http://www.findsmiley.dk/533114)
 
-[{{% fa facebook %}}](https://www.facebook.com/terrible.dk/) [{{% fa instagram %}}](https://www.instagram.com/terrible.dk/)
+
 
 
 {{< /columns >}}

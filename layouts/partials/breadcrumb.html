@@ -1,4 +1,5 @@
-<ul class="breadcrumb">
+<div id="breadcrumb" class="container">
+  <ul class="breadcrumb">
     {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
   </ul>
   
@@ -19,3 +20,4 @@
     <a href="{{ .Permalink }}">Go to the <span id="lang_{{ .Lang }}"> version</span> </a> 
   {{ end }}
   {{ end }}
+</div>

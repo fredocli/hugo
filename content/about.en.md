@@ -3,13 +3,14 @@ title: about
 slug: about
 lang: english
 hero: "01"
+featured_image: /images/b-croissant.jpg
 menu:
   main:
     post: user
     weight: 300
 
 ---
-{{< columns danger >}} 
+{{< columns warning >}} 
 ![FREDERIC TERRIBLE](/images/ft.jpg)
 <--->
 ### FREDERIC TERRIBLE
@@ -21,7 +22,7 @@ He loves to make everything from scratch by using only the best available local 
 In 2013 he started a French Pastry School in Frederiksberg.  
 The ambition of the school is to bring the classic features of french pastry to Denmark.  
 Classes includes detailed explanation in order to succeed your masterpieces and interesting and amusing anecdotes and are available in English, Danish and French.  
-<--->
+
 
 {{< /columns >}} 
 

@@ -1,7 +1,8 @@
 ---
 title: terrible
-hero: "01"
+hero: 
 herosubtitle: 
 herotitle: 
+featured_image: /bg/choux.jpg
 ---
 

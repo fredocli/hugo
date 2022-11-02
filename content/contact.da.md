@@ -3,6 +3,7 @@ title: kontakt
 slug: kontakt
 lang: danish
 hero: "01"
+featured_image: /images/01.jpg
 menu:
   main:
     post: at
@@ -10,4 +11,4 @@ menu:
 ---
 
 
-Kontakt mig på email: frederic@terrible.dk
+Kontakt mig på email: kontakt@terrible.dk

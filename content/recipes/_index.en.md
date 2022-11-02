@@ -1,10 +1,14 @@
 ---
 title: "recipes"
 slug: recipes
+layout: single  
 menu:
   main:
     post: book
     weight: 100
+featured_image: /bg/macaron2.jpg
+featured_image_bg_color: bg-white-0
+
 ---
 
 <div class="search js-only">

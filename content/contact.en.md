@@ -3,6 +3,7 @@ title: contact
 slug: contact
 lang: english
 hero: "01"
+featured_image: /images/01.jpg
 menu:
   main:
     post: at
