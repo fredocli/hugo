@@ -1,7 +1,6 @@
 baseURL: 'https://hugo.terrible.dk/'
 staticDir:
   - static
-  - /home/fred/Pictures
 languageCode: en-us
 canonifyURLs: true
 title: Terrible
