@@ -1,0 +1,34 @@
+more:
+  other: More
+allTitle:
+  other: 'All {{.Title }}'
+recentTitle:
+  other: '{{.Title }} recent'
+readMore:
+  other: read more
+by:
+  other: By
+whatsInThis:
+  other: 'What''s in {{ .Type }}'
+related:
+  other: Linked
+yourName:
+  other: Your name
+emailAddress:
+  other: Email address
+message:
+  other: Message
+emailRequiredNote:
+  other: An email address is required.
+send:
+  other: Send
+taxonomyPageList:
+  other: 'Below are pages using the taxonomic term “{{ .Title }}”'
+readingTime:
+  one: One minute to read
+  other: '{{ .Count }} minutes to read'
+wordCount:
+  one: One word
+  other: '{{ .Count }} words'
+pageTitle:
+  other: '{{ .Name }} page'
