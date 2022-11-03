@@ -1,0 +1,12 @@
+baseURL: 'https://wiki.terrible.dk/'
+title: wiki
+#theme: lugo
+theme : rugo
+
+#contentDir: /home/fred/hugo/content
+contentDir: /home/fred/.repo/wikicli/wiki
+contentDir: /home/fred/.repo/wikicli
+
+taxonomies:
+  tag: tags
+  
