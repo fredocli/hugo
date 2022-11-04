@@ -144,10 +144,7 @@ img {
 	margin: 0;
 }
 
-code {
-	overflow-wrap: break-word;
-	color: lime;
-}
+
 
 hr {
 	display: none;
@@ -200,9 +197,7 @@ align-items: center;
 
 }
 
-.older-article {
-	display: none;
-}
+
 
 .hidden {
 	display: none !important;
@@ -230,78 +225,17 @@ align-items: center;
 }
 
 
-input#search {
-	all: unset;
-	background: var(--header-bcolor);
-	color: #222;
-	padding: 0.7rem 1rem;
-	border-radius: 5px;
-	width: 100%;
-}
-
-.search {
-	width: 400px;
-	max-width: 85vw;
-	position: relative;
-	margin: 0.5rem auto 1.2rem;
-	display: flex;
-}
-
-button#clear-search {
-	all: unset;
-	position: absolute;
-	right: 4px;
-	top: 5px;
-	height: 30px;
-	width: 30px;
-	color: #888;
-	cursor: pointer;
-	transition: color 180ms ease-in-out;
-}
-
-button#clear-search:hover {
-	color: #eee;
-}
 
 
-.matched-recipe {
-	font-size: x-large;
-	display: list-item !important;
-}
 
-.list-searched {
-	column-count: 1 !important;
-	list-style: decimal;
-	max-width: 600px;
-	margin: auto;
-}
 
-.cryptocontainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.cryptoinfo {
-	max-width: 350px;
-	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.cryptoinfo code {
-	font-size: small;
-	overflow-wrap: break-word;
-}
 
 .qr {
 	max-height: 150px;
 	;
 }
 
-.js-only {
-	display: none;
-}
+
 
 /*breadcrumb */
 .breadcrumb {

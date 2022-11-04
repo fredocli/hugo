@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 </script>
 
-{{< articleList >}}
+{{< articleList "recipes" >}}
 
 ## TAGS
 

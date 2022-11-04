@@ -32,17 +32,20 @@ languages:
         help: hælp
 params:
   favicon: /favicon.svg
-  facebook: 'https://www.facebook.com/terrible.dk/' # rugo
-  instagram: 'https://www.instagram.com/terrible.dk/' # rugo
-  site_logo: /images/logo.png # rugo
-  background_color_class: bg-black-10 # rugo
-  text_color: dark-gray # rugo
+
   featured_image: /images/01.jpg
   indexarticles: 50
   taglist: true
   showrss: true
   stylesheet: /style.css  #lugo
-  custom_css : ["customa.css"] # rugo
+
+  facebook: 'https://www.facebook.com/terrible.dk/' # rugo
+  instagram: 'https://www.instagram.com/terrible.dk/' # rugo
+  site_logo: /images/logo.png # rugo
+  background_color_class: bg-black-10 # rugo
+    text_color: dark-gray # rugo
+  text_color: dark-gray # rugo
+  custom_css : ["/customa.css"] # rugo
 
 
 markup:

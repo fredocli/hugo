@@ -1,8 +1,19 @@
 <ul id=articleList>
+{{- /*  range where .Site.RegularPages "Params.title" "brioche"*/ -}}
+
+{{- $section:= .Get 0 -}}
 {{ $number := 0 -}}
-{{- range where .Site.RegularPages "Section" "recipes"  -}} 
-{{- /*  range where .Site.RegularPages "Params.title" "brioche" */ -}}
-{{- $number = add $number 1 -}}
-<li data-tags="{{.Params.Tags}}" {{ if gt $number .Site.Params.indexarticles }}class="older-article"{{ end }}><a href="{{.Permalink}}">{{.Title}}</a></li>
+{{ if $section }}
+    {{- /* print "section:" $section */ -}}
+    {{- range where .Site.RegularPages "Section" $section -}} 
+    {{- $number = add $number 1 -}}
+    <li data-tags="{{.Params.Tags}}" {{ if gt $number .Site.Params.indexarticles }}class="older-article"{{ end }}><a href="{{.Permalink}}">{{.Title}}</a></li>
+    {{ end }}
+{{ else }}
+    {{- /* print "section: not in site.Params.mainSections " */ -}}
+    {{- range where .Site.RegularPages "Type" "not in" site.Params.mainSections  -}} 
+    {{- $number = add $number 1 -}}
+    <li data-tags="{{.Params.Tags}}" {{ if gt $number .Site.Params.indexarticles }}class="older-article"{{ end }}><a href="{{.Permalink}}">{{.Title}}</a></li>
+    {{ end }}
 {{ end -}}
 </ul>

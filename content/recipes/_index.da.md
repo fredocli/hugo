@@ -19,7 +19,6 @@ featured_image_bg_color: bg-white-0
 </div>
 
 <script>
-// @license magnet:?xt=urn:btih:5ac446d35272cc2e4e85e4325b146d0b7ca8f50c&dn=unlicense.txt Unlicense
 
 document.addEventListener("DOMContentLoaded", () => {
   for (e of document.getElementsByClassName("js-only")) {
@@ -66,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-{{< articleList >}}
+{{< articleList "recipes" >}}
 
 ## TAGS
 

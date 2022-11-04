@@ -1,12 +1,73 @@
 baseURL: 'https://wiki.terrible.dk/'
 title: wiki
-#theme: lugo
-theme : rugo
-
-#contentDir: /home/fred/hugo/content
-contentDir: /home/fred/.repo/wikicli/wiki
+theme: rugo  # ananke rugo  lugo
+#stylesheets:  ["search.css", style.css]
 contentDir: /home/fred/.repo/wikicli
+
+
+params:
+  favicon: /favicon.ico
+  custom_css : [ "search.css","customa.css"] # rugo   customa
+  facebook: 'https://www.facebook.com/terrible.dk/' # rugo
+  instagram: 'https://www.instagram.com/terrible.dk/' # rugo
+  site_logo: /images/logo.png # rugo
+  background_color_class: bg-black-10 # rugo
+  text_color: dark-gray # rugo
+  custom_css : ["/customa.css"] # rugo
+  mainSections:
+    - others
+
+
 
 taxonomies:
   tag: tags
+
+
+
+markup:
+  #defaultMarkdownHandler: "pandoc"
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: github
+      attribute:
+        block: true
+        title: true
+    renderer:
+      hardWraps: true
+      unsafe: true
+      xhtml: true
+ 
+
+
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+      - ^dart-sass-embedded$
+      - ^go$
+      - ^npx$
+      - ^postcss$
+      - ^pandoc$
+      - ^nvim$
+      - pandoc
+    osEnv:
+      - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
+  funcs:
+    getenv:
+      - ^HUGO_
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - .*      
   
