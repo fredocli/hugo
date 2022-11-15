@@ -1,4 +1,4 @@
-<ul class="hugo partial taglist list pl0 ">
+<ul class="hugo partial taglist list pl0 center  pv5 ph3 ph4-ns mw8">
 {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
 	{{ with $.Site.GetPage (printf "/tags/%s" $name) }}
 	<li><a href={{ .RelPermalink }} title="All pages with tag <i>{{$name}}</i>">{{$name}}<span> ({{$cnt}})</span></a></li>

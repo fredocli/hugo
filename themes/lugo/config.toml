@@ -1,6 +1,0 @@
-title = "Website Name"
-baseURL = 'https://example.org'
-
-
-[params]
-  favicon = "/favicon.ico"

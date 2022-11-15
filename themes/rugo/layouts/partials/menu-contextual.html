@@ -7,8 +7,29 @@
   <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">{{ i18n "whatsInThis" . }}</p>
       {{ .TableOfContents }}
-  </div>
+  </div>cot
 {{- end -}}
+
+
+
+
+{{- $sub_section:= replaceRE `^.*\/(.*)\/$` "$1" .CurrentSection.File.Dir -}}
+<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+  <p class="f5 b mb3">{{ i18n "section" }}</p>
+  <ul class="pa0 list">
+{{- range where .Site.RegularPages "Section" "recipes" -}} 
+{{- $s := .File.Dir }}
+{{- $file_subdir:= replaceRE `^.*\/(.*)\/$` "$1" $s }}
+        {{- if eq $sub_section $file_subdir -}}
+            {{- $good := "good" -}}
+            <li data-tags="{{.Params.Tags}}" class="$sub_section"> <a href="{{.Permalink}}">{{.Title}}</a></li>  
+        {{- end -}}
+
+{{- end }}
+</ul>
+</div>
+
+
 
 {{/*
   Use Hugo's native related content feature to pull in content that may have similar parameters, like tags. etc.
@@ -16,13 +37,12 @@
 */}}
 
 {{ $related := .Site.RegularPages.Related . | first 15 }}
-
 {{ with $related }}
   <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">{{ i18n "related" }}</p>
     <ul class="pa0 list">
 	   {{ range . }}
-	     <li  class="mb2">
+	     <li  class="">
           <a href="{{ .RelPermalink }}">
             {{- .Title -}}
           </a>
@@ -31,3 +51,5 @@
     </ul>
 </div>
 {{ end }}
+
+

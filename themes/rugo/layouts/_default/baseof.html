@@ -46,7 +46,8 @@
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb3" role="main">
-      {{ block "main" . }}{{ end }}
+      {{ block "main" . }}
+      {{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
   </body>

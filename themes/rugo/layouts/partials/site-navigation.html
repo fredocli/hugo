@@ -1,6 +1,7 @@
+{{ $currentPage := . }}
 <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
-    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white no-underline white-90 dib">
+    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-black no-underline black-90 dib">
       {{ with .Site.Params.site_logo }}
         <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
       {{ else }}
@@ -10,11 +11,13 @@
     <div class="flex-l items-center">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
-        <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
+        <ul class="menu  flex-l items-center pl0 mr3 ">
           {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-              {{ .Name }}
+          <li class="menu-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}  list f5 f4-ns fw4 dib pr3 pa2">
+            <a class=" hover-black no-underline black-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+              {{ if .Pre }}{{ partial "fa.html"  .Pre  }}{{ end }}
+              <span>{{ .Name }}</span>
+              {{ if .Post }}{{ partial "fa.html"  .Post  }}{{ end }}
             </a>
           </li>
           {{ end }}
@@ -23,4 +26,22 @@
       {{ partialCached "social-follow.html" . }}
     </div>
   </div>
+</nav>
+<nav>
+      {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+              <ul class="sub-menu  {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                  {{ range .Children }}
+                      <li class="sub-menu-item pa2 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                          <a href="{{ .URL }}" class="hover-black no-underline black-90" >
+                            {{ if .Pre }}{{ partial "fa.html"  .Pre  }}{{ end }}
+                            <span>{{ .Name }}</span>
+                            {{ if .Post }}{{ partial "fa.html"  .Post  }}{{ end }}
+
+                          </a>
+                      </li>
+                  {{ end }}
+          {{ end }}
+      {{ end }}
+  </ul>
 </nav>

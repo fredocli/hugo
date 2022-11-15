@@ -4,11 +4,11 @@ slug: about
 lang: english
 hero: "01"
 featured_image: /images/b-croissant.jpg
+layout: basic
 menu:
   main:
     post: user
     weight: 300
-
 ---
 {{< columns warning >}} 
 ![FREDERIC TERRIBLE](/images/ft.jpg)

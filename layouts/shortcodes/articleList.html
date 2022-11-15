@@ -2,13 +2,31 @@
 {{- /*  range where .Site.RegularPages "Params.title" "brioche"*/ -}}
 
 {{- $section:= .Get 0 -}}
-{{ $number := 0 -}}
+{{- $sub_section:= .Get 1 -}}
+
 {{ if $section }}
     {{- /* print "section:" $section */ -}}
     {{- range where .Site.RegularPages "Section" $section -}} 
-    {{- $number = add $number 1 -}}
-    <li data-tags="{{.Params.Tags}}" {{ if gt $number .Site.Params.indexarticles }}class="older-article"{{ end }}><a href="{{.Permalink}}">{{.Title}}</a></li>
-    {{ end }}
+        {{- $s := .File.Dir }}
+        {{- $file_subdir:= replaceRE `^.*\/(.*)\/$` "$1" $s }}
+            {{- if $sub_section }}
+
+                {{- if eq $sub_section $file_subdir -}}
+                    {{- $good := "good" -}}
+                    <li data-tags="{{.Params.Tags}}" class="$sub_section"> <a href="{{.Permalink}}">{{.Title}}</a></li>
+                {{- else -}}    
+
+                {{- end -}}
+            {{ else }}    
+    
+                <li data-tags="{{.Params.Tags}} {{ $file_subdir }}" class="all"> <a href="{{.Permalink}}">{{.Title}} [{{ $file_subdir }}]</a></li>
+            {{- end }}
+
+
+
+    {{- end }}
+
+
 {{ else }}
     {{- /* print "section: not in site.Params.mainSections " */ -}}
     {{- range where .Site.RegularPages "Type" "not in" site.Params.mainSections  -}} 

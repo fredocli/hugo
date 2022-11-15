@@ -23,27 +23,62 @@ tags:
 
 ### split markdown file "macaron_da.md"
 ```bash
-cd /home/fred/hugo/content/recipes
-csplit --suppress-matched -f "macaron-" -b "%02d.da.md" /home/fred/.repo/traductions/recettes/source/macaron_da.md '/-----/' '{*}'
-csplit --suppress-matched -f "macaron-" -b "%02d.en.md" /home/fred/.repo/traductions/recettes/target/macaron_da_en.md '/-----/' '{*}'
+SECTION="macaron"
+cd /home/fred/hugo/content/recipes/${SECTION}/
+csplit --suppress-matched -f "${SECTION}-" -b "%02d.da.md" /home/fred/.repo/traductions/recettes/source/${SECTION}_da.md '/-----/' '{*}'
+csplit --suppress-matched -f "${SECTION}-" -b "%02d.en.md" /home/fred/.repo/traductions/recettes/target/${SECTION}_da_en.md '/-----/' '{*}'
+
+SECTION="wi"
+cd /home/fred/hugo/content/recipes/${SECTION}/
+csplit --suppress-matched -f "${SECTION}-" -b "%02d.da.md" /home/fred/.repo/traductions/recettes/source/${SECTION}_da.md '/-----/' '{*}'
+csplit --suppress-matched -f "${SECTION}-" -b "%02d.en.md" /home/fred/.repo/traductions/recettes/target/${SECTION}_da_en.md '/-----/' '{*}'
+
+
+SECTION="chokolader"
+cd /home/fred/hugo/content/recipes/${SECTION}/
+csplit --suppress-matched -f "${SECTION}-" -b "%02d.da.md" /home/fred/.repo/traductions/recettes/source/${SECTION}_da.md '/-----/' '{*}'
+sed -i '1{/^---$/!q;};1,/^---$/d'  ${SECTION}-00.da.md
+
+#csplit --suppress-matched -f "${SECTION}-" -b "%02d.en.md" /home/fred/.repo/traductions/recettes/target/${SECTION}_da_en.md '/-----/' '{*}'
+
+
 ```
 
 ### remove front matter from a mardown file
-https://sed.js.org/index.html?gist=dd5b501657bdc24b18835d618746e8c0
 
-```bash
+https://sed.js.org/index.html?gist=6602f5539ecb7ad5503d159e21e78e4a
 
-sed -i '1{/^---$/!q;};1,/^---$/d'  macaron-00.da.md
-sed -i '1{/^---$/!q;};1,/^---$/d'  macaron-00.en.md
+```text
+sed -i '1 { /^---/ { :a N; /\n---/! ba; d} }' INPUT_FILE
+```
+
+
+
+
+
+```text
+1 {              # in the first line
+  /^---/ {       # if it starts with ---
+    :a           # jump label for looping
+    N            # fetch the next line, append to pattern space
+    /\n---/! ba; # if the result does not contain \n--- (that is, if the last
+                 # fetched line does not begin with ---), go back to :a
+    d            # then delete the whole thing.
+  }
+}
+                 # otherwise drop off the end here and do the default (print
+                 # the line)
 
 ```
+
+
 
 ### add front matter to all mardown file "*da.md"
 
 ```bash
 
-find -name "macaron*.da.md" -exec bash -c ' cat "{}"| cat da.yml - |tee "{}" ' \;
-find -name "macaron*.en.md" -exec bash -c ' cat "{}"| cat en.yml - |tee "{}" ' \;
+find -name "${SECTION}*.da.md" -exec bash -c ' cat "{}"| cat da.yml - |tee "{}" ' \;
+find -name "${SECTION}*.en.md" -exec bash -c ' cat "{}"| cat en.yml - |tee "{}" ' \;
 
 ```
 

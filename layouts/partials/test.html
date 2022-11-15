@@ -1,0 +1,29 @@
+
+# SECTIONS LIST
+
+
+{{ range .Site.Sections }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+
+
+# SUBSECTIONS LIST
+
+      {{ range (where .Site.Pages "Section" "recipes") }}
+        <ul class="no-bullet">
+            {{ range .Sections }}
+            <li>
+                <span><time datetime="{{.Date}}">{{ .Date}}</time></span>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+      {{ end }}
+
+
+
+
+
+{{/* keep the / right next to the parenthesis */}}
+{{/* printf "%#v" $.CurrentSection.Title */}}
+{{/* printf "%#v" (eq $.Parent.Title "Projects") */}}

@@ -4,10 +4,12 @@
 {{ upper .Title }}
 {{ end }}
 {{ define "main" }}
+<article class=" mw8 center ph3" >
+  {{ if os.FileExists "README.md" }}
+  {{ os.ReadFile "README.md" | markdownify }}
+  {{ end }}
+</article>
 {{ if .Param "hero" }}
-
-
-      
 <div class="hero" style="background-image: url(/images/{{ .Params.hero }}.jpg);">
     <div class="hero-container">
       <h1>{{ .Params.Herotitle }}</h1>
@@ -18,8 +20,8 @@
     <div>
      <h1 id="title"></h1>
     </div>
-  </main>
 
+  </main>
 {{ end }}
 {{ .Content }}
 {{ end }}

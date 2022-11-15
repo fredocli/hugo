@@ -4,6 +4,7 @@ slug: contact
 lang: english
 hero: "01"
 featured_image: /images/01.jpg
+layout: basic
 menu:
   main:
     post: at

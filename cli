@@ -1,0 +1,36 @@
+#!/bin/bash
+# Voire Documentation cli:  Frontmatter
+
+
+hrecette_root_path="/home/fred/hrecette/content"
+sections="wi macaron chokolader fylde_chokolader"
+sections="chokolader fyldte_chokolader"
+for section in $sections 
+do
+echo "${section}"
+
+if [ -d ${hrecette_root_path}/recipes/${section}  ] 
+then
+
+
+cd ${hrecette_root_path}/recipes/${section}/ && echo "section  '${section}' exist" 
+
+else
+
+mkdir ${hrecette_root_path}/recipes/${section}
+cd ${hrecette_root_path}/recipes/${section}/ || echo "section  '${section}' exist" 
+
+fi
+
+echo 123
+
+csplit --suppress-matched -f "${section}-" -b "%02d.da.md" /home/fred/.repo/traductions/recettes/source/${section}_da.md '/-----/' '{*}'
+sed -i '1 { /^---/ { :a N; /\n---/! ba; d} }' ${section}-00.da.md
+
+csplit --suppress-matched -f "${section}-" -b "%02d.en.md" /home/fred/.repo/traductions/recettes/target/${section}_da_en.md '/-----/' '{*}'
+sed -i '1 { /^---/ { :a N; /\n---/! ba; d} }' ${section}-00.en.md
+
+done
+
+
+exit 0

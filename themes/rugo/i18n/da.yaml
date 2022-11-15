@@ -7,11 +7,11 @@ recentTitle:
 readMore:
   other: lire plus
 by:
-  other: Par
+  other: Af
 whatsInThis:
-  other: 'Ce qui est dans {{ .Type }}'
+  other: 'Hvad er der i {{ .Type }}'
 related:
-  other: Lié
+  other: relaterede
 yourName:
   other: Votre nom
 emailAddress:

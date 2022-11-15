@@ -106,15 +106,16 @@ h1 {
 	color: var(--bg-color);
 	text-align: center;
 	margin-bottom:1rem;
+	font-size: 1.5rem;
 }
-main h1 {
-	display: none;
+#ingredienser, #ingredients {
+margin-top: 0;
 }
 
 h2 {
 	color: var(--text-color-dark-1);
-	text-align: center;
-	margin-bottom:1rem;
+	text-align: left;
+	margin:1rem;
 	
 }
 
@@ -147,7 +148,8 @@ img {
 
 
 hr {
-	display: none;
+
+	margin: 1rem;
 }
 
 .taglist {
@@ -397,23 +399,34 @@ align-items: center;
 	}
 	
 	/* Menu that will appear */
-	.menu {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 15%;
-		height: 100%;
-		padding: 15px;
-	  background: var(--header-bcolor);
-		transform: translateX(-100%);
-		transition: transform 0.5s; 
-	}
-	
+
+
 	.menu.active {
-		transform: translateX(0);
+		display: block;
+	}
+
+	.menu-item.active {
+		background-color: rgba(255, 255, 255, 0.532);
+	}
+
+	.sub-menu{
+		display: none; 
+   }
+
+	.sub-menu-item.active {
+		background-color: rgba(255, 255, 255, 0.532);
+	}
+
+	.sub-menu.active {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.sub-menu.active,.sub-menu a.active{
+		background-color: rgba(232, 234, 230, 0.156);
 	}
 	
-	.menu li {
+	.menu li ,.sub-menu li{
 		list-style-type: none;
 	}
 
@@ -861,17 +874,17 @@ align-items: center;
 /* mardown image no class  */
 /* img {display: block;} */
 img[title=banner]{float: none; margin: auto;}
-img[title^="none"]{float:none; margin-bottom:1rem;}
-img[title^="left"]{float:left; margin-bottom:1rem; padding-right: 2rem; margin-top: 0.5rem;}
-img[title^="center"]{float:none; margin:auto;}
-img[title$="h25"]{height:25rem;}
-img[title$="h15"]{height:15rem;}
-img[title$="h10"]{height:10rem;}
-img[title$="h8"]{height:8rem;}
-img[title$="h6"]{height:6rem;}
-img[title$="h4"]{height:4rem;}
-img[title$="h2"]{height:2rem;}
-img[title$="h1"]{height:1rem;}
+img[title^="none"]{float:none; margin:unset}
+img[title^="left"]{float:left; margin-bottom:unset; padding-right: 2rem; margin-top: unset;}
+img[title^="center"]{float:none; margin:unset;}
+img[title$="h25"]{height:calc(25rem * 0.5);}
+img[title$="h15"]{height:calc(15rem * 0.5);}
+img[title$="h10"]{height:calc(10rem * 0.5);}
+img[title$="h8"]{height: calc(8rem  * 0.5);}
+img[title$="h6"]{height: calc(6rem  * 0.5);}
+img[title$="h4"]{height: calc(4rem  * 0.5);}
+img[title$="h2"]{height: calc(2rem  * 0.5);}
+img[title$="h1"]{height: calc(1rem  * 0.5);}
 
 
 .inline-svg {
@@ -881,3 +894,14 @@ img[title$="h1"]{height:1rem;}
 	top: 0.15rem;
 	position: relative;
   }
+
+  /* TableOfContents */
+  
+#TableOfContents ul li {
+margin: 0;
+padding: 0;
+}
+
+.nested-links a {
+text-transform: lowercase;
+}

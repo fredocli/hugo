@@ -3,7 +3,22 @@ title: wiki
 theme: rugo  # ananke rugo  lugo
 #stylesheets:  ["search.css", style.css]
 contentDir: /home/fred/.repo/wikicli
+contentDir: /home/fred/.repo/box
 
+summaryLength: 10
+
+sectionPagesMenu: main #fnot-main -> for avoid to index folders (cours ingredients etc..) 
+paginate: 50
+# MENU #  
+menu:
+  main:
+    - identifier: home
+      name: Home
+      pre: 
+      post: basket
+      url: /
+      weight: -100
+     
 
 params:
   favicon: /favicon.ico
@@ -11,7 +26,7 @@ params:
   facebook: 'https://www.facebook.com/terrible.dk/' # rugo
   instagram: 'https://www.instagram.com/terrible.dk/' # rugo
   site_logo: /images/logo.png # rugo
-  background_color_class: bg-black-10 # rugo
+  background_color_class: bg-white-10 # rugo
   text_color: dark-gray # rugo
   custom_css : ["/customa.css"] # rugo
   mainSections:
@@ -50,7 +65,7 @@ markup:
 
 
 security:
-  enableInlineShortcodes: false
+  enableInlineShortcodes: true
   exec:
     allow:
       - ^dart-sass-embedded$
@@ -60,6 +75,7 @@ security:
       - ^pandoc$
       - ^nvim$
       - pandoc
+      - ls
     osEnv:
       - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
   funcs:

@@ -3,7 +3,7 @@
     {{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}
     <h2 class="f3 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">
-        {{ .Title }}
+        {{ .Title }}   {{ .File.TranslationBaseName }}
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">

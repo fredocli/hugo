@@ -1,17 +1,27 @@
 ---
-Description: speciality from sweden
-Genre: recettes
-Lang: danish
-Title: test page
-author: fred
+
+lang: danish
+title: test page
 date: "2021-03-11"
 hero: "03"
 herosubtitle: Ceci est un subtitle
 herotitle: Ceci est un test
-draft: true
+draft: false
 ---
 
+# sections
+{{ range .Site.Sections }}
+  <li><a href="/{{ . }}">{{ . }}</a></li>
+{{ end }}
+
+# AUTRE
+
 [{{% fa facebook %}}](https://www.facebook.com/terrible.dk/) [{{% fa instagram %}}](https://www.instagram.com/terrible.dk/)
+
+{{ range where .Site.Pages "Section"  ""}}
+  {{ .File }}  -->  {{ .Section }}<br>
+{{ end }}
+
 
 {{< ingredients >}}
 
