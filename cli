@@ -4,7 +4,7 @@
 
 hrecette_root_path="/home/fred/hrecette/content"
 sections="wi macaron chokolader fylde_chokolader"
-sections="chokolader fyldte_chokolader"
+sections="brioche citron"
 for section in $sections 
 do
 echo "${section}"

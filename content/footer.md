@@ -1,7 +1,7 @@
 ---
 {}
 ---
-{{< columns "w-33 pa3 mr2" >}}
+{{< columns " pa3 mr2" >}}
 ### TERRIBLE
 GRUNDTVIGSVEJ 10A  
 DK-1864 FREDERIKSBERG C  

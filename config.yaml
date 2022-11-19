@@ -35,6 +35,7 @@ params:
   favicon: /favicon.svg
   author: Frédéric Terrible
 
+
   featured_image: /images/01.jpg
   indexarticles: 50
   taglist: true

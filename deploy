@@ -1,4 +1,15 @@
 #!/bin/bash
+# recipes.terrible.dk
+HUGO_ENV="production" ; hugo  --minify \
+--baseURL  https://recipes.terrible.dk \
+--config config.yaml 
+firebase deploy --only hosting:recipes-6666 
+
+
+exit 0
+
+
+
 USER=terrible.dk
 HOST=ssh.terrible.dk
 DIR=/customers/7/2/2/terrible.dk/httpd.www/hugo/   # the directory where your web site files should go
@@ -11,11 +22,3 @@ HUGO_ENV="production" ;hugo  --minify \
 sshpass -p $(pass "ssh.terrible.dk") rsync -aviz   --progress --delete  public/  ${USER}@${HOST}:${DIR}
 
 exit
-# recipes.terrible.dk
-HUGO_ENV="production" ; hugo  --minify \
---baseURL  https://recipes.terrible.dk \
---config config.yaml 
-firebase deploy --only hosting:recipes-6666 
-
-
-exit 0

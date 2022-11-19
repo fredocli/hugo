@@ -31,34 +31,50 @@ TERRIBLE II
 
 
 :root {
-    --bg-color: #413D0E ; /*Darkolive*/
-	--header-bcolor: #AEA844; /* Shitgreen*/
-	--footer-bcolor: #E5D7B7; /* Pale*/
-	--article-bcolor:#EAE9DD ; /* Lightgrey*/  
-	--text-color-dark: #1C1C1C;  /* Almostblack */
-    --text-color-dark-1: #333333; /*Darkgrey*/
-    --text-color-dark-2: #3E3E41; /* grey */
+	--bg-color: #413D0E;
+	/*Darkolive*/
+	--header-bcolor: #AEA844;
+	/* Shitgreen*/
+	--footer-bcolor: #E5D7B7;
+	/* Pale*/
+	--article-bcolor: #EAE9DD;
+	/* Lightgrey*/
+	--text-color-dark: #1C1C1C;
+	/* Almostblack */
+	--text-color-dark-1: #333333;
+	/*Darkgrey*/
+	--text-color-dark-2: #3E3E41;
+	/* grey */
 
-    --link-color: #668000;  /* Olivegreen */
-    --link-visited-color: #668000;  /* Olivegreen */
-    --link-hover-color:  #413D0E ; /*Darkolive*/
+	--link-color: #668000;
+	/* Olivegreen */
+	--link-visited-color: #668000;
+	/* Olivegreen */
+	--link-hover-color: #413D0E;
+	/*Darkolive*/
 
-	--failure-color: #B6605F ;  /*Dirty pink*/
-	--success-color: #8CA7BA; /*Bluey grey*/
+	--failure-color: #B6605F;
+	/*Dirty pink*/
+	--success-color: #8CA7BA;
+	/*Bluey grey*/
 
-    --md-hint-info-color: #8CA7BA; /*Bluey grey*/
-    --md-hint-warning-color:#C7A868  ;  /*Tan*/
-    --md-hint-danger-color: #B6605F ;  /*Dirty pink*/
-    --md-hint-normal: #B2B2B2;/* Silver */ 
+	--md-hint-info-color: #8CA7BA;
+	/*Bluey grey*/
+	--md-hint-warning-color: #C7A868;
+	/*Tan*/
+	--md-hint-danger-color: #B6605F;
+	/*Dirty pink*/
+	--md-hint-normal: #B2B2B2;
+	/* Silver */
 
-    --md-bg-color-light: #f8f9fa;
-    --md-bg-color-dark: #e9ecef;
+	--md-bg-color-light: #f8f9fa;
+	--md-bg-color-dark: #e9ecef;
 
- 
-    --twitter-blue: #55acee;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Roboto', "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
-    --font-family-monospace: 'Roboto Mono', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --mobile-breakpoint: 800px
+
+	--twitter-blue: #55acee;
+	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Roboto', "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+	--font-family-monospace: 'Roboto Mono', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--mobile-breakpoint: 800px
 }
 
 * {
@@ -105,24 +121,26 @@ a:hover {
 h1 {
 	color: var(--bg-color);
 	text-align: center;
-	margin-bottom:1rem;
+	margin-bottom: 1rem;
 	font-size: 1.5rem;
 }
-#ingredienser, #ingredients {
-margin-top: 0;
+
+#ingredienser,
+#ingredients {
+	margin-top: 0;
 }
 
 h2 {
 	color: var(--text-color-dark-1);
 	text-align: left;
-	margin:1rem;
-	
+	margin: 1rem;
+
 }
 
 h3 {
 	color: var(--bg-color);
 	text-align: start;
-	margin-bottom:1rem;
+	margin-bottom: 1rem;
 }
 
 h4 {
@@ -132,8 +150,8 @@ h4 {
 }
 
 p {
-    font-size: 1rem;
-    line-height: 1.5rem;
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 
 
@@ -148,29 +166,29 @@ img {
 
 
 hr {
-
+	border-color: transparent;	
 	margin: 1rem;
 }
 
 .taglist {
 	display: flex;
 	flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
 	gap: 0.8rem;
 
 }
 
-.taglist li{
-align-items: center;
+.taglist li {
+	align-items: center;
 }
 
 
 #socials {
-    position: absolute;
-    right: 2vw;
-    font-size: 2rem;
-    top: 5px;
+	position: absolute;
+	right: 2vw;
+	font-size: 2rem;
+	top: 5px;
 }
 
 
@@ -275,6 +293,7 @@ align-items: center;
 	flex: 1 1;
 	margin: 1rem 0;
 	padding: 0.5rem 1rem;
+	min-width: 25rem;
 }
 
 
@@ -318,573 +337,289 @@ align-items: center;
 /* hint */
 
 .info {
-	  border-left-color: rgba(var(--md-hint-info-color), 1);
-	  background-color: rgba(var(--md-hint-info-color), 0.25);
-	}
-  
-	.warning {
-	
-	  border-left-color: var(--md-hint-warning-color);
-	  background-color: var(--md-hint-warning-color);
-	
-	}
-  
-	.danger {
-	  border-left-color: rgba(var(--md-hint-danger-color), 1);
-	  background-color: var(--md-hint-danger-color);
-	}
-  
-	.normal {
-	  border-left-color: rgba(var(--md-hint-normal), 1);
-	  background-color: rgba(var(--md-hint-normal), 0.05);
-	}
-
-
-	/*menu*/
-
-
-	header .container {
-		margin-left: 5%;
-	}
-
-	.logo_container{
-			position: absolute;
-			height: 100%;
-			width: 100%;
-	}
-
-	#breadcrumb {
-		margin-left: 250px;
-	}
-	
-	.menu-btn { /* Burger icon */
-		width: 30px;
-		height: 30px;
-		position: relative;
-		z-index:2;
-		overflow: hidden;
-		padding: 1em;
-		left:250px;
-	}
-	
-	.menu-btn span {
-		width: 30px;
-		height: 2px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		background-color: #222222;
-		transition: all 0.5s;
-	}
-	
-	.menu-btn span:nth-of-type(2) {
-		top: calc(50% - 5px);
-	}
-	.menu-btn span:nth-of-type(3) {
-		top: calc(50% + 5px);
-	}
-	
-	/* Changing the hamburger icon when the menu is open */
-	.menu-btn.active span:nth-of-type(1) {
-	  display: none;
-	}
-	.menu-btn.active span:nth-of-type(2) {
-	  top: 50%;
-	  transform: translate(-50%, 0%) rotate(45deg);  
-	}
-	.menu-btn.active span:nth-of-type(3) {
-	  top: 50%;
-	  transform: translate(-50%, 0%) rotate(-45deg); 
-	}
-	
-	/* Menu that will appear */
-
-
-	.menu.active {
-		display: block;
-	}
-
-	.menu-item.active {
-		background-color: rgba(255, 255, 255, 0.532);
-	}
-
-	.sub-menu{
-		display: none; 
-   }
-
-	.sub-menu-item.active {
-		background-color: rgba(255, 255, 255, 0.532);
-	}
-
-	.sub-menu.active {
-		display: flex;
-		justify-content: space-evenly;
-	}
-
-	.sub-menu.active,.sub-menu a.active{
-		background-color: rgba(232, 234, 230, 0.156);
-	}
-	
-	.menu li ,.sub-menu li{
-		list-style-type: none;
-	}
-
-	/* hero */
-
-	.hero {
-		background-color: #55acee;
-		background-image: url(./images/22.jpg);
-		background-size: cover;
-		background-position: center;
-		background-blend-mode: normal;
-		color: white;
-		padding-top: 100px;
-		padding-bottom: 100px;
-
-	}
-	.hero-container{
-		max-width: 960px;
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-
-	/*TABLE*/
-	table {
-		margin-bottom: 24px;
-		border-spacing: 0;
-		border-bottom: 1px solid black;
-		border-top: 1px solid black;
-		font-family: "Courier New";
-		padding: 0;
-	}
-	table th {
-		padding: 3px 10px;
-		background-color:lightgrey;
-		border-top: none;
-		border-left: none;
-		border-right: none;
-		border-bottom: 1px solid black;
-	}
-	table td {
-		padding: 3px 10px;
-		border-top: none;
-		border-left: none;
-		border-bottom: none;
-		border-right: none;
-	}
-	table tr {
-		border-top: 1px solid #cccccc;
-		background-color: white;
-		margin: 0;
-		padding: 0; }
-	
-	table tr:nth-child(2n) { background-color: #f8f8f8; }
-	
-	table tr th {
-		  font-weight: bold;
-		  border: 1px solid #cccccc;
-		  text-align: left;
-		  margin: 0;
-		  padding: 6px 13px; }
-	
-	table tr td {
-		  border: 1px solid #cccccc;
-		  text-align: left;
-		  margin: 0;
-		  padding: 2px 6px; 
-		 vertical-align: top; 
-	  }
-	
-	table tr th :first-child, table tr td :first-child { margin-top: 0; }
-	table tr th :last-child, table tr td :last-child { margin-bottom: 0; }
-
-/* icon */
-
-#tag_alcohol:before {
-	content: "🍸";
-}
-
-#tag_american:before {
-	content: "🇺🇸";
-}
-
-#tag_argentinian:before {
-	content: "🇦🇷";
-}
-
-#tag_asian:before {
-	content: "🥢";
-}
-
-#tag_australian:before {
-	content: "🇦🇺";
-}
-
-#tag_austrian:before {
-	content: "🇦🇹";
-}
-
-#tag_bacon:before {
-	content: "🥓";
-}
-
-#tag_beans:before {
-	content: "🫘";
-}
-
-#tag_beef:before {
-	content: "🐄";
-}
-
-#tag_belgian:before {
-	content: "🇧🇪";
-}
-
-#tag_brazilian:before {
-	content: "🇧🇷";
-}
-
-#tag_bread:before {
-	content: "🍞";
-}
-
-#tag_breakfast:before {
-	content: "🌅";
-}
-
-#tag_broccoli:before {
-	content: "🥦";
-}
-
-#tag_cake:before {
-	content: "🍰";
-}
-
-#tag_cheese:before {
-	content: "🧀";
-}
-
-#tag_chicken:before {
-	content: "🐔";
-}
-
-#tag_chinese:before {
-	content: "🐉";
-}
-
-#tag_chocolate:before {
-	content: "🍫";
-}
-
-#tag_cookies:before {
-	content: "🍪";
-}
-
-#tag_corn:before {
-	content: "🌽";
-}
-
-#tag_curry:before {
-	content: "🍛";
-}
-
-#tag_dessert:before {
-	content: "🍮";
-}
-
-#tag_dominican:before {
-	content: "🇩🇴";
-}
-
-#tag_drink:before {
-	content: "🍹";
-}
-
-#tag_duck:before {
-	content: "🦆";
+	border-left-color: rgba(var(--md-hint-info-color), 1);
+	background-color: rgba(var(--md-hint-info-color), 0.25);
 }
 
-#tag_dumpling:before {
-	content: "🥟";
-}
-
-#tag_dutch:before {
-	content: "🇳🇱";
-}
-
-#tag_easter:before {
-	content: "✝️";
-}
-
-#tag_eggs:before {
-	content: "🥚";
-}
-
-#tag_english:before {
-	content: "🏴󠁧󠁢󠁥󠁮󠁧󠁿";
-}
-
-#tag_fasting:before {
-	content: "☦️";
-}
-
-#tag_filipino:before {
-	content: "🇵🇭";
-}
-
-#tag_fish:before {
-	content: "🐟";
-}
-
-#tag_french:before {
-	content: "🇫🇷";
-}
-
-#tag_fruit:before {
-	content: "🍇";
-}
-
-#tag_german:before {
-	content: "🇩🇪";
-}
-
-#tag_greek:before {
-	content: "🇬🇷";
-}
-
-#tag_indian:before {
-	content: "🇮🇳";
-}
-
-#tag_irish:before {
-	content: "🇮🇪";
-}
-
-#tag_israeli:before {
-	content: "🇮🇱";
-}
-
-#tag_italian:before {
-	content: "🇮🇹";
-}
-
-#tag_japanese:before {
-	content: "🇯🇵";
-}
-
-#tag_lebanese:before {
-	content: "🇱🇧";
-}
-
-#tag_lemons:before {
-	content: "🍋";
-}
-
-#tag_liquour:before {
-	content: "🥃";
-}
+.warning {
 
-#tag_lunch:before {
-	content: "🍱";
-}
-
-#tag_mediterranean:before {
-	content: "🫒";
-}
+	border-left-color: var(--md-hint-warning-color);
+	background-color: var(--md-hint-warning-color);
 
-#tag_mexican:before {
-	content: "🇲🇽";
 }
 
-#tag_milk:before {
-	content: "🥛";
+.danger {
+	border-left-color: rgba(var(--md-hint-danger-color), 1);
+	background-color: var(--md-hint-danger-color);
 }
 
-#tag_mushrooms:before {
-	content: "🍄";
+.normal {
+	border-left-color: rgba(var(--md-hint-normal), 1);
+	background-color: rgba(var(--md-hint-normal), 0.05);
 }
 
-#tag_pancake:before {
-	content: "🥞";
-}
 
-#tag_pasta:before {
-	content: "🍝";
-}
+/*menu*/
 
-#tag_pastry:before {
-	content: "🧁";
-}
 
-#tag_peruvian:before {
-	content: "🇵🇪";
+header .container {
+	margin-left: 5%;
 }
 
-#tag_pie:before {
-	content: "🥧";
+.logo_container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 
-#tag_pizza:before {
-	content: "🍕";
+#breadcrumb {
+	margin-left: 250px;
 }
 
-#tag_polish:before {
-	content: "🇵🇱";
+.menu-btn {
+	/* Burger icon */
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	padding: 1em;
+	left: 250px;
 }
 
-#tag_pork:before {
-	content: "🐖";
+.menu-btn span {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #222222;
+	transition: all 0.5s;
 }
 
-#tag_portuguese:before {
-	content: "🇵🇹";
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
 }
 
-#tag_potato:before {
-	content: "🥔";
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
 }
 
-#tag_quebec:before {
-	content: "⚜️";
+/* Changing the hamburger icon when the menu is open */
+.menu-btn.active span:nth-of-type(1) {
+	display: none;
 }
 
-#tag_quick:before {
-	content: "🏃";
+.menu-btn.active span:nth-of-type(2) {
+	top: 50%;
+	transform: translate(-50%, 0%) rotate(45deg);
 }
 
-#tag_raw:before {
-	content: "🍖";
+.menu-btn.active span:nth-of-type(3) {
+	top: 50%;
+	transform: translate(-50%, 0%) rotate(-45deg);
 }
 
-#tag_rice:before {
-	content: "🍚";
-}
+/* Menu */
 
-#tag_russian:before {
-	content: "🇷🇺";
-}
 
-#tag_salad:before {
-	content: "🥗";
+.menu.active {
+	display: block;
 }
 
-#tag_sandwich:before {
-	content: "🥪";
+.menu-item.active {
+	/* background-color: rgba(255, 255, 255, 0.532); */
 }
 
-#tag_seafood:before {
-	content: "🦐";
+.menu-item.active a::after {
+	content: '   ';
+    border-bottom: 2px dotted var(--link-visited-color);
+	display: block;
+	position: relative;
+	bottom: -2px;
+	left: 50%;
+	width: 40px;
+	margin-left: -20px;
 }
 
-#tag_soup:before {
-	content: "🍜";
-}
 
-#tag_sourdough:before {
-	content: "🥖";
-}
 
-#tag_southwest:before {
-	content: "🤠";
+.sub-menu {
+	display: none;
 }
 
-#tag_spanish:before {
-	content: "🇪🇸";
+.sub-menu-item.active {
+	background-color: rgba(255, 255, 255, 0.532);
 }
 
-#tag_spice:before {
-	content: "🧂";
+.sub-menu.active {
+	display: flex;
+	justify-content: space-evenly;
 }
 
-#tag_spicy:before {
-	content: "🌶️";
+.sub-menu.active,
+.sub-menu a.active {
+	background-color: rgba(232, 234, 230, 0.156);
 }
 
-#tag_spread:before {
-	content: "🧈";
+.menu li,
+.sub-menu li {
+	list-style-type: none;
 }
 
-#tag_steak:before {
-	content: "🥩";
-}
+/* hero */
 
-#tag_stew:before {
-	content: "🍲";
-}
+.hero {
+	background-color: #55acee;
+	background-image: url(./images/22.jpg);
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: normal;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
 
-#tag_swedish:before {
-	content: "🇸🇪";
 }
 
-#tag_sweet:before {
-	content: "🍯";
+.hero-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
-#tag_swiss:before {
-	content: "🇨🇭";
+/* TABLE */
+table {
+	margin-bottom: 24px;
+	border-spacing: 0;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	font-family: "Courier New";
+	padding: 0;
 }
 
-#tag_thai:before {
-	content: "🇹🇭";
+table th {
+	padding: 3px 10px;
+	background-color: lightgrey;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black;
 }
 
-#tag_tomato:before {
-	content: "🍅";
+table td {
+	padding: 3px 10px;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
 }
 
-#tag_turkey:before {
-	content: "🦃";
+table tr {
+	border-top: 1px solid #cccccc;
+	background-color: white;
+	margin: 0;
+	padding: 0;
 }
 
-#tag_turkish:before {
-	content: "🇹🇷";
+table tr:nth-child(2n) {
+	background-color: #f8f8f8;
 }
 
-#tag_ukrainian:before {
-	content: "🇺🇦";
+table tr th {
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	text-align: left;
+	margin: 0;
+	padding: 6px 13px;
 }
 
-#tag_vietnamese:before {
-	content: "🇻🇳";
+table tr td {
+	border: 1px solid #cccccc;
+	text-align: left;
+	margin: 0;
+	padding: 2px 6px;
+	vertical-align: top;
 }
 
-#tag_wine:before {
-	content: "🍷";
+table tr th :first-child,
+table tr td :first-child {
+	margin-top: 0;
 }
 
-#tag_danish:before {
-	content: "🇩🇰";
+table tr th :last-child,
+table tr td :last-child {
+	margin-bottom: 0;
 }
-
 
+/* ICON */
 
-/*lang */
 #lang_da:before {
 	content: "🇩🇰";
 }
+
 #lang_en:before {
 	content: "🇬🇧";
 }
 
 
-/*images*/
-/* mardown image no class  */
-/* img {display: block;} */
-img[title=banner]{float: none; margin: auto;}
-img[title^="none"]{float:none; margin:unset}
-img[title^="left"]{float:left; margin-bottom:unset; padding-right: 2rem; margin-top: unset;}
-img[title^="center"]{float:none; margin:unset;}
-img[title$="h25"]{height:calc(25rem * 0.5);}
-img[title$="h15"]{height:calc(15rem * 0.5);}
-img[title$="h10"]{height:calc(10rem * 0.5);}
-img[title$="h8"]{height: calc(8rem  * 0.5);}
-img[title$="h6"]{height: calc(6rem  * 0.5);}
-img[title$="h4"]{height: calc(4rem  * 0.5);}
-img[title$="h2"]{height: calc(2rem  * 0.5);}
-img[title$="h1"]{height: calc(1rem  * 0.5);}
+/* IMAGES FOR MARDOWN */
+
+img[title=banner] {
+	float: none;
+	margin: auto;
+}
+
+img[title^="none"] {
+	float: none;
+	margin: unset
+}
+
+img[title^="left"] {
+	float: left;
+	margin-bottom: unset;
+	padding-right: 2rem;
+	margin-top: unset;
+}
+
+img[title^="center"] {
+	float: none;
+	margin: unset;
+}
+
+img[title$="h25"] {
+	height: calc(25rem * 0.5);
+}
+
+img[title$="h15"] {
+	height: calc(15rem * 0.5);
+}
+
+img[title$="h10"] {
+	height: calc(10rem * 0.5);
+}
+
+img[title$="h8"] {
+	height: calc(8rem * 0.5);
+}
+
+img[title$="h6"] {
+	height: calc(6rem * 0.5);
+}
+
+img[title$="h4"] {
+	height: calc(4rem * 0.5);
+}
+
+img[title$="h2"] {
+	height: calc(2rem * 0.5);
+}
+
+img[title$="h1"] {
+	height: calc(1rem * 0.5);
+}
 
 
 .inline-svg {
@@ -893,15 +628,30 @@ img[title$="h1"]{height: calc(1rem  * 0.5);}
 	width: 1.15rem;
 	top: 0.15rem;
 	position: relative;
-  }
+}
 
-  /* TableOfContents */
-  
+/* TABLEOFCONTENTS */
+
 #TableOfContents ul li {
-margin: 0;
-padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .nested-links a {
-text-transform: lowercase;
+	text-transform: lowercase;
+}
+
+
+@media print {
+
+	aside,
+	header,
+	footer,
+	.taglist {
+		display: none
+	}
+
+	hr {
+		page-break-before: always;
+	}
 }
