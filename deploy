@@ -1,24 +1,35 @@
 #!/bin/bash
 # recipes.terrible.dk
-HUGO_ENV="production" ; hugo  --minify \
---baseURL  https://recipes.terrible.dk \
---config config.yaml 
+HUGO_ENV="production" ; 
+hugo  --minify --baseURL  https://recipes.terrible.dk --config config.yaml 
 firebase deploy --only hosting:recipes-6666 
 
 
 exit 0
 
 
+HUGO_ENV="production" ;
+hugo  --minify --baseURL https://hugo.terrible.dk --config config.yaml 
 
+# --dry-run = -n
 USER=terrible.dk
 HOST=ssh.terrible.dk
 DIR=/customers/7/2/2/terrible.dk/httpd.www/hugo/   # the directory where your web site files should go
 
-# --dry-run
-HUGO_ENV="production" ;hugo  --minify \
---baseURL https://hugo.terrible.dk \
---config config.yaml 
- 
 sshpass -p $(pass "ssh.terrible.dk") rsync -aviz   --progress --delete  public/  ${USER}@${HOST}:${DIR}
 
-exit
+exit 0
+
+
+# oracle.terrible.dk
+./pagefind --site "public"
+
+HUGO_ENV="production" ;
+hugo  --minify --baseURL https://oracle.terrible.dk --config config.yaml 
+
+# --dry-run = -n
+USER=ubuntu
+HOST=oracle.terrible.dk
+DIR=hrecipes/ 
+rsync -aviz  --progress --delete  public/  ${USER}@${HOST}:${DIR}
+

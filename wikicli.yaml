@@ -3,7 +3,7 @@ title: wiki
 theme: rugo  # ananke rugo  lugo
 #stylesheets:  ["search.css", style.css]
 contentDir: /home/fred/.repo/wikicli
-contentDir: /home/fred/.repo/box
+#contentDir: /home/fred/.repo/box
 
 summaryLength: 10
 
@@ -21,6 +21,7 @@ menu:
      
 
 params:
+  toc: true
   favicon: /favicon.ico
   custom_css : [ "search.css","customa.css"] # rugo   customa
   facebook: 'https://www.facebook.com/terrible.dk/' # rugo
@@ -61,7 +62,11 @@ markup:
       hardWraps: true
       unsafe: true
       xhtml: true
- 
+  tableOfContents:
+    startLevel: 1
+    ordered: true
+    endLevel: 1
+      
 
 
 security:

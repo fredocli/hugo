@@ -1,10 +1,11 @@
 {{/* https://gohugo.io/content-management/toc/ */}}
 
-{{- if .Params.toc -}}
+{{.WordCount}}
+{{-  if or (.Params.toc) (.Site.Params.toc)  -}}
   <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">{{ i18n "whatsInThis" . }}</p>
       {{ .TableOfContents }}
-  </div>cot
+  </div>
 {{- end -}}
 {{/* list of item in the same folder (FREDO) */}}
 {{- $sub_section:= replaceRE `^.*\/(.*)\/$` "$1" .CurrentSection.File.Dir -}}

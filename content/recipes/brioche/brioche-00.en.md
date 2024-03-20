@@ -28,7 +28,8 @@ markup: pandoc
 - 165 g soft unsalted butter
 - 165 g caster sugar
 - 2 tsp. ground cinnamon
->
+
+### For the finish
 - 1 egg for egg wash
 - Pearl sugar to sprinkle
 

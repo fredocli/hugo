@@ -1,8 +1,9 @@
 #!/bin/bash
 
-hugo server -D --config wikicli.yaml
+#hugo server -D --config wikicli.yaml
+hugo server -D --config config.yaml
 
-
+./pagefind --site public --serve
 
 
 exit 0

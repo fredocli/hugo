@@ -2,9 +2,9 @@
 # Voire Documentation cli:  Frontmatter
 
 
-hrecette_root_path="/home/fred/hrecette/content"
-sections="wi macaron chokolader fylde_chokolader"
-sections="brioche citron"
+hrecette_root_path="/home/fred/Desktop/hrecette/content"
+sections="wi macaron chokolader fyldte_chokolader brioche citron"
+sections="fyldte_chokolader"
 for section in $sections 
 do
 echo "${section}"
