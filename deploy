@@ -1,11 +1,25 @@
 #!/bin/bash
+
+# oracle.terrible.dk
+./pagefind --site "public"
+
+HUGO_ENV="production" ;
+hugo  --minify --baseURL https://oracle.terrible.dk --config config.yaml 
+
+# --dry-run = -n
+USER=ubuntu
+HOST=oracle.terrible.dk
+DIR=hrecipes/ 
+rsync -aviz  --progress --delete  public/  ${USER}@${HOST}:${DIR}
+exit 0
+
 # recipes.terrible.dk
 HUGO_ENV="production" ; 
 hugo  --minify --baseURL  https://recipes.terrible.dk --config config.yaml 
 firebase deploy --only hosting:recipes-6666 
 
 
-exit 0
+
 
 
 HUGO_ENV="production" ;
@@ -21,15 +35,5 @@ sshpass -p $(pass "ssh.terrible.dk") rsync -aviz   --progress --delete  public/ 
 exit 0
 
 
-# oracle.terrible.dk
-./pagefind --site "public"
 
-HUGO_ENV="production" ;
-hugo  --minify --baseURL https://oracle.terrible.dk --config config.yaml 
-
-# --dry-run = -n
-USER=ubuntu
-HOST=oracle.terrible.dk
-DIR=hrecipes/ 
-rsync -aviz  --progress --delete  public/  ${USER}@${HOST}:${DIR}
 
