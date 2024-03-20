@@ -1,28 +1,31 @@
 
 ---
-title: lakrids ganache
+title: citron ganache
 lang: danish
 tags: 
     - chocolaterie 
-    - mørk chokolade
-    - lakrids
+    - hvid chokolade
+    - ingefær
+    - marcipan
 markup: pandoc
 ---
 
-# MØRK LAKRIDS GANACHE
+# CITRON GANACHE
+
+Til cirka 40 stk. fyldte chokolader.
 
 ## INGREDIENSER
 
-- 200 g mørk chokolade 57% kakao
-- 180 g piskefløde
-- 1 tsk. lakridspulver
+- 60 g piskefløde
+- 160 g hvid chokolade
+- 60 g citronsaft
+- 1 revet citronskal
 
 ## FREMGANGSMÅDE
 
-Hæld piskefløde og lakridspulver i en gryde og bring det i kog.
-Sigt piskefløden i en fin sigte.
-Check at den kogte piskefløde vejer 180 g.
+Hæld piskefløde, citronskal og citronsaft i en gryde og bring det i kog.
+Sigt væsken i en fin sigte og check at væsken vejer 100 g.
 Hæld eventuelt en smule vand i.
-Hæld den varme piskefløde over chokoladen og rør med en dejskraber indtil ganachen er ensartet og homogen.
+Hæld den varme væske over den hvide chokolade og rør med en dejskraber indtil ganachen er ensartet og homogen.
 Fyld blandingen i en sprøjtepose.
 

@@ -1,32 +1,36 @@
 
 ---
-title: raspberry ganache
+title: tonka ganache
 lang: english
 tags: 
     - chocolaterie 
-    - dark chocolate
-    - raspberry
+    - milk chocolate
+    - tonka
     - ganache
 markup: pandoc
 ---
 
-# RASPBERRY GANACHE
+# TONKA GANACHE
 
 For about 40 pcs. filled chocolates.
 
 ## INGREDIENTS
 
 
-- 80 g whipping cream
-- 100 g raspberry purée
-- 10 g lemon juice
-- 200 g dark chocolate 57% cocoa
+- 150 g milk chocolate
+- 120 g whipping cream
+- 2 g tonka beans
 
 ## PREPARATION
 
-Pour the whipping cream, raspberry purée and lemon juice into a saucepan and bring to a boil.
-Check that the liquid weighs 190 g.
+Use a mortar to crush the tonka beans coarsely.
+Pour the whipping cream into a saucepan and put the saucepan on the stove over low flame.
+When the whipping cream has boiled, remove the saucepan from the stove and add the crushed tonka beans.
+Let the tonka beans infuse for about 5 minutes.
+Sift the whipping cream into a fine sieve.
+Reheat the whipping cream.
+Check that the whipping cream weighs 110 g.
 If necessary, add a bit water.
-Pour the hot liquid into the chocolate and stir with a rubber spatula until the ganache is uniform and homogeneous.
+Pour the hot whipping cream into the chocolate and stir with a rubber spatula until the ganache is uniform and homogeneous.
 Fill the mixture in a piping bag.
 

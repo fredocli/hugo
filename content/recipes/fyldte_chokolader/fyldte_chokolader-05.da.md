@@ -1,31 +1,35 @@
 
 ---
-title: hindbær ganache
+title: tonka ganache
 lang: danish
 tags: 
     - chocolaterie 
-    - mørk chokolade
-    - hindbær
+    - flødechokolade
+    - tonka
     - ganache
 markup: pandoc
 ---
 
-# HINDBÆR GANACHE
+# TONKA GANACHE
 
 Til cirka 40 stk. fyldte chokolader.
 
 ## INGREDIENSER
 
-- 80 g piskefløde
-- 100 g hindbærpuré
-- 10 g citronsaft
-- 200 g mørk chokolade 57% kakao
+- 150 g flødechokolade
+- 120 g piskefløde
+- 2 g tonkabønner
 
 ## FREMGANGSMÅDE
 
-Hæld piskefløde, hindbærpuré og citronsaft i en gryde og bring det i kog.
-Check at væsken vejer 190 g.
+Brug en morter til at knuse tonkabønnerne groft.
+Hæld piskefløde i en gryde og sæt gryden på svagt blus.
+Når piskefløden har kogt, tages gryden af blusset, og de knuste tonkabønner tilsættes.
+Lad tonkabønnerne trække i cirka 5 minutter.
+Sigt piskefløden i en fin sigte.
+Varm piskefløden op igen.
+Check at piskefløden vejer 110 g.
 Hæld eventuelt en smule vand i.
-Hæld den varme væske over chokoladen og rør med en dejskraber indtil ganachen er ensartet og homogen.
+Hæld den varme piskefløde over chokoladen og rør med en dejskraber indtil ganachen er ensartet og homogen.
 Fyld blandingen i en sprøjtepose.
 

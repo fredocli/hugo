@@ -1,35 +1,27 @@
 
 ---
-title: kanel ganache
+title: blød nougat med kanel
 lang: danish
 tags: 
     - chocolaterie 
-    - flødechokolade
+    - blød nougat
     - kanel
-    - ganache
 markup: pandoc
 ---
 
-# KANEL GANACHE
+# BLØD NOUGAT MED KANEL
 
 Til cirka 40 stk. fyldte chokolader.
 
 ## INGREDIENSER
 
-- 150 g flødechokolade
-- 120 g piskefløde
-- 2-3 kanelstænger
+- 300 g blød nougat
+- 2,5 g stødt kanel (1/2 tsk.)
 
 ## FREMGANGSMÅDE
 
-Brug en morter til at knuse kanelen groft.
-Hæld piskefløde i en gryde og sæt gryden på svagt blus.
-Når piskefløden har kogt, tages gryden af blusset, og kanelen tilsættes.
-Lad kanelen trække i cirka 5 minutter.
-Varm piskefløden op igen.
-Sigt piskefløden i en fin sigte.
-Check at den kogte piskefløde vejer 110 g.
-Hæld eventuelt en smule vand i.
-Hæld den varme piskefløde over chokoladen og rør med en dejskraber indtil ganachen er ensartet og homogen.
+Den bløde nougat opvarmes langsomt over et vandbad under omrøring, til den er lige knap flydende.
+Kom kanel i til passende smag.
+1/2 tsk. plejer at passe, men juster efter egen smag.
 Fyld blandingen i en sprøjtepose.
 

@@ -1,33 +1,34 @@
 
 ---
-title: whisky ganache
+title: kaffe ganache
 lang: danish
 tags: 
     - chocolaterie 
-    - hvid chokolade
     - flødechokolade
-    - whisky
+    - kaffe
     - ganache
 markup: pandoc
 ---
 
-# WHISKY
+# KAFFE GANACHE
 
 Til cirka 40 stk. fyldte chokolader.
 
 ## INGREDIENSER
 
-- 75 g piskefløde
-- 100 g hvid chokolade
-- 100 g flødechokolade
-- 40 g whisky
+- 150 g flødechokolade
+- 120 g piskefløde
+- 20 g kaffebønner
 
 ## FREMGANGSMÅDE
 
 Hæld piskefløde i en gryde og sæt gryden på svagt blus.
-Check at piskefløden vejer 60 g.
+Når piskefløden har kogt, tages gryden af blusset, og kaffebønnerne tilsættes.
+Lad kaffen trække i cirka 5 minutter.
+Varm piskefløden op igen.
+Sigt piskefløden i en fin sigte.
+Check at den kogte piskefløde vejer 110 g.
 Hæld eventuelt en smule vand i.
 Hæld den varme piskefløde over chokoladen og rør med en dejskraber indtil ganachen er ensartet og homogen.
-Tilsæt whisky og bland godt sammen.
 Fyld blandingen i en sprøjtepose.
 

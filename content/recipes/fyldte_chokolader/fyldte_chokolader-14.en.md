@@ -1,32 +1,30 @@
 
 ---
-title: pear brandy ganache
+title: chocolate ganache
 lang: english
 tags: 
     - chocolaterie 
-    - milk chocolate
-    - white chocolates
-    - pear brandy
+    - dark chocolate
+    - ganache
 markup: pandoc
 ---
 
-# PEAR BRANDY GANACHE
+# CHOCOLATE GANACHE
 
 For about 40 pcs. filled chocolates.
 
 ## INGREDIENTS
 
 
-- 100 g milk chocolate
-- 100 g white chocolate
-- 75 g whipping cream
-- 40 g pear brandy
+- 200 g dark chocolate 57% cocoa
+- 180 g whipping cream
+- 1 tsp. gingerbread spice
 
 ## PREPARATION
 
-Pour the whipping cream into a saucepan and put the saucepan on the stove over low flame.
-Check that the whipping cream weighs 60 g.
+Pour whipping cream and gingerbread spice into a saucepan and bring to a boil.
+Check that the cooked whipping cream weighs 180 g.
 If necessary, add a bit water.
 Pour the hot whipping cream into the chocolate and stir with a rubber spatula until the ganache is uniform and homogeneous.
-Add pear brandy and mix well.
 Fill the mixture in a piping bag.
+

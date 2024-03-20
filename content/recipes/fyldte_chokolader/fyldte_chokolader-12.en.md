@@ -1,36 +1,29 @@
 
 ---
-title: cinnamon ganache
+title: soft nougat with cinnamon
 lang: english
 tags: 
     - chocolaterie 
-    - milk chocolate
+    - soft nougat
     - cinnamon
-    - ganache
 markup: pandoc
 ---
 
-# CINNAMON GANACHE
+# SOFT NOUGAT WITH CINNAMON
 
 For about 40 pcs. filled chocolates.
 
 ## INGREDIENTS
 
 
-- 150 g milk chocolate
-- 120 g whipping cream
-- 2-3 cinnamon sticks
+- 300 g soft nougat
+
+- 2.5 g cinnamon powder (1/2 tsp.)
 
 ## PREPARATION
 
-Use a mortar to crush the cinnamon coarsely.
-Pour the whipping cream into a saucepan and put the saucepan on the stove over low flame.
-When the whipping cream has boiled, remove the saucepan from the stove and add the cinnamon.
-Let the cinnamon infuse for about 5 minutes.
-Reheat the whipping cream.
-Sift the whipping cream with a fine sieve.
-Check that the cooked whipping cream weighs 110 g.
-If necessary, add a bit water.
-Pour the hot whipping cream into the chocolate and stir with a rubber spatula until the ganache is uniform and homogeneous.
+The soft nougat is slowly heated over a water bath while stirring until it is just barely liquid.
+Add cinnamon to a suitable taste.
+1/2 tsp. usually fit, but adjust to your taste.
 Fill the mixture in a piping bag.
 

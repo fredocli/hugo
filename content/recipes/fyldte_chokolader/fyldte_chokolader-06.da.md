@@ -1,31 +1,31 @@
 
 ---
-title: citron ganache
+title: hindbær ganache
 lang: danish
 tags: 
     - chocolaterie 
-    - hvid chokolade
-    - ingefær
-    - marcipan
+    - mørk chokolade
+    - hindbær
+    - ganache
 markup: pandoc
 ---
 
-# CITRON GANACHE
+# HINDBÆR GANACHE
 
 Til cirka 40 stk. fyldte chokolader.
 
 ## INGREDIENSER
 
-- 60 g piskefløde
-- 160 g hvid chokolade
-- 60 g citronsaft
-- 1 revet citronskal
+- 80 g piskefløde
+- 100 g hindbærpuré
+- 10 g citronsaft
+- 200 g mørk chokolade 57% kakao
 
 ## FREMGANGSMÅDE
 
-Hæld piskefløde, citronskal og citronsaft i en gryde og bring det i kog.
-Sigt væsken i en fin sigte og check at væsken vejer 100 g.
+Hæld piskefløde, hindbærpuré og citronsaft i en gryde og bring det i kog.
+Check at væsken vejer 190 g.
 Hæld eventuelt en smule vand i.
-Hæld den varme væske over den hvide chokolade og rør med en dejskraber indtil ganachen er ensartet og homogen.
+Hæld den varme væske over chokoladen og rør med en dejskraber indtil ganachen er ensartet og homogen.
 Fyld blandingen i en sprøjtepose.
 

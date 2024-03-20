@@ -1,32 +1,32 @@
 
 ---
-title: lemon ganache
+title: raspberry ganache
 lang: english
 tags: 
     - chocolaterie 
-    - white chocolates
-    - ginger
-    - marzipan
+    - dark chocolate
+    - raspberry
+    - ganache
 markup: pandoc
 ---
 
-# LEMON GANACHE
+# RASPBERRY GANACHE
 
 For about 40 pcs. filled chocolates.
 
 ## INGREDIENTS
 
 
-- 60 g whipping cream
-- 160 g white chocolate
-- 60 g lemon juice
-- 1 grated lemon zest
+- 80 g whipping cream
+- 100 g raspberry purée
+- 10 g lemon juice
+- 200 g dark chocolate 57% cocoa
 
 ## PREPARATION
 
-Pour whipping cream, lemon zest and lemon juice into a saucepan and bring to a boil.
-Sift the liquid with a fine sieve and check that the liquid weighs 100 g.
+Pour the whipping cream, raspberry purée and lemon juice into a saucepan and bring to a boil.
+Check that the liquid weighs 190 g.
 If necessary, add a bit water.
-Pour the hot liquid into the  white chocolate and stir with a rubber spatula until the ganache is uniform and homogeneous.
+Pour the hot liquid into the chocolate and stir with a rubber spatula until the ganache is uniform and homogeneous.
 Fill the mixture in a piping bag.
 

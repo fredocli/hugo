@@ -1,27 +1,33 @@
 
 ---
-title: blød nougat med kanel
+title: whisky ganache
 lang: danish
 tags: 
     - chocolaterie 
-    - blød nougat
-    - kanel
+    - hvid chokolade
+    - flødechokolade
+    - whisky
+    - ganache
 markup: pandoc
 ---
 
-# BLØD NOUGAT MED KANEL
+# WHISKY
 
 Til cirka 40 stk. fyldte chokolader.
 
 ## INGREDIENSER
 
-- 300 g blød nougat
-- 2,5 g stødt kanel (1/2 tsk.)
+- 75 g piskefløde
+- 100 g hvid chokolade
+- 100 g flødechokolade
+- 40 g whisky
 
 ## FREMGANGSMÅDE
 
-Den bløde nougat opvarmes langsomt over et vandbad under omrøring, til den er lige knap flydende.
-Kom kanel i til passende smag.
-1/2 tsk. plejer at passe, men juster efter egen smag.
+Hæld piskefløde i en gryde og sæt gryden på svagt blus.
+Check at piskefløden vejer 60 g.
+Hæld eventuelt en smule vand i.
+Hæld den varme piskefløde over chokoladen og rør med en dejskraber indtil ganachen er ensartet og homogen.
+Tilsæt whisky og bland godt sammen.
 Fyld blandingen i en sprøjtepose.
 

@@ -1,29 +1,32 @@
 
 ---
-title: licorice ganache
+title: lemon ganache
 lang: english
 tags: 
     - chocolaterie 
-    - dark chocolate
-    - licorice
+    - white chocolates
+    - ginger
+    - marzipan
 markup: pandoc
 ---
 
-# DARK LICORICE GANACHE
+# LEMON GANACHE
+
+For about 40 pcs. filled chocolates.
 
 ## INGREDIENTS
 
 
-- 200 g dark chocolate 57% cocoa
-- 180 g whipping cream
-- 1 tsp. licorice powder
+- 60 g whipping cream
+- 160 g white chocolate
+- 60 g lemon juice
+- 1 grated lemon zest
 
 ## PREPARATION
 
-Pour whipping cream and licorice powder into a saucepan and bring to a boil.
-Sift the whipping cream with a fine sieve.
-Check that the cooked whipping cream weighs 180 g.
+Pour whipping cream, lemon zest and lemon juice into a saucepan and bring to a boil.
+Sift the liquid with a fine sieve and check that the liquid weighs 100 g.
 If necessary, add a bit water.
-Pour the hot whipping cream into the chocolate and stir with a rubber spatula until the ganache is uniform and homogeneous.
+Pour the hot liquid into the  white chocolate and stir with a rubber spatula until the ganache is uniform and homogeneous.
 Fill the mixture in a piping bag.
 

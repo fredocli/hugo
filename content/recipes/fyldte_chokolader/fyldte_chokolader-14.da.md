@@ -1,31 +1,29 @@
 
 ---
-title: pærebrændevin ganache
+title: chokolade ganache
 lang: danish
 tags: 
     - chocolaterie 
-    - flødechokolade
-    - hvid chokolade
-    - pærebrændevin
+    - mørk chokolade
+    - ganache
 markup: pandoc
 ---
 
-# PÆREBRÆNDEVIN GANACHE
+# CHOKOLADE GANACHE
 
 Til cirka 40 stk. fyldte chokolader.
 
 ## INGREDIENSER
 
-- 100 g flødechokolade
-- 100 g hvid chokolade
-- 75 g piskefløde
-- 40 g pærebrændevin
+- 200 g mørk chokolade 57% kakao
+- 180 g piskefløde
+- 1 tsk. honningkagekrydderi
 
 ## FREMGANGSMÅDE
 
-Hæld piskefløde i en gryde og sæt gryden på svagt blus.
-Check at piskefløden vejer 60 g.
+Hæld piskefløde og honningkagekrydderi i en gryde og bring det i kog.
+Check at den kogte piskefløde vejer 180 g.
 Hæld eventuelt en smule vand i.
 Hæld den varme piskefløde over chokoladen og rør med en dejskraber indtil ganachen er ensartet og homogen.
-Tilsæt pærebrændevin og bland godt sammen.
 Fyld blandingen i en sprøjtepose.
+
