@@ -1,6 +1,6 @@
 ---
 title: brioche
-lang: danish
+language: danish
 tags: 
     - wienerbrød
 markup: pandoc

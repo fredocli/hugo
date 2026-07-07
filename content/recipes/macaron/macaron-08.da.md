@@ -1,7 +1,7 @@
 
 ---
 title: lakrids ganache
-lang: danish
+language: danish
 tags: 
     - macaron
     - ganache 

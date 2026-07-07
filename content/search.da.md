@@ -1,7 +1,7 @@
 ---
 title: Søg
 slug: Søg
-lang: danish
+language: danish
 hero: "01"
 featured_image: /images/01.jpg
 layout: basic

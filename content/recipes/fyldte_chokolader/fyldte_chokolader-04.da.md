@@ -1,7 +1,7 @@
 
 ---
 title: salt karamel med bittermandel
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
     - karamel

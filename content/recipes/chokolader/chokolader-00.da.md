@@ -1,6 +1,6 @@
 ---
 title: kandiserede nødder
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
 markup: pandoc

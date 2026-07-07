@@ -1,7 +1,7 @@
 ---
 title: contact
 slug: contact
-lang: english
+language: en
 hero: "01"
 featured_image: /images/01.jpg
 layout: basic

@@ -1,7 +1,7 @@
 
 ---
 title: vanilla ganache
-Lang: english
+language: en
 tags: 
     - macaron
     - ganache 

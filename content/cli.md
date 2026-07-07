@@ -15,7 +15,7 @@ sed -n '1,/---/p' macaron_da.md > fm.txt
 ---
 title: opskrifter - macaron
 genre: recettes
-lang: danish
+language: danish
 tags:
     -macaron
 ---

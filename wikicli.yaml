@@ -29,7 +29,6 @@ params:
   site_logo: /images/logo.png # rugo
   background_color_class: bg-white-10 # rugo
   text_color: dark-gray # rugo
-  custom_css : ["/customa.css"] # rugo
   mainSections:
     - others
 

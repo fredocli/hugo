@@ -1,7 +1,7 @@
 
 ---
 title: hvid lakrids ganache
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
     - hvid chokolade

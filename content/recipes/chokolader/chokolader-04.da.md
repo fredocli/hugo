@@ -1,7 +1,7 @@
 
 ---
 title: hasselnød praliné 50%
-lang: danish
+language: danish
 tags: 
     - chocolaterie
     - hasselnød 

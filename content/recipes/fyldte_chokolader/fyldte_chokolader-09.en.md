@@ -1,7 +1,7 @@
 
 ---
 title: white liquorice ganache
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - white chocolates

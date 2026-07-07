@@ -1,7 +1,7 @@
 
 ---
 title: apricot ganache
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - dark chocolate

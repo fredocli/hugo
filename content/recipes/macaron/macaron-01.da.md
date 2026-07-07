@@ -2,7 +2,7 @@
 ---
 title: chokolade macaroner
 
-lang: danish
+language: danish
 tags: 
     - macaron
 markup: pandoc

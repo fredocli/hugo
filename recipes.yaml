@@ -1,20 +1,21 @@
 baseURL: 'https://hugo.terrible.dk/'
 staticDir:
   - static
-languageCode: en-us
 canonifyURLs: true
 title: Terrible
 
 #theme: lugo
 theme : rugo
 
-sectionPagesMenu: notmain #not-main #for avoid to index folders (cours ingredients etc..) 
+sectionPagesMenu: not-main #not-main #for avoid to index folders (cours ingredients etc..) 
 enableEmoji: true
 defaultContentLanguage: en
 enableMissingTranslationPlaceholders: true
 languages:
   en:
-    languageName: English
+    label: English
+    locale: en-us
+    direction: ltr
     title: terrible
     weight: 1
     permalinks:
@@ -23,7 +24,9 @@ languages:
       navigation:
         help: hælp
   da:
-    languageName: Danish
+    direction: ltr
+    locale: da-dk
+    label: Danish
     title: terrible
     weight: 0
     permalinks: 
@@ -74,7 +77,7 @@ markup:
 taxonomies:
   category: categories
   tag: tags
-  lang: lang
+  lang: languages
   
 # MENU #  
 menu:
@@ -87,6 +90,10 @@ menu:
      
   
 security:
+  allowContent:
+    - text/html
+    - text/markdown
+    - text/pandoc
   enableInlineShortcodes: false
   exec:
     allow:

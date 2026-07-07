@@ -1,7 +1,7 @@
 
 ---
 title: rocher suisse
-lang: danish
+language: danish
 tags: 
     - chocolaterie
     - flødechokolade

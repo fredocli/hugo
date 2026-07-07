@@ -1,7 +1,7 @@
 
 ---
 title: pear brandy ganache
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - milk chocolate

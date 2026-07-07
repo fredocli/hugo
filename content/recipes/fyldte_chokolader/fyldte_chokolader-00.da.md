@@ -1,6 +1,6 @@
 ---
 title: marcipan med syltede ingefær
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
     - ingefær

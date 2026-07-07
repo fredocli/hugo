@@ -1,7 +1,7 @@
 
 ---
 title: coffee ganache
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - milk chocolate

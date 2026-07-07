@@ -1,7 +1,7 @@
 ---
 title: kontakt
 slug: kontakt
-lang: danish
+language: danish
 hero: "01"
 featured_image: /images/01.jpg
 layout: basic

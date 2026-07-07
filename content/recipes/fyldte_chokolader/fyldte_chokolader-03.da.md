@@ -1,7 +1,7 @@
 
 ---
 title: passionsfrugt ganache
-lang: danish
+language: danish
 tags: 
     - flødechokolade
     - passionsfrugt

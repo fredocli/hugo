@@ -1,7 +1,7 @@
 
 ---
 title: kandiserede appelsinskaller - orangettes
-lang: danish
+language: danish
 tags: 
     - chocolaterie
     - appelsinskal

@@ -1,38 +1,38 @@
 #!/bin/bash
 
 # oracle.terrible.dk
-./pagefind --site "public"
+pagefind --site "public"
 
 HUGO_ENV="production" ;
-hugo  --minify --baseURL https://oracle.terrible.dk --config config.yaml 
-
+hugo  --minify --baseURL https://recipes.terrible.dk  --contentDir ./content  --config recipes.yaml 
 # --dry-run = -n
 USER=ubuntu
 HOST=oracle.terrible.dk
-DIR=hrecipes/ 
+DIR=recipes.terrible.dk/ 
 rsync -aviz  --progress --delete  public/  ${USER}@${HOST}:${DIR}
+
+
+
 exit 0
 
-# recipes.terrible.dk
-HUGO_ENV="production" ; 
-hugo  --minify --baseURL  https://recipes.terrible.dk --config config.yaml 
-firebase deploy --only hosting:recipes-6666 
+# firebase
+
+# HUGO_ENV="production" ; 
+# hugo  --minify --baseURL  https://example.terrible.dk --config recipes.yaml 
+# firebase deploy --only hosting:recipes-6666 
 
 
 
+# one.com
 
+# HUGO_ENV="production" ;
+# hugo  --minify --baseURL https://hugo.terrible.dk --config recipes.yaml 
+# # --dry-run = -n
+# USER=terrible.dk
+# HOST=ssh.terrible.dk
+# DIR=/customers/7/2/2/terrible.dk/httpd.www/hugo/   # the directory where your web site files should go
+# sshpass -p $(pass "ssh.terrible.dk") rsync -aviz   --progress --delete  public/  ${USER}@${HOST}:${DIR}
 
-HUGO_ENV="production" ;
-hugo  --minify --baseURL https://hugo.terrible.dk --config config.yaml 
-
-# --dry-run = -n
-USER=terrible.dk
-HOST=ssh.terrible.dk
-DIR=/customers/7/2/2/terrible.dk/httpd.www/hugo/   # the directory where your web site files should go
-
-sshpass -p $(pass "ssh.terrible.dk") rsync -aviz   --progress --delete  public/  ${USER}@${HOST}:${DIR}
-
-exit 0
 
 
 

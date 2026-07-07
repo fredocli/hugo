@@ -1,7 +1,7 @@
 
 ---
 title: whisky ganache
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - white chocolates

@@ -1,6 +1,6 @@
 ---
 title: brioche
-lang: english
+language: en
 tags: 
     - danish pastries
 markup: pandoc

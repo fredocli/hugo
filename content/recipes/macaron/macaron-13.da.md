@@ -1,7 +1,7 @@
 
 ---
 title: havtorn ganache
-lang: danish
+language: danish
 tags: 
     - macaron
     - ganache 

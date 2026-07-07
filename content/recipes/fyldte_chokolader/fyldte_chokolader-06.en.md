@@ -1,7 +1,7 @@
 
 ---
 title: raspberry ganache
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - dark chocolate

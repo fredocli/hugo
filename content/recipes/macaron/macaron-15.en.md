@@ -1,7 +1,7 @@
 
 ---
 title: lemongrass coconut ganache
-Lang: english
+language: en
 tags: 
     - macaron
     - ganache 

@@ -1,7 +1,7 @@
 
 ---
 title: lime og ingefær curd
-lang: danish
+language: danish
 tags: 
     - tærte
     - curd

@@ -1,7 +1,7 @@
 
 ---
 title: trøfler
-lang: danish
+language: danish
 tags: 
     - chocolaterie
     - bitter chokolade

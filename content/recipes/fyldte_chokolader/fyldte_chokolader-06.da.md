@@ -1,7 +1,7 @@
 
 ---
 title: hindbær ganache
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
     - mørk chokolade

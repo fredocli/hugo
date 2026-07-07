@@ -1,7 +1,7 @@
 
 ---
 title: marcipan med syltede abrikoser
-lang: danish
+language: danish
 tags: 
     - abrikos
     - passionfrugt

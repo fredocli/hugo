@@ -1,6 +1,6 @@
 ---
 title: passion fruit curd
-lang: english
+language: en
 tags: 
     - pie
     - curd

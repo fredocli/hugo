@@ -1,7 +1,7 @@
 
 ---
 title: sea buckthorn ganache
-Lang: english
+language: en
 tags: 
     - macaron
     - ganache 

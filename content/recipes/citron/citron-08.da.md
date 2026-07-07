@@ -1,7 +1,7 @@
 
 ---
 title: italiensk marengs
-lang: danish
+language: danish
 tags: 
     - tærte
     - marengs

@@ -1,7 +1,7 @@
 
 ---
 title: blød nougat med kanel
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
     - blød nougat

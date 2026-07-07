@@ -1,12 +1,12 @@
 
 
-{{define "header"}}
-{{ end }}   
-{{ define "main" }}
-<article class="center cf pv5 ph3 ph4-ns mw8" >
-      {{.Content}}
-</article>
-{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}} 
-{{ end }}
+      {{define "header"}}
+      {{ end }}   
+      {{ define "main" }}
+      <article class="center cf pv5 ph3 ph4-ns mw8" >
+            {{.Content}}
+      </article>
+      {{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}} 
+      {{ end }}
 
 

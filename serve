@@ -1,9 +1,10 @@
 #!/bin/bash
 
 #hugo server -D --config wikicli.yaml
-hugo server -D --config config.yaml
+hugo server -D --config recipes.yaml
 
-./pagefind --site public --serve
+# pagefind is a binary in ./rep/bin (downloaded from :https://github.com/CloudCannon/pagefind/releases)
+pagefind --site public --serve
 
 
 exit 0

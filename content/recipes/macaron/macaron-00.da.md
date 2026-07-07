@@ -1,6 +1,6 @@
 ---
 title: macaron gerbet
-lang: danish
+language: danish
 tags: 
     - macaron
 markup: goldmark

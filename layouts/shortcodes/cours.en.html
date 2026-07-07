@@ -1,3 +1,15 @@
+
+{{ $data := dict }}
+{{ $path := "https://script.google.com/macros/s/AKfycbxv7q9tbaHW6_TR_TGYRAOogvpiKyscu1HQ2zYI7RZrIO13R4YGxfKPlhVYmUBYCtojFA/exec?guid=1gXHeXxIOQ3l3wA5dbL8uRpTNhwNbfKK4CPrKbtEMNWs&range=EXEN&type=tsv" }}
+
+{{- $rows := "" -}}
+{{- $filename := .Get 0 -}}
+{{- with resources.GetRemote $path -}}
+    {{- $options := dict "delimiter" "	" -}}
+    {{- $rows = .Content | transform.Unmarshal $options -}}
+    {{- $headerRow := index $rows 0 -}}
+    {{- $dataRows := after 1 $rows -}}
+
 <table class="center">
     <thead>
       <tr>
@@ -7,19 +19,17 @@
       </tr>
     </thead>
     <tbody>
-    
-    {{ $url := "https://script.google.com/macros/s/AKfycbx5p6lGi3tN9wwrbH9EL1axfNB8qlaCVdbJC5Yubytqbz0qE9qj/exec?id=1m3qFWYQD_kE5gstB4-XaLR414CejBJL6fw5lXK9M1Lk&range=EXEN&type=tsv" }}
-
-   
-    {{ $sep := "\t" }}
-    {{ range  $i, $r := getCSV $sep $url }}
-    {{ if ge $i 1 }}
+        {{ range $dataRows  }}
       <tr>
-        <td>{{ index $r 1 }}</td>
-        <td>{{ index $r 2 }}</td>
-		    <td>{{ index $r 3 }}</td>
+        <td>{{ index . 1}}</td>
+        <td>{{ index . 2 }}</td>
+		    <td>{{ index . 3 }}</td>
       </tr>
-    {{ end }}
     {{ end }}
     </tbody>
   </table>
+
+  {{- else -}}
+    {{ errorf "Unable to get the page resource: %q" $filename }}
+    <p>CSV file not found: {{ $filename }}</p>
+{{- end -}}

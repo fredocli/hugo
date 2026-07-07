@@ -1,7 +1,7 @@
 
 ---
 title: kaffe ganache
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
     - flødechokolade

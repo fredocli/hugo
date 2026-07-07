@@ -1,7 +1,7 @@
 
 ---
 title: karamel-appelsin ganache
-lang: danish
+language: danish
 tags: 
     - macaron
     - ganache 

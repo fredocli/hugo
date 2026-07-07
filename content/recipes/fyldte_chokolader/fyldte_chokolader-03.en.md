@@ -1,7 +1,7 @@
 
 ---
 title: passion fruit ganache
-lang: english
+language: en
 tags: 
     - milk chocolate
     - passion fruit

@@ -1,7 +1,7 @@
 
 ---
 title: vanilje ganache
-lang: danish
+language: danish
 tags: 
     - macaron
     - ganache 

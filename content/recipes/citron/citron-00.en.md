@@ -1,6 +1,6 @@
 ---
 title: citrontærte
-lang: english
+language: en
 tags: 
     - pie
 markup: pandoc

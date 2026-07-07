@@ -1,7 +1,7 @@
 ---
 title: om
 slug: om
-lang: danish
+language: danish
 hero: "01"
 featured_image: /images/b-croissant.jpg
 layout: basic

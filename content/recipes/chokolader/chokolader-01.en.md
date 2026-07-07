@@ -1,7 +1,7 @@
 
 ---
 title: candied orange peel - orangettes
-lang: english
+language: en
 tags: 
     - chocolaterie
     - orange peel

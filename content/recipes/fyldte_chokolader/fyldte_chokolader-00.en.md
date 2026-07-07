@@ -1,6 +1,6 @@
 ---
 title: marzipan with pickled ginger
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - ginger

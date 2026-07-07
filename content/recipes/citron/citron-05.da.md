@@ -1,7 +1,7 @@
 
 ---
 title: linsedej
-lang: danish
+language: danish
 tags: 
     - tærte
     - dej

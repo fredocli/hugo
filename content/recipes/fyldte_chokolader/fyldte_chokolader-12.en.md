@@ -1,7 +1,7 @@
 
 ---
 title: soft nougat with cinnamon
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - soft nougat

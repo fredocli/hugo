@@ -1,7 +1,7 @@
 
 ---
 title: citrongræs kokos ganache
-lang: danish
+language: danish
 tags: 
     - macaron
     - ganache 

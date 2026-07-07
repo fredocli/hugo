@@ -1,7 +1,7 @@
 
 ---
 title: hasselnød praliné 60%
-lang: danish
+language: danish
 tags: 
     - macaron
     - praliné 

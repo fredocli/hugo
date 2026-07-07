@@ -1,6 +1,6 @@
 ---
 
-lang: danish
+language: danish
 title: test page
 date: "2021-03-11"
 hero: "03"

@@ -1,7 +1,7 @@
 
 ---
 title: licorice ganache
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - dark chocolate

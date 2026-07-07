@@ -1,6 +1,6 @@
 ---
 title: passionfrugt curd
-lang: danish
+language: danish
 tags: 
     - tærte
     - curd

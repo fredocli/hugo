@@ -1,7 +1,7 @@
 
 ---
 title: lemon ganache
-Lang: english
+language: en
 tags: 
     - macaron
     - ganache 

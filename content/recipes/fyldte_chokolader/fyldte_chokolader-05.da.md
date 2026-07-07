@@ -1,7 +1,7 @@
 
 ---
 title: tonka ganache
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
     - flødechokolade

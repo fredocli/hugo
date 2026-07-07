@@ -1,7 +1,7 @@
 
 ---
 title: whisky ganache
-lang: danish
+language: danish
 tags: 
     - chocolaterie 
     - hvid chokolade

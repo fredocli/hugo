@@ -1,7 +1,7 @@
 
 ---
 title: lemon ganache
-lang: english
+language: en
 tags: 
     - chocolaterie 
     - white chocolates

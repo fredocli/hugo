@@ -1,7 +1,7 @@
 
 ---
 title: sea buckthorn curd
-lang: english
+language: en
 tags: 
     - pie
     - curd

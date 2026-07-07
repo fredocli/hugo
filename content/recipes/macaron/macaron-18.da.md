@@ -2,7 +2,7 @@
 ---
 title: abrikos ganache
 slug: abrikos ganache
-lang: danish
+language: danish
 tags: 
     - macaron
     - ganache 

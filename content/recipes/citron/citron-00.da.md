@@ -1,6 +1,6 @@
 ---
 title: citrontærte
-lang: danish
+language: danish
 tags: 
     - tærte
 markup: pandoc

@@ -1,7 +1,7 @@
 ---
 title: about
 slug: about
-lang: english
+language: en
 hero: "01"
 featured_image: /images/b-croissant.jpg
 layout: basic

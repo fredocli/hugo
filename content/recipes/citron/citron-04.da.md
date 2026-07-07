@@ -1,7 +1,7 @@
 
 ---
 title: havtorn curd
-lang: danish
+language: danish
 tags: 
     - tærte
     - curd
