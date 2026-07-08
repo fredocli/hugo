@@ -1,0 +1,13 @@
+{{ $current := . }}
+{{ $section := .Site.GetPage "section" .Section }}
+<div class="menu-contextual">
+  {{ with $section }}
+  <ul>
+    {{ range .Pages }}
+    <li class="{{ if eq $current.Permalink .Permalink }}active{{ end }}">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>

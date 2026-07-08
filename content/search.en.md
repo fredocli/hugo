@@ -1,7 +1,7 @@
 ---
 title: Search
 slug: Search
-language: en
+language: english
 hero: "01"
 featured_image: /images/01.jpg
 layout: basic

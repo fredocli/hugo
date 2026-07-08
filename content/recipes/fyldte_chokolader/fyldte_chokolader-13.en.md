@@ -1,7 +1,7 @@
 
 ---
 title: cinnamon ganache
-language: en
+language: english
 tags: 
     - chocolaterie 
     - milk chocolate

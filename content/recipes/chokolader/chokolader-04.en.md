@@ -1,7 +1,7 @@
 
 ---
 title: hazelnut praliné 50%
-language: en
+language: english
 tags: 
     - chocolaterie
     - hazelnut 

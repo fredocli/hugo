@@ -9,7 +9,7 @@ theme : rugo
 
 sectionPagesMenu: not-main #not-main #for avoid to index folders (cours ingredients etc..) 
 enableEmoji: true
-defaultContentLanguage: en
+defaultContentlanguage: en
 enableMissingTranslationPlaceholders: true
 languages:
   en:

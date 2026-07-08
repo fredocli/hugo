@@ -1,7 +1,7 @@
 
 ---
 title: lemon curd
-language: en
+language: english
 tags: 
     - pie
     - curd

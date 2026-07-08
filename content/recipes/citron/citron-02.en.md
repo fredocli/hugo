@@ -1,7 +1,7 @@
 
 ---
 title: lime and ginger curd
-language: en
+language: english
 tags: 
     - pie
     - curd

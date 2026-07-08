@@ -1,7 +1,7 @@
 
 ---
 title: hazelnut shortbread dough
-language: en
+language: english
 tags: 
     - pie
     - dough

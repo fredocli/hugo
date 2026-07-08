@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #hugo server -D --config wikicli.yaml
-hugo server -D --config recipes.yaml
+hugo server   --logLevel debug --buildDrafts=true --config  recipes.yaml
 
 # pagefind is a binary in ./rep/bin (downloaded from :https://github.com/CloudCannon/pagefind/releases)
 pagefind --site public --serve

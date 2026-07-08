@@ -1,7 +1,7 @@
 
 ---
 title: bitter almond toffee
-language: en
+language: english
 tags: 
     - chocolaterie 
     - caramel

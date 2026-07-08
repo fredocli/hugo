@@ -1,7 +1,7 @@
 
 ---
 title: lime ganache
-language: en
+language: english
 tags: 
     - macaron
     - ganache 

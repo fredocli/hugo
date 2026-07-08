@@ -1,7 +1,7 @@
 
 ---
 title: chocolate ganache
-language: en
+language: english
 tags: 
     - chocolaterie 
     - dark chocolate

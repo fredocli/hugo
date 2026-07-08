@@ -1,7 +1,7 @@
 
 ---
 title: rocher suisse
-language: en
+language: english
 tags: 
     - chocolaterie
     - milk chocolate

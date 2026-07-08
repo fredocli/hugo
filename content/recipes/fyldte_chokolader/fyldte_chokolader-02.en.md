@@ -1,7 +1,7 @@
 
 ---
 title: marzipan with pickled apricots
-language: en
+language: english
 tags: 
     - apricot
     - passion fruit

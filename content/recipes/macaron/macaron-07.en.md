@@ -1,7 +1,7 @@
 
 ---
 title: passion ganache
-language: en
+language: english
 tags: 
     - macaron
     - ganache 

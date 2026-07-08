@@ -1,7 +1,7 @@
 
 ---
 title: italian meringue
-language: en
+language: english
 tags: 
     - pie
     - meringue

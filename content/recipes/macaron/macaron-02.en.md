@@ -2,7 +2,7 @@
 ---
 title: chocolate macarons
 
-language: en
+language: english
 tags: 
     - macaron
 markup: pandoc

@@ -1,7 +1,7 @@
 
 ---
 title: kokonut shortbread dough
-language: en
+language: english
 tags: 
     - pie
     - dough

@@ -1,7 +1,7 @@
 
 ---
 title: hazelnut praliné 60%
-language: en
+language: english
 tags: 
     - macaron
     - praliné 

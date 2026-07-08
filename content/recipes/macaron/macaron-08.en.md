@@ -1,7 +1,7 @@
 
 ---
 title: licorice ganache
-language: en
+language: english
 tags: 
     - macaron
     - ganache 

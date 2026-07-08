@@ -1,7 +1,7 @@
 
 ---
 title: truffle
-language: en
+language: english
 tags: 
     - chocolaterie
     - bitter chocolate

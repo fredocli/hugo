@@ -1,6 +1,6 @@
 ---
 title: candied nuts
-language: en
+language: english
 tags: 
     - chocolaterie 
 markup: pandoc
